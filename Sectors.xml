@@ -4,7 +4,7 @@
     <Volumes>WAA,WAB,WAC,WAD,WAE</Volumes>
     <ResponsibleSectors>TWA</ResponsibleSectors>
   </Sector>
-  <Sector FullName="Warszawa Approach N" Frequency="" Callsign="EPWA_N_APP" Name="WAN">
+  <Sector FullName="Warszawa Approach N" Frequency="125.050" Callsign="EPWA_N_APP" Name="WAN">
   </Sector>
   <Sector FullName="Okecie Tower" Frequency="118.3" Callsign="EPWA_TWR" Name="TWA">
 	<Volumes>TWA</Volumes>
