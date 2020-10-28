@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Sectors xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Sector FullName="Warszawa Approach" Frequency="128.8" Callsign="EPWA_S_APP" Name="WAS">
-    <Volumes>WAA,WAB,WAC,WAD</Volumes>
+    <Volumes>WAA,WAB,WAC,WAD,WAE</Volumes>
     <ResponsibleSectors>TWA</ResponsibleSectors>
   </Sector>
   <Sector FullName="Okecie Tower" Frequency="118.3" Callsign="EPWA_TWR" Name="TWA">
