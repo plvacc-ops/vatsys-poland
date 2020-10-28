@@ -1,5 +1,20 @@
 <?xml version="1.0"?>
 <Volumes>
+  <Boundary Name="EPWA_CTR">
+  +521228.0+0204201.0/
+  +521532.0+0204615.0/
+  +521547.0+0205010.0/
+  +521548.0+0205556.0/
+  +521538.0+0205705.0/
+  +521530.0+0205730.0/
+  +521508.0+0210053.0/
+  +521103.0+0210613.0/
+  +520757.0+0211036.0/
+  +520223.0+0210719.0/
+  +520043.0+0210038.0/
+  +520852.0+0204547.0/
+  +521228.0+0204201.0
+  </Boundary>
   <Boundary Name="EPWA_A">
   +515902.0+0213753.0/
   +520339.0+0213734.0/
@@ -88,7 +103,31 @@
   +524613.0+0202444.0/
   +525116.0+0201526.0
   </Boundary>
-  
+  <Boundary Name="EPWA_D">
+  +521100.0+0204000.0/
+  +520604.0+0204530.0/
+  +515840.0+0205815.0/
+  +515838.0+0210659.0/
+  +520020.0+0211204.0/
+  +520225.0+0211231.0/
+  +520534.0+0211239.0/
+  +520757.0+0211036.0/
+  +520223.0+0210719.0/
+  +520043.0+0210038.0/
+  +520852.0+0204547.0/
+  +521228.0+0204201.0/
+  +521100.0+0204000.0
+  </Boundary>
+  <Boundary Name="EPWA_E">
+  +524111.0+0211244.0/
+  +523202.0+0212406.0/
+  +522615.0+0212901.0/
+  +522611.0+0211937.0/
+  +524111.0+0211244.0
+  </Boundary>
+  <Volume Name="TWA" LowerLimit="0" UpperLimit="2000">
+    <Boundaries>EPWA_CTR</Boundaries>
+  </Volume>
   <Volume Name="WAA" LowerLimit="2000" UpperLimit="22500">
     <Boundaries>EPWA_A</Boundaries>
   </Volume>
@@ -97,5 +136,11 @@
   </Volume>
   <Volume Name="WAC" LowerLimit="6500" UpperLimit="22500">
     <Boundaries>EPWA_C</Boundaries>
+  </Volume>
+  <Volume Name="WAD" LowerLimit="1000" UpperLimit="2000">
+    <Boundaries>EPWA_D</Boundaries>
+  </Volume>
+  <Volume Name="WAE" LowerLimit="1000" UpperLimit="2000">
+    <Boundaries>EPWA_E</Boundaries>
   </Volume>
  </Volumes>
