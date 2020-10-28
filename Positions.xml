@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Positions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Position Name="Warszawa Approach" Type="ASD" DefaultCenter="+520957.0+0205802.0" DefaultRange="150">
+    <Sectors>
+      <Sector Name="WAS" />
+    </Sectors>
+    <Maps>
+      <Map Name="ALL_CTA" />
+      <Map Name="ALL_SECTORS" />
+      <Map Name="ALL_NAVAIDS" />
+      <Map Name="COAST_ALL" />
+      <Map Name="ALL_ROUTES_HIGH" />
+      <Map Name="ALL_POINTS_HIGH" />
+      <Map Name="FIR_BDRY" />
+      <Map Name="UPPER_SECTOR_FREQS" />
+	  <Map Name="Warszawa/WA_TCU" />
+	  <Map Name="Warszawa/WA_VFR" />
+    </Maps>
+    <Strips Mode="State" Sort="Time">
+      <Window Type="State" State="Jurisdiction" Visible="true" />
+      <Window Type="State" State="Announced" Visible="true" />
+      <Window Type="State" State="Preactive" Visible="true" />
+    </Strips>
+    <CFL QuickLevel="6000" />
+    <ArrivalLists>
+      <Airport Name="EPWA" />
+	  <Airport Name="EPMO" />
+	  <Airport Name="EPLL" />
+    </ArrivalLists>
+    <ControllerInfo>
+      <Line>Warszawa Approach</Line>
+      <Line>ATC feedback - feedback.vatpac.org</Line>
+    </ControllerInfo>
+  </Position>
+</Positions>
