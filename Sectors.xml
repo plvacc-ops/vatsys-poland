@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Sectors xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Sector FullName="Warszawa Approach" Frequency="128.8" Callsign="EPWA_S_APP" Name="WAS">
+  <Sector FullName="Warszawa Approach S" Frequency="128.8" Callsign="EPWA_S_APP" Name="WAS">
     <Volumes>WAA,WAB,WAC,WAD,WAE</Volumes>
     <ResponsibleSectors>TWA</ResponsibleSectors>
+  </Sector>
+  <Sector FullName="Warszawa Approach N" Frequency="" Callsign="EPWA_N_APP" Name="WAN">
   </Sector>
   <Sector FullName="Okecie Tower" Frequency="118.3" Callsign="EPWA_TWR" Name="TWA">
 	<Volumes>TWA</Volumes>
