@@ -168,6 +168,7 @@
       <Point>EPWAW</Point>
       <Point>EPWAX</Point>
       <Point>EPWAZ</Point>
+	  <Point>WAR</Point>
     </Symbol>
     <Label HasLeader="True">
       <Point Name="A">EPWAA</Point>
@@ -188,6 +189,7 @@
       <Point Name="W">EPWAW</Point>
       <Point Name="X">EPWAX</Point>
       <Point Name="Z">EPWAZ</Point>
+	  <Point>WAR</Point>
     </Label>
     <!--SOUTH-->
     <Line Pattern="Dotted">
