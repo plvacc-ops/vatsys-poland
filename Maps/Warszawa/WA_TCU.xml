@@ -20,133 +20,6 @@
       <Threshold Name="07" Position="+514258.0+0192220.0" ExtendedCentrelineTrack="245.0" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="3" />
       <Threshold Name="25" Position="+514325.0+0192423.0" ExtendedCentrelineTrack="65.0" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
     </Runway>
-    <!--Airway Routes-->
-    <Line>
-      <!--A576-->
-      KADOM/
-      PKS VOR
-    </Line>
-    <Line>
-      <!--B450-->
-      NOBAR/
-      ABARB
-    </Line>
-    <Line>
-      <!--G595-->
-      DIPSO/
-      GUTIV/
-      INVUS/
-      ATNAT/
-      SOTKI
-    </Line>
-    <Line>
-      <!--H12-->
-      DALAS/
-      SCO NDB/
-      CORKY/
-      SADLO/
-      BOREE
-    </Line>
-    <Line>
-      <!--H65-->
-      WOL NDB/
-      RAZZI/
-      CB VOR
-    </Line>
-    <Line>
-      <!--H185-->
-      ENTRA/
-      MARTO/
-      WLM NDB/
-      BANDA
-    </Line>
-    <Line>
-      <!--H202-->
-      RIC NDB/
-      BOYSY/
-      MISIT/
-      MUDGI
-    </Line>
-    <Line>
-      <!--L521-->
-      EVONN/
-      GEROS
-    </Line>
-    <Line>
-      <!--M636-->
-      PLUGA/
-      CAWLY
-    </Line>
-    <Line>
-      <!--N774-->
-      AKALU/
-      NONID/
-      RIKNI/
-      MARLN
-    </Line>
-    <Line>
-      <!--V140-->
-      KAMBA/
-      TOOKI/
-      WLM NDB/
-      LATUT/
-      CFS VOR
-    </Line>
-    <Line>
-      <!--V169-->
-      CORDO/
-      EXETA/
-      BUNGO/
-      CB VOR/
-      DUBUS
-    </Line>
-    <Line>
-      <!--V295-->
-      SOFAL/
-      DU NDB/
-      ENPAG
-    </Line>
-    <Line>
-      <!--V316-->
-      GAZEL/
-      SCATZ/
-      ANBAN
-    </Line>
-    <Line>
-      <!--W113-->
-      WG VOR/
-      HAPPI/
-      AKMIR/
-      WELSH/
-      ODALE
-    </Line>
-    <Line>
-      <!--W180-->
-      ARM NDB/
-      SANAD/
-      MONDO/
-      LOWEP
-    </Line>
-    <Line>
-      <!--W284-->
-      DONIC/
-      EGEVO/
-      WLM NDB
-    </Line>
-    <Line>
-      <!--Y59-->
-      EBONY/
-      ARRAN/
-      NONUP/
-      CULIN/
-      TARAL/
-      RIVET
-    </Line>
-    <Line>
-      <!--Y84-->
-      OPTIC/
-      TONIM
-    </Line>
   </Map>
   <Map Type="System2" Name="WA_VFR" Priority="1" Centre="+520957.0+0205802.0">
     <Symbol Type="HollowSquare">
@@ -156,6 +29,8 @@
       <Point>EPWAE</Point>
       <Point>EPWAF</Point>
       <Point>EPWAG</Point>
+	  <Point>EPMOH</Point>
+	  <Point>EPMOI</Point>
       <Point>EPWAJ</Point>
       <Point>EPWAK</Point>
       <Point>EPWAL</Point>
@@ -163,10 +38,15 @@
       <Point>EPWAN</Point>
       <Point>EPWAO</Point>
       <Point>EPWAP</Point>
+	  <Point>EPMOQ</Point>
       <Point>EPWAR</Point>
+	  <Point>EPMOS</Point>
       <Point>EPWAT</Point>
+	  <Point>EPMOU</Point>
+	  <Point>EPMOV</Point>
       <Point>EPWAW</Point>
       <Point>EPWAX</Point>
+	  <Point>EPMOY</Point>
       <Point>EPWAZ</Point>
 	  <Point>WAR</Point>
     </Symbol>
@@ -177,6 +57,8 @@
       <Point Name="E">EPWAE</Point>
       <Point Name="F">EPWAF</Point>
       <Point Name="G">EPWAG</Point>
+	  <Point Name="H">EPMOH</Point>
+	  <Point Name="I">EPMOI</Point>
       <Point Name="J">EPWAJ</Point>
       <Point Name="K">EPWAK</Point>
       <Point Name="L">EPWAL</Point>
@@ -184,10 +66,15 @@
       <Point Name="N">EPWAN</Point>
       <Point Name="O">EPWAO</Point>
       <Point Name="P">EPWAP</Point>
+	  <Point Name="Q">EPMOQ</Point>
       <Point Name="R">EPWAR</Point>
+	  <Point Name="S">EPMOS</Point>
       <Point Name="T">EPWAT</Point>
+	  <Point Name="U">EPMOU</Point>
+	  <Point Name="V">EPMOV</Point>
       <Point Name="W">EPWAW</Point>
       <Point Name="X">EPWAX</Point>
+	  <Point Name="Y">EPMOY</Point>
       <Point Name="Z">EPWAZ</Point>
 	  <Point>WAR</Point>
     </Label>
