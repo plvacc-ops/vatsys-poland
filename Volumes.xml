@@ -15,6 +15,31 @@
   +520852.0+0204547.0/
   +521228.0+0204201.0
   </Boundary>
+  <Boundary Name="EPLL_CTR">
+  +513928.0+0190931.0/
+  +514228.0+0190754.0/
+  +514517.0+0190810.0/
+  +514818.0+0191848.0/
+  +514922.0+0192451.0/
+  +515013.0+0193607.0/
+  +514415.0+0193923.0/
+  +513939.0+0192352.0/
+  +513801.0+0191721.0/
+  +513754.0+0191547.0/
+  +513928.0+0190931.0
+  </Boundary>
+  <Boundary Name="EPMO_CTR">
+  +522901.0+0202130.0/
+  +523453.0+0203804.0/
+  +523518.0+0203916.0/
+  +523422.0+0204655.0/
+  +522957.0+0205126.0/
+  +522706.0+0205220.0/
+  +522254.0+0203600.0/
+  +522256.0+0203027.0/
+  +522600.0+0202145.0/
+  +522901.0+0202130.0
+  </Boundary>
   <Boundary Name="EPWA_A">
   +515902.0+0213753.0/
   +520339.0+0213734.0/
@@ -220,6 +245,12 @@
   </Boundary>
   <Volume Name="TWA" LowerLimit="0" UpperLimit="2000">
     <Boundaries>EPWA_CTR</Boundaries>
+  </Volume>
+  <Volume Name="TLL" LowerLimit="0" UpperLimit="1700">
+    <Boundaries>EPLL_CTR</Boundaries>
+  </Volume>
+  <Volume Name="TMO" LowerLimit="0" UpperLimit="2000">
+    <Boundaries>EPMO_CTR</Boundaries>
   </Volume>
   <Volume Name="WAA" LowerLimit="2000" UpperLimit="22500">
     <Boundaries>EPWA_A</Boundaries>

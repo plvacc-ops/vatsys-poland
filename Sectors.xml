@@ -2,11 +2,19 @@
 <Sectors xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Sector FullName="Warszawa Approach S" Frequency="128.8" Callsign="EPWA_S_APP" Name="WAS">
     <Volumes>WAA,WAB,WAC,WAD,WAE,WAF,WAG,CTA01,CTA02</Volumes>
-    <ResponsibleSectors>TWA</ResponsibleSectors>
+    <ResponsibleSectors>TWA,TLL,TMO</ResponsibleSectors>
   </Sector>
   <Sector FullName="Warszawa Approach N" Frequency="125.050" Callsign="EPWA_N_APP" Name="WAN">
   </Sector>
   <Sector FullName="Okecie Tower" Frequency="118.3" Callsign="EPWA_TWR" Name="TWA">
 	<Volumes>TWA</Volumes>
+  </Sector>
+  <Sector FullName="Lodz Tower" Frequency="124.220" Callsign="EPLL_TWR" Name="TLL">
+	<Volumes>TLL</Volumes>
+  </Sector>
+  <Sector FullName="Modlin Tower" Frequency="123.920" Callsign="EPMO_TWR" Name="TMO">
+	<Volumes>TMO</Volumes>
+  </Sector>
+  <Sector FullName="Modlin Delivery" Frequency="119.670" Callsign="EPMO_DEL" Name="DMO">
   </Sector>
 </Sectors>
