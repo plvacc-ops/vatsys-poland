@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Positions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Position Name="Warszawa Approach" Type="ASD" DefaultCenter="+520957.0+0205802.0" DefaultRange="200">
+  <Position Name="Warszawa Approach" Type="ASD" DefaultCenter="+520306.0+0202411.0" DefaultRange="200">
     <Sectors>
       <Sector Name="WAS" />
     </Sectors>
