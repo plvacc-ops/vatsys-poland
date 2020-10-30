@@ -5,6 +5,8 @@
   <Airways>
   </Airways>
   <Intersections>
+    <!-- VOR -->
+	<Point Name="LOZ" Type="Navaid" NavaidType="VOR" Frequency="112.400">+514633.9+0193729.3</Point>
 	<!-- TMA WARSZAWA VFR -->
 	<Point Name="EPWAA" Type="Fix">+520348.0+0204436.0</Point>
 	<Point Name="EPWAB" Type="Fix">+521103.0+0203650.0</Point>
@@ -32,6 +34,18 @@
 	<Point Name="EPWAX" Type="Fix">+520631.0+0204951.0</Point>
 	<Point Name="EPMOY" Type="Fix">+523448.0+0204625.0</Point>
 	<Point Name="EPWAZ" Type="Fix">+521725.0+0210039.0</Point>
+	<!-- EPLL VFR -->
+	<Point Name="EPLLC" Type="Fix">+514355.0+0185713.0</Point>
+	<Point Name="EPLLE" Type="Fix">+514800.0+0193810.0</Point>
+	<Point Name="EPLLG" Type="Fix">+514126.0+0190802.0</Point>
+	<Point Name="EPLLH" Type="Fix">+513816.0+0191617.0</Point>
+	<Point Name="EPLLK" Type="Fix">+514343.0+0194838.0</Point>
+	<Point Name="EPLLL" Type="Fix">+514834.0+0191710.0</Point>
+	<Point Name="EPLLR" Type="Fix">+513820.0+0192955.0</Point>
+	<Point Name="EPLLS" Type="Fix">+514125.0+0192636.0</Point>
+	<Point Name="EPLLW" Type="Fix">+514440.0+0190712.0</Point>
+	<Point Name="EPLLX" Type="Fix">+515330.0+0193806.0</Point>
+	<Point Name="EPLLY" Type="Fix">+514455.0+0192100.0</Point>
   </Intersections>
   <SIDSTARs>
   </SIDSTARs>

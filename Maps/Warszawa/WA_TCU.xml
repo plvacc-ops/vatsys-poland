@@ -15,11 +15,6 @@
       <Threshold Name="08" Position="+522658.0+0203801.0" ExtendedCentrelineTrack="256.0" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
       <Threshold Name="26" Position="+522711.0+0204012.0" ExtendedCentrelineTrack="76.0" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
     </Runway>
-    <!--EPLL-->
-    <Runway Name="07/25">
-      <Threshold Name="07" Position="+514258.0+0192220.0" ExtendedCentrelineTrack="245.0" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="3" />
-      <Threshold Name="25" Position="+514325.0+0192423.0" ExtendedCentrelineTrack="65.0" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
-    </Runway>
   </Map>
   <Map Type="System2" Name="WA_VFR" Priority="1" Centre="+520957.0+0205802.0">
     <Symbol Type="HollowSquare">

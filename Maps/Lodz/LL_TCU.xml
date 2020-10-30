@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="LL_TCU" Priority="1" Centre="+520957.0+0205802.0">
+    <!--EPLL-->
+    <Runway Name="07/25">
+      <Threshold Name="07" Position="+514258.0+0192220.0" ExtendedCentrelineTrack="245.0" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="3" />
+      <Threshold Name="25" Position="+514325.0+0192423.0" ExtendedCentrelineTrack="65.0" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
+    </Runway>
+  </Map>
+  <Map Type="System2" Name="LL_VFR" Priority="1" Centre="+520957.0+0205802.0">
+    <Symbol Type="HollowSquare">
+      <Point>EPLLC</Point>
+      <Point>EPLLE</Point>
+      <Point>EPLLG</Point>
+      <Point>EPLLH</Point>
+      <Point>EPLLK</Point>
+      <Point>EPLLL</Point>
+	  <Point>EPLLR</Point>
+	  <Point>EPLLS</Point>
+      <Point>EPLLW</Point>
+      <Point>EPLLX</Point>
+      <Point>EPLLY</Point>
+    </Symbol>
+    <Label HasLeader="True">
+      <Point Name="C">EPLLC</Point>
+      <Point Name="E">EPLLE</Point>
+      <Point Name="G">EPLLG</Point>
+      <Point Name="H">EPLLH</Point>
+      <Point Name="K">EPLLK</Point>
+      <Point Name="L">EPLLL</Point>
+	  <Point Name="R">EPLLR</Point>
+	  <Point Name="S">EPLLS</Point>
+      <Point Name="W">EPLLW</Point>
+      <Point Name="X">EPLLX</Point>
+      <Point Name="Y">EPLLY</Point>
+    </Label>
+    <!--NORTH -->
+    <Line Pattern="Dotted">
+      EPLLC/
+	  EPLLW/
+	  EPLLL/
+	  EPLLX
+    </Line>
+	<Line Pattern="Dotted">
+      EPLLL/
+	  EPLLY/
+	  EPLL
+    </Line>
+    <!--SOUTH-->
+	<Line Pattern="Dotted">
+		EPLL/
+		EPLLS/
+		EPLLR/
+		EPLLK
+	</Line>
+  </Map>
+</Maps>
