@@ -5,8 +5,32 @@
   <Airways>
   </Airways>
   <Intersections>
+	<!-- FIXES -->
     <!-- VOR -->
-	<Point Name="LOZ" Type="Navaid" NavaidType="VOR" Frequency="112.400">+514633.9+0193729.3</Point>
+	<Point Name="BYZ" Type="Navaid" NavaidType="VOR" Frequency="112.700">+530554.0+0175818.0</Point>
+	<Point Name="CMP" Type="Navaid" NavaidType="VOR" Frequency="114.500">+520800.0+0164309.0</Point>
+	<Point Name="DAR" Type="Navaid" NavaidType="VOR" Frequency="114.200">+542437.0+0162317.0</Point>
+	<Point Name="GZD" Type="Navaid" NavaidType="VOR" Frequency="116.100">+542316.0+0182531.0</Point>
+	<Point Name="GRU" Type="Navaid" NavaidType="VOR" Frequency="114.600">+533116.0+0184653.0</Point>
+	<Point Name="KAX" Type="Navaid" NavaidType="VOR" Frequency="114.800">+502840.0+0190506.0</Point>
+	<Point Name="KAK" Type="Navaid" NavaidType="VOR" Frequency="112.800">+500436.0+0194717.0</Point>
+	<Point Name="LOZ" Type="Navaid" NavaidType="VOR" Frequency="112.400">+514634.0+0193729.0</Point>
+	<Point Name="RSW" Type="Navaid" NavaidType="VOR" Frequency="110.600">+514633.0+0220803.0</Point>
+	<Point Name="MRA" Type="Navaid" NavaidType="VOR" Frequency="117.300">+534706.0+0210758.0</Point>
+	<Point Name="LAW" Type="Navaid" NavaidType="VOR" Frequency="115.800">+522521.0+0164949.0</Point>
+	<Point Name="RAD" Type="Navaid" NavaidType="VOR" Frequency="113.850">+512322.0+0211213.0</Point>
+	<Point Name="RZE" Type="Navaid" NavaidType="VOR" Frequency="116.200">+500629.0+0220108.0</Point>
+	<Point Name="SIE" Type="Navaid" NavaidType="VOR" Frequency="114.700">+520919.0+0221203.0</Point>
+	<Point Name="RUD" Type="Navaid" NavaidType="VOR" Frequency="115.100">+524950.0+0234226.0</Point>
+	<Point Name="SUW" Type="Navaid" NavaidType="VOR" Frequency="117.700">+540411.0+0225401.0</Point>
+	<Point Name="SCZ" Type="Navaid" NavaidType="VOR" Frequency="114.750">+533543.0+0145253.0</Point>
+	<Point Name="SYN" Type="Navaid" NavaidType="VOR" Frequency="111.050">+533626.0+0210033.0</Point>
+	<Point Name="SWI" Type="Navaid" NavaidType="VOR" Frequency="112.200">+511410.0+0224108.0</Point>
+	<Point Name="MOL" Type="Navaid" NavaidType="VOR" Frequency="116.600">+522709.0+0204040.0</Point>
+	<Point Name="WCL" Type="Navaid" NavaidType="VOR" Frequency="111.650">+510534.0+0165508.0</Point>
+	<Point Name="WAR" Type="Navaid" NavaidType="VOR" Frequency="114.900">+521533.0+0203926.0</Point>
+	<Point Name="ZLG" Type="Navaid" NavaidType="VOR" Frequency="110.650">+520827.0+0154802.0</Point>
+	<!-- NDB -->
 	<!-- TMA WARSZAWA VFR -->
 	<Point Name="EPWAA" Type="Fix">+520348.0+0204436.0</Point>
 	<Point Name="EPWAB" Type="Fix">+521103.0+0203650.0</Point>
