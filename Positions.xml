@@ -29,7 +29,39 @@
     </ArrivalLists>
     <ControllerInfo>
       <Line>Warszawa Approach</Line>
-      <Line>ATC feedback - feedback.vatpac.org</Line>
+	  <Line>Covering EPWA, EPMO, EPLL | For EPWA ATIS check frequency 120.450.</Line>
+      <Line>Charts, feedback and airport coverage on pl-vacc.org.pl</Line>
+    </ControllerInfo>
+  </Position>
+  <Position Name="Lodz Tower" Type="ASD" DefaultCenter="+514319.0+0192353.0" DefaultRange="200">
+    <Sectors>
+      <Sector Name="TLL" />
+    </Sectors>
+    <Maps>
+      <Map Name="ALL_CTA" />
+	  <Map Name="ALL_MVA" />
+      <Map Name="ALL_SECTORS" />
+      <Map Name="ALL_NAVAIDS" />
+      <Map Name="COAST_ALL" />
+      <Map Name="ALL_ROUTES_HIGH" />
+      <Map Name="ALL_POINTS_HIGH" />
+      <Map Name="FIR_BDRY" />
+      <Map Name="UPPER_SECTOR_FREQS" />
+	  <Map Name="Warszawa/WA_TCU" />
+    </Maps>
+    <Strips Mode="State" Sort="Time">
+      <Window Type="State" State="Jurisdiction" Visible="true" />
+      <Window Type="State" State="Announced" Visible="true" />
+      <Window Type="State" State="Preactive" Visible="true" />
+    </Strips>
+    <CFL QuickLevel="6000" />
+    <ArrivalLists>
+	  <Airport Name="EPLL" />
+    </ArrivalLists>
+    <ControllerInfo>
+      <Line>Lodz Tower</Line>
+	  <Line>Procedural control</Line>
+      <Line>Charts, feedback and airport coverage on pl-vacc.org.pl</Line>
     </ControllerInfo>
   </Position>
 </Positions>

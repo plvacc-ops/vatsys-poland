@@ -10,7 +10,7 @@
 	<Volumes>TWA</Volumes>
   </Sector>
   <Sector FullName="Lodz Tower" Frequency="124.220" Callsign="EPLL_TWR" Name="TLL">
-	<Volumes>TLL</Volumes>
+	<Volumes>TLL,LLA,LLB,LLC,LLD,LLE</Volumes>
   </Sector>
   <Sector FullName="Modlin Tower" Frequency="123.920" Callsign="EPMO_TWR" Name="TMO">
 	<Volumes>TMO</Volumes>
