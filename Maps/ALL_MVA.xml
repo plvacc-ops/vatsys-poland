@@ -2,6 +2,7 @@
 <Maps>
   <Map Type="System" Name="ALL_MVA" Priority="2">
     <Label HasLeader="False" Alignment="Center" VerticalAlignment="Middle">
+	  <!-- TMA Warszawa -->
       <Point Name="20">+520437.0+0210706.0</Point>
 	  <Point Name="27">+520339.0+0205201.0</Point>
 	  <Point Name="25">+515923.0+0212514.0</Point>
@@ -10,6 +11,11 @@
 	  <Point Name="100">+512421.0+0203140.0</Point>
 	  <Point Name="70">+523310.0+0212027.0</Point>
 	  <Point Name="60">+515804.0+0194115.0</Point>
+	  <!-- TMA Poznan -->
+	  <Point Name="21">+522613.0+0171245.0</Point>
+	  <Point Name="40">+521126.0+0163029.0</Point>
+	  <Point Name="70">+515820.0+0164648.0</Point>
+	  <Point Name="100">+525218.0+0164840.0</Point>
     </Label>
   </Map>
 </Maps>

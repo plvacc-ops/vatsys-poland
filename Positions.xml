@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Positions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Position Name="Warszawa Approach" Type="ASD" DefaultCenter="+520306.0+0202411.0" DefaultRange="200">
+  <Position Name="Warszawa Approach South" Type="ASD" DefaultCenter="+520306.0+0202411.0" DefaultRange="250">
     <Sectors>
       <Sector Name="WAS" />
+	  <Sector Name="WAN" />
+	  <Sector Name="TWA" />
+	  <Sector Name="TLL" />
+	  <Sector Name="TMO" />
     </Sectors>
     <Maps>
       <Map Name="ALL_CTA" />
@@ -30,7 +34,70 @@
     </ArrivalLists>
     <ControllerInfo>
       <Line>Warszawa Approach</Line>
-	  <Line>Covering EPWA, EPMO, EPLL | For EPWA ATIS check frequency 120.450.</Line>
+	  <Line>Covering EPWA, EPMO, EPLL | For EPWA ATIS check frequency 120.450</Line>
+      <Line>Charts, feedback and airport coverage on pl-vacc.org.pl</Line>
+    </ControllerInfo>
+  </Position>
+  <Position Name="Poznan Approach North" Type="ASD" DefaultCenter="+522230.0+0164850.0" DefaultRange="250">
+    <Sectors>
+      <Sector Name="PON" />
+	  <Sector Name="POS" />
+	  <Sector Name="TPO" />
+	  <Sector Name="TKS" />
+    </Sectors>
+    <Maps>
+      <Map Name="ALL_CTA" />
+	  <Map Name="ALL_MVA" />
+      <Map Name="ALL_SECTORS" />
+      <Map Name="ALL_NAVAIDS" />
+      <Map Name="COAST_ALL" />
+      <Map Name="ALL_ROUTES_HIGH" />
+      <Map Name="ALL_POINTS_HIGH" />
+      <Map Name="FIR_BDRY" />
+      <Map Name="UPPER_SECTOR_FREQS" />
+    </Maps>
+    <Strips Mode="State" Sort="Time">
+      <Window Type="State" State="Jurisdiction" Visible="true" />
+      <Window Type="State" State="Announced" Visible="true" />
+      <Window Type="State" State="Preactive" Visible="true" />
+    </Strips>
+    <CFL QuickLevel="6000" />
+    <ArrivalLists>
+      <Airport Name="EPPO" />
+    </ArrivalLists>
+    <ControllerInfo>
+      <Line>Poznan Approach North</Line>
+	  <Line>Covering EPPO, EPKS | For EPPO ATIS check frequency 124.700</Line>
+      <Line>Charts, feedback and airport coverage on pl-vacc.org.pl</Line>
+    </ControllerInfo>
+  </Position>
+  <Position Name="Poznan Approach South" Type="ASD" DefaultCenter="+522230.0+0164850.0" DefaultRange="250">
+    <Sectors>
+	  <Sector Name="POS" />
+    </Sectors>
+    <Maps>
+      <Map Name="ALL_CTA" />
+	  <Map Name="ALL_MVA" />
+      <Map Name="ALL_SECTORS" />
+      <Map Name="ALL_NAVAIDS" />
+      <Map Name="COAST_ALL" />
+      <Map Name="ALL_ROUTES_HIGH" />
+      <Map Name="ALL_POINTS_HIGH" />
+      <Map Name="FIR_BDRY" />
+      <Map Name="UPPER_SECTOR_FREQS" />
+    </Maps>
+    <Strips Mode="State" Sort="Time">
+      <Window Type="State" State="Jurisdiction" Visible="true" />
+      <Window Type="State" State="Announced" Visible="true" />
+      <Window Type="State" State="Preactive" Visible="true" />
+    </Strips>
+    <CFL QuickLevel="6000" />
+    <ArrivalLists>
+      <Airport Name="EPWR" />
+    </ArrivalLists>
+    <ControllerInfo>
+      <Line>Poznan Approach South</Line>
+	  <Line>Covering EPWR | For EPWR ATIS check frequency 124.320</Line>
       <Line>Charts, feedback and airport coverage on pl-vacc.org.pl</Line>
     </ControllerInfo>
   </Position>
