@@ -51,6 +51,13 @@
   +522617.0+0162809.0/
   +523321.0+0163118.0
   </Boundary>
+  <Boundary Name="EPWR_CTR">
+  +510601.0+0163352.0/
+  +511411.0+0163928.0/
+  +510533.0+0170842.0/
+  +505738.0+0170240.0/
+  +510601.0+0163352.0
+  </Boundary>
   <Boundary Name="EPKS_MCTR">
   +522333.0+0164247.0/
   +522112.0+0165525.0/
@@ -282,6 +289,18 @@
   +510824.0+0161948.0/
   +512043.0+0162921.0
   </Boundary>
+  <Boundary Name="EPWR_B">
+  +512335.0+0164744.0/
+  +511305.0+0172704.0/
+  +510115.0+0173428.0/
+  +504917.0+0172322.0/
+  +504558.0+0170225.0/
+  +505757.0+0161727.0/
+  +510442.0+0161312.0/
+  +511129.0+0161410.0/
+  +512253.0+0162424.0/
+  +512335.0+0164744.0
+  </Boundary>
   <!-- TMA Lodz -->
   <Boundary Name="EPLL_A">
   +514941.0+0190358.0/
@@ -433,6 +452,9 @@
   <Volume Name="TKS" LowerLimit="0" UpperLimit="2300">
 	<Boundaries>EPKS_MCTR</Boundaries>
   </Volume>
+  <Volume Name="TWR" LowerLimit="0" UpperLimit="2100">
+	<Boundaries>EPWR_CTR</Boundaries>
+  </Volume>
   <!-- TMA Warszawa -->
   <Volume Name="WAA" LowerLimit="2000" UpperLimit="22500">
     <Boundaries>EPWA_A</Boundaries>
@@ -485,6 +507,9 @@
   </Volume>
   <Volume Name="WRA" LowerLimit="2100" UpperLimit="5500">
 	<Boundaries>EPWR_A</Boundaries>
+  </Volume>
+  <Volume Name="WRB" LowerLimit="5500" UpperLimit="9500">
+	<Boundaries>EPWR_B</Boundaries>
   </Volume>
   <!-- CTA -->
   <Volume Name="CTA01" LowerLimit="9500" UpperLimit="24500">

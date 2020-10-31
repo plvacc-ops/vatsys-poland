@@ -17,6 +17,9 @@
   <Sector FullName="Krzesiny Tower" Frequency="120.750" Callsign="EPKS_TWR" Name="TKS">
 	<Volumes>TMO</Volumes>
   </Sector>
+  <Sector FullName="Wroclaw Tower" Frequency="120.250" Callsign="EPWR_TWR" Name="TWR">
+	<Volumes>TWR</Volumes>
+  </Sector>
   <!-- Ground -->
   <!-- Delivery -->
   <Sector FullName="Gdansk Delivery" Frequency="131.320" Callsign="EPGD_DEL" Name="DGD" />
@@ -51,6 +54,6 @@
 	<Volumes>POA,POB,POC,POD</Volumes>
   </Sector>
   <Sector FullName="Poznan Approach South" Frequency="127.220" Callsign="EPPO_S_APP" Name="POS">
-	<Volumes>WRA</Volumes>
+	<Volumes>WRA,WRB</Volumes>
   </Sector>
 </Sectors>
