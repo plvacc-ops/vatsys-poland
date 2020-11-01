@@ -1,11 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Airspace xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SystemRunways>
+	<Airport Name="EPWA">
+		<Runway Name="11" DataRunway="11">
+			<SID Name="BAMSO\dA"/>
+			<SID Name="OLILA\dA"/>
+			<SID Name="LOLSI\dA"/>
+			<SID Name="SOXER\dA"/>
+			<SID Name="EVINA\dA"/>
+			<SID Name="XIMBA\dA"/>
+			<STAR Name="BIMPA\dN"/>
+			<STAR Name="SORIX\dN"/>
+			<STAR Name="NEPOX\dN"/>
+			<STAR Name="LIMVI\dN"/>
+			<STAR Name="LOGDA\dN"/>
+			<STAR Name="AGAVA\dN"/>
+		</Runway>
+		<Runway Name="15" DataRunway="15">
+			<SID Name="BAMSO\dD"/>
+			<SID Name="OLILA\dD"/>
+			<SID Name="LOLSI\dD"/>
+			<SID Name="SOXER\dD"/>
+			<SID Name="EVINA\dD"/>
+			<SID Name="XIMBA\dD"/>
+			<STAR Name="BIMPA\dP"/>
+			<STAR Name="SORIX\dP"/>
+			<STAR Name="NEPOX\dP"/>
+			<STAR Name="LIMVI\dP"/>
+			<STAR Name="LOGDA\dP"/>
+			<STAR Name="AGAVA\dP"/>
+		</Runway>
+		<Runway Name="29" DataRunway="29">
+			<SID Name="BAMSO\dG"/>
+			<SID Name="OLILA\dG"/>
+			<SID Name="LOLSI\dG"/>
+			<SID Name="SOXER\dG"/>
+			<SID Name="EVINA\dG"/>
+			<SID Name="XIMBA\dG"/>
+			<STAR Name="BIMPA\dV"/>
+			<STAR Name="SORIX\dV"/>
+			<STAR Name="NEPOX\dV"/>
+			<STAR Name="LIMVI\dV"/>
+			<STAR Name="LOGDA\dV"/>
+			<STAR Name="AGAVA\dV"/>
+		</Runway>
+		<Runway Name="33" DataRunway="33">
+			<SID Name="BAMSO\dK"/>
+			<SID Name="OLILA\dK"/>
+			<SID Name="LOLSI\dK"/>
+			<SID Name="SOXER\dK"/>
+			<SID Name="EVINA\dK"/>
+			<SID Name="XIMBA\dK"/>
+			<STAR Name="BIMPA\dU"/>
+			<STAR Name="SORIX\dU"/>
+			<STAR Name="NEPOX\dU"/>
+			<STAR Name="LIMVI\dU"/>
+			<STAR Name="LOGDA\dU"/>
+			<STAR Name="AGAVA\dU"/>
+		</Runway>
+	</Airport>
   </SystemRunways>
   <Airways>
   </Airways>
   <Intersections>
 	<!-- FIXES -->
+	<!-- TMA Warszawa -->
+	<Point Name="BAMSO" Type="Fix">+522009.1+0215434.5</Point>
     <!-- VOR -->
 	<Point Name="BYZ" Type="Navaid" NavaidType="VOR" Frequency="112.700">+530554.0+0175818.0</Point>
 	<Point Name="CMP" Type="Navaid" NavaidType="VOR" Frequency="114.500">+520800.0+0164309.0</Point>
@@ -72,6 +132,24 @@
 	<Point Name="EPLLY" Type="Fix">+514455.0+0192100.0</Point>
   </Intersections>
   <SIDSTARs>
+	<SID Name="BAMSO5A" Airport="EPWA" Runways="11">
+		<Route>WA602 WA607 WA698 BAMSO</Route>
+	</SID>
+	<SID Name="OLILA6A" Airport="EPWA" Runways="11">
+		<Route>WA602 WA607 DOPOX TISEX INSON OLILA</Route>
+	</SID>
+	<SID Name="LOLSI6A" Airport="EPWA" Runways="11">
+		<Route>WA602 WA609 GILAL LOLSI</Route>
+	</SID>
+	<SID Name="SOXER6A" Airport="EPWA" Runways="11">
+		<Route>WA602 WA609 GILAL SOXER</Route>
+	</SID>
+	<SID Name="EVINA5A" Airport="EPWA" Runways="11">
+		<Route>WA602 WA609 NITKI NIPUS EVINA</Route>
+	</SID>
+	<SID Name="XIMBA5A" Airport="EPWA" Runways="11">
+		<Route>WA602 WA608 XIMBA</Route>
+	</SID>
   </SIDSTARs>
   <Airports>
     <Airport ICAO="EPZB" Position="+522143.4+0163819.5" Elevation="268" />
