@@ -64,8 +64,6 @@
   </Airways>
   <Intersections>
 	<!-- FIXES -->
-	<!-- TMA Warszawa -->
-	<Point Name="BAMSO" Type="Fix">+522009.1+0215434.5</Point>
     <!-- VOR -->
 	<Point Name="BYZ" Type="Navaid" NavaidType="VOR" Frequency="112.700">+530554.0+0175818.0</Point>
 	<Point Name="CMP" Type="Navaid" NavaidType="VOR" Frequency="114.500">+520800.0+0164309.0</Point>
@@ -150,8 +148,68 @@
 	<SID Name="XIMBA5A" Airport="EPWA" Runways="11">
 		<Route>WA602 WA608 XIMBA</Route>
 	</SID>
+	<SID Name="BAMSO5D" Airport="EPWA" Runways="15">
+		<Route>WA401 WA404 WA657 WA698 BAMSO</Route>
+	</SID>
+	<SID Name="OLILA5D" Airport="EPWA" Runways="15">
+		<Route>WA401 WA404 DOPOX TISEX INSON OLILA</Route>
+	</SID>
+	<SID Name="LOLSI6D" Airport="EPWA" Runways="15">
+		<Route>WA401 WA402 GILAL LOLSI</Route>
+	</SID>
+	<SID Name="SOXER6D" Airport="EPWA" Runways="15">
+		<Route>WA602 WA609 GILAL SOXER</Route>
+	</SID>
+	<SID Name="EVINA5D" Airport="EPWA" Runways="15">
+		<Route>WA401 WA402 NITKI NIPUS EVINA</Route>
+	</SID>
+	<SID Name="XIMBA6D" Airport="EPWA" Runways="15">
+		<Route>WA401 WA403 XIMBA</Route>
+	</SID>
+	<SID Name="BAMSO6G" Airport="EPWA" Runways="29">
+		<Route>WA901 WA931 WA932 WA791 BITVA WA571 BAMSO</Route>
+	</SID>
+	<SID Name="OLILA6G" Airport="EPWA" Runways="29">
+		<Route>WA901 WA931 WA932 WA791 INRAS RODEV OLILA</Route>
+	</SID>
+	<SID Name="LOLSI7G" Airport="EPWA" Runways="29">
+		<Route>WA901 WA902 WA903 MAKUS LOLSI</Route>
+	</SID>
+	<SID Name="SOXER7G" Airport="EPWA" Runways="29">
+		<Route>WA901 WA902 WA903 MAKUS SOXER</Route>
+	</SID>
+	<SID Name="EVINA7G" Airport="EPWA" Runways="29">
+		<Route>WA901 WA921 EVDEX NIPUS EVINA</Route>
+	</SID>
+	<SID Name="XIMBA7G" Airport="EPWA" Runways="29">
+		<Route>WA901 WA921 EVDEX XENOM TISTA XIMBA</Route>
+	</SID>
+	<SID Name="BAMSO5K" Airport="EPWA" Runways="33">
+		<Route>WA801 WA803 WA791 BITVA WA571 BAMSO</Route>
+	</SID>
+	<SID Name="OLILA5K" Airport="EPWA" Runways="33">
+		<Route>WA801 WA803 WA791 INRAS RODEV OLILA</Route>
+	</SID>
+	<SID Name="LOLSI5K" Airport="EPWA" Runways="33">
+		<Route>WA801 WA802 MAKUS LOLSI</Route>
+	</SID>
+	<SID Name="SOXER5K" Airport="EPWA" Runways="33">
+		<Route>WA801 WA802 MAKUS SOXER</Route>
+	</SID>
+	<SID Name="EVINA4K" Airport="EPWA" Runways="33">
+		<Route>WA801 WA802 EVDEX NIPUS EVINA</Route>
+	</SID>
+	<SID Name="XIMBA4K" Airport="EPWA" Runways="33">
+		<Route>WA801 WA802 EVDEX XENOM TISTA XIMBA</Route>
+	</SID>
   </SIDSTARs>
   <Airports>
+	<Airport ICAO="EPWA" Position="+520957.0+0205802.0" Elevation="362">
+		<Runway Name="11" Position="+521017.0+0205648.0" />
+		<Runway Name="15" Position="+521043.0+0205121.0" />
+		<Runway Name="29" Position="+520940.0+0205902.0" />
+		<Runway Name="33" Position="+520858.0+0205853.0" />
+	</Airport>
     <Airport ICAO="EPZB" Position="+522143.4+0163819.5" Elevation="268" />
 	<Airport ICAO="EPPG" Position="+521404.7+0161437.0" Elevation="313" />
 	<Airport ICAO="EPUL" Position="+513708.8+0220605.1" Elevation="560" Name="Ulez"/>
