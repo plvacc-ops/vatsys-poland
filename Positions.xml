@@ -133,12 +133,37 @@
       <Line>Charts, feedback and airport coverage on pl-vacc.org.pl</Line>
     </ControllerInfo>
   </Position>
-  <Position Name="EPWA" Type="ASMGCS" ASMGCSAirport="EPWA" DefaultCenter="+520957.0+0205802.0" DefaultRange="2">
+  <Position Name="Okecie Tower" Type="ASD" DefaultCenter="+520957.0+0205802.0" DefaultRange="100">
+    <Sectors>
+      <Sector Name="TWA" />
+    </Sectors>
+    <Maps>
+      <Map Name="ALL_SECTORS" />
+      <Map Name="ALL_NAVAIDS" />
+	  <Map Name="TMA Warszawa/WA_TCU" />
+	  <Map Name="TMA Warszawa/WA_VFR" />
+    </Maps>
+    <Strips Mode="State" Sort="Time">
+      <Window Type="State" State="Jurisdiction" Visible="true" />
+      <Window Type="State" State="Announced" Visible="true" />
+      <Window Type="State" State="Preactive" Visible="true" />
+    </Strips>
+    <CFL QuickLevel="6000" />
+    <ArrivalLists>
+	  <Airport Name="EPWA" />
+    </ArrivalLists>
+    <ControllerInfo>
+      <Line>Okecie Tower</Line>
+	  <Line>Check ATIS on 120.450</Line>
+      <Line>Charts, feedback and airport coverage on pl-vacc.org.pl</Line>
+    </ControllerInfo>
+  </Position>
+  <Position Name="EPWA" Type="ASMGCS" ASMGCSAirport="EPWA" DefaultCenter="+520957.0+0205802.0" DefaultRange="3">
 	<Maps>
-	  <Map Name="Warszawa/ASMGCS_EPWA_RWY" />
-      <Map Name="Warszawa/ASMGCS_EPWA_APR" />
-      <Map Name="Warszawa/ASMGCS_EPWA_TWY" />
-      <Map Name="Warszawa/ASMGCS_EPWA_BLD" />
+	  <Map Name="TMA Warszawa/ASMGCS_EPWA_RWY" />
+      <Map Name="TMA Warszawa/ASMGCS_EPWA_APR" />
+      <Map Name="TMA Warszawa/ASMGCS_EPWA_TWY" />
+      <Map Name="TMA Warszawa/ASMGCS_EPWA_BLD" />
 	</Maps>
   </Position>
 </Positions>
