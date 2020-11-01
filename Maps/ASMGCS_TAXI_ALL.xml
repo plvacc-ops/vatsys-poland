@@ -16,6 +16,45 @@
 	  <Point Name="B7">+520858.944+0205842.119</Point>
 	  <Point Name="B8">+520857.151+0205849.365</Point>
 	  <Point Name="C1">+521008.500+0205658.900</Point>
+	  <Point Name="D2">+521032.663+0205738.920</Point>
+	  <Point Name="D3">+521019.086+0205728.501</Point>
+	  <Point Name="D4">+521004.405+0205718.900</Point>
+	  <Point Name="D5">+521001.528+0205714.899</Point>
+	  <Point Name="E1">+520958.602+0205818.577</Point>
+	  <Point Name="E2">+520950.473+0205846.407</Point>
+	  <Point Name="E3">+520942.278+0205900.980</Point>
+	  <Point Name="F">+521002.873+0205822.430</Point>
+	  <Point Name="G">+520930.026+0205843.792</Point>
+	  <Point Name="H2">+520919.656+0205842.254</Point>
+	  <Point Name="H1">+520916.981+0205829.758</Point>
+	  <Point Name="K">+521020.492+0205727.288</Point>
+	  <Point Name="L">+520925.855+0205850.837</Point>
+	  <Point Name="M1">+521038.101+0205750.041</Point>
+	  <Point Name="M2">+521025.742+0205759.362</Point>
+	  <Point Name="M3">+521000.537+0205821.058</Point>
+	  <Point Name="M4">+521006.538+0205815.848</Point>
+	  <Point Name="N1">+520955.094+0205820.233</Point>
+	  <Point Name="N2">+520949.875+0205840.063</Point>
+	  <Point Name="N3">+520944.777+0205854.914</Point>
+	  <Point Name="O1">+521014.478+0205750.584</Point>
+	  <Point Name="O2">+521017.475+0205802.043</Point>
+	  <Point Name="S1">+521010.473+0205755.938</Point>
+	  <Point Name="S2">+521021.939+0205746.420</Point>
+	  <Point Name="S3">+521028.371+0205739.998</Point>
+	  <Point Name="T">+520950.221+0205815.779</Point>
+	  <Point Name="U1">+521042.025+0205744.229</Point>
+	  <Point Name="U2">+521038.987+0205804.808</Point>
+	  <Point Name="U3">+521030.862+0205813.053</Point>
+	  <Point Name="V">+521035.808+0205802.252</Point>
+	  <Point Name="W">+521047.696+0205741.493</Point>
+	  <Point Name="Z1">+521028.036+0205751.493</Point>
+	  <Point Name="Z2">+521032.263+0205801.549</Point>
+	  <Point Name="Z4">+521036.383+0205818.178</Point>
+	  <Point Name="Z5">+521033.567+0205817.713</Point>
+	  <Point Name="ZB1">+521027.426+0205751.923</Point>
+	  <Point Name="ZB2">+521031.641+0205802.219</Point>
+	  <Point Name="ZO1">+521028.721+0205750.991</Point>
+	  <Point Name="ZO2">+521032.859+0205801.063</Point>
     </Label>
   </Map>
 </Maps>
