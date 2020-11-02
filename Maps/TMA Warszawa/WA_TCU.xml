@@ -16,7 +16,7 @@
 		<Point>AGAVA</Point>
 	</Label>
   </Map>
-  <Map Type="System" Name="WA_TCU" Priority="1" Centre="+520957.0+0205802.0">
+  <Map Type="System" Name="WA_TCU" Priority="0" Centre="+520957.0+0205802.0">
     <!--EPWA-->
     <Runway Name="11/29">
       <Threshold Name="11" Position="+521017.31+0205648.17" ExtendedCentrelineTrack="294.55" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1"/>
