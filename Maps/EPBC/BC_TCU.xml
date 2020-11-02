@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="BC_TCU" Priority="0" Centre="+521609.0+0205426.0">
+    <!--EPBC-->
+    <Runway Name="10R/28L">
+      <Threshold Name="10R" Position="+521614.0+0205352.0" />
+      <Threshold Name="28L" Position="+521604.0+0205459.0" />
+    </Runway>
+	<Runway Name="10L/28R">
+      <Threshold Name="10L" Position="+521616.0+0205408.0" />
+      <Threshold Name="28R" Position="+521609.0+0205500.0" />
+    </Runway>
+  </Map>
+</Maps>
