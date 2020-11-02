@@ -35,8 +35,8 @@
   <Sector FullName="Lodz Tower" Frequency="124.220" Callsign="EPLL_TWR" Name="TLL">
 	<Volumes>TLL,LLA,LLB,LLC,LLD,LLE</Volumes>
   </Sector>
-  <Sector FullName="Lublin Tower" Frequency="136.420" Callsign="EPLB_TWR" Name="TWR">
-	<Volumes>TWR</Volumes>
+  <Sector FullName="Lublin Tower" Frequency="136.420" Callsign="EPLB_TWR" Name="TLB">
+	<Volumes>TLB</Volumes>
   </Sector>
   <Sector FullName="Bydgoszcz Tower" Frequency="131.000" Callsign="EPBY_TWR" Name="TBY">
 	<Volumes></Volumes>

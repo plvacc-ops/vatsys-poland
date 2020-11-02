@@ -158,7 +158,7 @@
       <Line>Charts, feedback and airport coverage on pl-vacc.org.pl</Line>
     </ControllerInfo>
   </Position>
-  <Position Name="EPLB TWR" Type="ASD" DefaultCenter="+511425.0+0224249.0" DefaultRange="100">
+  <Position Name="EPLB TWR" Type="ASD" DefaultCenter="+511425.0+0224249.0" DefaultRange="150">
     <Sectors>
       <Sector Name="TLB" />
     </Sectors>
