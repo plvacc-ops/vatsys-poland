@@ -618,6 +618,20 @@
   +524613.0+0202444.0/
   +525116.0+0201526.0
   </Boundary>
+  <Boundary Name="CTA03">
+  +515923.0+0192506.0/
+  +513924.0+0193536.0/
+  +513032.0+0194012.0/
+  +513213.0+0195741.0/
+  +513958.0+0195737.0/
+  +514703.0+0200338.0/
+  +520512.0+0195455.0/
+  +520223.0+0194319.0/
+  +520200.0+0194057.0/
+  +520728.0+0193817.0/
+  +520451.0+0192213.0/
+  +515923.0+0192506.0
+  </Boundary>
   <!-- ATZ -->
   <Volume Name="BCA" LowerLimit="0" UpperLimit="1500">
     <Boundaries>EPBC_A</Boundaries>
@@ -740,5 +754,8 @@
   </Volume>
   <Volume Name="CTA02" LowerLimit="22500" UpperLimit="24500">
     <Boundaries>CTA02</Boundaries>
+  </Volume>
+  <Volume Name="CTA03" LowerLimit="5500" UpperLimit="11500">
+    <Boundaries>CTA03</Boundaries>
   </Volume>
  </Volumes>

@@ -45,7 +45,7 @@
   </Sector>
   <!-- TMA Warszawa -->
   <Sector FullName="Warszawa Approach S" Frequency="128.8" Callsign="EPWA_S_APP" Name="WAS">
-    <Volumes>WAA,WAB,WAC,WAD,WAE,WAF,WAG,CTA01,CTA02</Volumes>
+    <Volumes>WAA,WAB,WAC,WAD,WAE,WAF,WAG,CTA01,CTA02,CTA03</Volumes>
 	<ResponsibleSectors>WAN,WAF,TWA,TMO,TLL,IBC</ResponsibleSectors>
   </Sector>
   <Sector FullName="Warszawa Approach N" Frequency="125.050" Callsign="EPWA_N_APP" Name="WAN">

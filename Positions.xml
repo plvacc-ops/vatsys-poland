@@ -62,6 +62,7 @@
 	  <Sector Name="POS" />
 	  <Sector Name="TPO" />
 	  <Sector Name="TKS" />
+	  <Sector Name="TWR" />
     </Sectors>
     <Maps>
       <Map Name="ALL_CTA" />
@@ -73,6 +74,7 @@
       <Map Name="ALL_POINTS_HIGH" />
       <Map Name="FIR_BDRY" />
       <Map Name="UPPER_SECTOR_FREQS" />
+	  <Map Name="TMA Poznan/TCU" />
     </Maps>
     <Strips Mode="State" Sort="Time">
       <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -92,6 +94,7 @@
   <Position Name="Poznan Approach South" Type="ASD" DefaultCenter="+510517.0+0165336.0" DefaultRange="250">
     <Sectors>
 	  <Sector Name="POS" />
+	  <Sector Name="TWR" />
     </Sectors>
     <Maps>
       <Map Name="ALL_CTA" />
@@ -103,6 +106,7 @@
       <Map Name="ALL_POINTS_HIGH" />
       <Map Name="FIR_BDRY" />
       <Map Name="UPPER_SECTOR_FREQS" />
+	  <Map Name="TMA Poznan/TCU" />
     </Maps>
     <Strips Mode="State" Sort="Time">
       <Window Type="State" State="Jurisdiction" Visible="true" />
