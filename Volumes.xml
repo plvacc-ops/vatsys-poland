@@ -67,6 +67,21 @@
   +521610.0+0163941.0/
   +522333.0+0164247.0
   </Boundary>
+  <Boundary Name="EPLB_CTR">
+  +511540.0+0223348.0/
+  +511613.0+0223754.0/
+  +511809.0+0225217.0/
+  +511724.0+0225614.0/
+  +511055.0+0225837.0/
+  +510825.0+0225416.0/
+  +510718.0+0224916.0/
+  +510414.0+0223526.0/
+  +510605.0+0223039.0/
+  +510722.0+0223013.0/
+  +510922.0+0222933.0/
+  +511411.0+0222756.0/
+  +511540.0+0223348.0
+  </Boundary>
   <!-- TMA Warszawa -->
   <Boundary Name="EPWA_A">
   +515902.0+0213753.0/
@@ -454,6 +469,9 @@
   </Volume>
   <Volume Name="TWR" LowerLimit="0" UpperLimit="2100">
 	<Boundaries>EPWR_CTR</Boundaries>
+  </Volume>
+  <Volume Name="TLB" LowerLimit="0" UpperLimit="2100">
+	<Boundaries>EPLB_CTR</Boundaries>
   </Volume>
   <!-- TMA Warszawa -->
   <Volume Name="WAA" LowerLimit="2000" UpperLimit="22500">
