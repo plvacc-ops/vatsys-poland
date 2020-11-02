@@ -129,7 +129,7 @@
     </ArrivalLists>
     <ControllerInfo>
       <Line>Lodz Tower</Line>
-	  <Line>Procedural control</Line>
+	  <Line>Procedural control | Check ATIS on 135.675</Line>
       <Line>Charts, feedback and airport coverage on pl-vacc.org.pl</Line>
     </ControllerInfo>
   </Position>
@@ -155,6 +155,31 @@
     <ControllerInfo>
       <Line>Okecie Tower</Line>
 	  <Line>Check ATIS on 120.450</Line>
+      <Line>Charts, feedback and airport coverage on pl-vacc.org.pl</Line>
+    </ControllerInfo>
+  </Position>
+  <Position Name="EPLB TWR" Type="ASD" DefaultCenter="+511425.0+0224249.0" DefaultRange="100">
+    <Sectors>
+      <Sector Name="TLB" />
+    </Sectors>
+    <Maps>
+      <Map Name="ALL_SECTORS" />
+      <Map Name="ALL_NAVAIDS" />
+	  <Map Name="EPLB/LB_TCU" />
+	  <Map Name="EPLB/LB_VFR" />
+    </Maps>
+    <Strips Mode="State" Sort="Time">
+      <Window Type="State" State="Jurisdiction" Visible="true" />
+      <Window Type="State" State="Announced" Visible="true" />
+      <Window Type="State" State="Preactive" Visible="true" />
+    </Strips>
+    <CFL QuickLevel="6000" />
+    <ArrivalLists>
+	  <Airport Name="EPLB" />
+    </ArrivalLists>
+    <ControllerInfo>
+      <Line>Lublin Tower</Line>
+	  <Line>Procedural control</Line>
       <Line>Charts, feedback and airport coverage on pl-vacc.org.pl</Line>
     </ControllerInfo>
   </Position>

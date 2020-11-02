@@ -128,6 +128,19 @@
 	<Point Name="EPLLW" Type="Fix">+514440.0+0190712.0</Point>
 	<Point Name="EPLLX" Type="Fix">+515330.0+0193806.0</Point>
 	<Point Name="EPLLY" Type="Fix">+514455.0+0192100.0</Point>
+	<!-- EPLB VFR -->
+	<Point Name="EPLBB" Type="Fix">+510525.0+0221716.0</Point>
+    <Point Name="EPLBD" Type="Fix">+512044.0+0223826.0</Point>
+    <Point Name="EPLBE" Type="Fix">+510938.0+0225643.0</Point>
+    <Point Name="EPLBJ" Type="Fix">+510603.0+0223458.0</Point>
+    <Point Name="EPLBK" Type="Fix">+510657.0+0224543.0</Point>
+    <Point Name="EPLBL" Type="Fix">+511814.0+0225213.0</Point>
+	<Point Name="EPLBP" Type="Fix">+510748.0+0225013.0</Point>
+	<Point Name="EPLBR" Type="Fix">+511942.0+0225949.0</Point>
+    <Point Name="EPLBS" Type="Fix">+511318.0+0224431.0</Point>
+    <Point Name="EPLBT" Type="Fix">+511649.0+0224214.0</Point>
+    <Point Name="EPLBW" Type="Fix">+512059.0+0222042.0</Point>
+	<Point Name="EPLBZ" Type="Fix">+511040.0+0223142.0</Point>
   </Intersections>
   <SIDSTARs>
 	<SID Name="BAMSO5A" Airport="EPWA" Runways="11">
