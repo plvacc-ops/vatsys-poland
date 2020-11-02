@@ -3,17 +3,17 @@
   <Map Type="System" Name="WA_TCU" Priority="1" Centre="+520957.0+0205802.0">
     <!--EPWA-->
     <Runway Name="11/29">
-      <Threshold Name="11" Position="+521017.0+0205648.0" ExtendedCentrelineTrack="289.0" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1"/>
-      <Threshold Name="29" Position="+520946.0+0205838.0" />
+      <Threshold Name="11" Position="+521017.31+0205648.17" ExtendedCentrelineTrack="294.55" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1"/>
+      <Threshold Name="29" Position="+520946.40+0205838.29" />
     </Runway>
     <Runway Name="15/33">
-      <Threshold Name="15" Position="+521043.0+0205721.0"/>
-      <Threshold Name="33" Position="+520917.0+0205837.0" ExtendedCentrelineTrack="147.0" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="15" Position="+521042.86+0205721.26"/>
+      <Threshold Name="33" Position="+520916.50+0205836.77" ExtendedCentrelineTrack="151.73" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
     </Runway>
     <!--EPMO-->
     <Runway Name="08/26">
-      <Threshold Name="08" Position="+522658.0+0203801.0" ExtendedCentrelineTrack="256.0" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
-      <Threshold Name="26" Position="+522711.0+0204012.0" ExtendedCentrelineTrack="76.0" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="08" Position="+522658.24+0203801.30" ExtendedCentrelineTrack="261.0" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="26" Position="+522710.54+0204012.14" ExtendedCentrelineTrack="81.0" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
     </Runway>
   </Map>
   <Map Type="System2" Name="WA_VFR" Priority="1" Centre="+520957.0+0205802.0">
