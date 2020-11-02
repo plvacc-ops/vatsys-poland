@@ -85,7 +85,7 @@
     </ArrivalLists>
     <ControllerInfo>
       <Line>Poznan Approach North</Line>
-	  <Line>Covering EPPO, EPKS | For EPPO ATIS check frequency 124.700</Line>
+	  <Line>Covering EPPO, EPWR, EPKS | For EPPO ATIS check frequency 124.700</Line>
       <Line>Charts, feedback and airport coverage on pl-vacc.org.pl</Line>
     </ControllerInfo>
   </Position>

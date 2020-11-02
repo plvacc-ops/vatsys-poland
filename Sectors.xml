@@ -46,9 +46,11 @@
   <!-- TMA Warszawa -->
   <Sector FullName="Warszawa Approach S" Frequency="128.8" Callsign="EPWA_S_APP" Name="WAS">
     <Volumes>WAA,WAB,WAC,WAD,WAE,WAF,WAG,CTA01,CTA02</Volumes>
+	<ResponsibleSectors>WAN,WAF,TWA,TMO,TLL,IBC</ResponsibleSectors>
   </Sector>
   <Sector FullName="Warszawa Approach N" Frequency="125.050" Callsign="EPWA_N_APP" Name="WAN">
 	<Volumes></Volumes>
+	<ResponsibleSectors>TMO,WAF</ResponsibleSectors>
   </Sector>
   <Sector FullName="Warszawa Director" Frequency="129.370" Callsign="EPWA_F_APP" Name="WAF">
 	<Volumes></Volumes>
@@ -57,8 +59,10 @@
   <!-- TMA Poznan -->
   <Sector FullName="Poznan Approach North" Frequency="129.020" Callsign="EPPO_N_APP" Name="PON">
 	<Volumes>POA,POB,POC,POD</Volumes>
+	<ResponsibleSectors>POS,TPO,TWR,TKS</ResponsibleSectors>
   </Sector>
   <Sector FullName="Poznan Approach South" Frequency="127.220" Callsign="EPPO_S_APP" Name="POS">
-	<Volumes>WRA,WRB</Volumes>
+	<Volumes>WRA,WRB,WRC,WRD,WRE,WRF,WRG</Volumes>
+	<ResponsibleSectors>TWR</ResponsibleSectors>
   </Sector>
 </Sectors>
