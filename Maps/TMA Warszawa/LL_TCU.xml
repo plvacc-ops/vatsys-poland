@@ -1,13 +1,36 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="LL_TCU" Priority="1" Centre="+520957.0+0205802.0">
+  <Map Type="System" Name="LL_TCU_L" Priority="0" Centre="+520957.0+0205802.0">
+	<Label HasLeader="True">
+		<Point>UTOLU</Point>
+		<Point>ADOXO</Point>
+		<Point>SOXER</Point>
+		<Point>ABAKU</Point>
+		<Point>VIDEV</Point>
+		<Point>BAXIS</Point>
+		<Point>LL501</Point>
+		<Point>LL701</Point>
+	</Label>
+  </Map>
+  <Map Type="System" Name="LL_TCU" Priority="0" Centre="+520957.0+0205802.0">
     <!--EPLL-->
     <Runway Name="07/25">
       <Threshold Name="07" Position="+514258.40+0192219.88" ExtendedCentrelineTrack="251.0" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="3" />
       <Threshold Name="25" Position="+514325.21+0192422.75" ExtendedCentrelineTrack="71.0" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
     </Runway>
+	<Symbol Type="SolidTriangle">
+		<Point>UTOLU</Point>
+		<Point>ADOXO</Point>
+		<Point>SOXER</Point>
+		<Point>ABAKU</Point>
+		<Point>VIDEV</Point>
+		<Point>BAXIS</Point>
+	</Symbol>
+	<Symbol Type="HollowTriangle">
+		<Point>LL701</Point>
+	</Symbol>
   </Map>
-  <Map Type="System2" Name="LL_VFR" Priority="1" Centre="+520957.0+0205802.0">
+  <Map Type="System2" Name="LL_VFR" Priority="2" Centre="+520957.0+0205802.0">
     <Symbol Type="HollowSquare">
       <Point>EPLLC</Point>
       <Point>EPLLE</Point>
