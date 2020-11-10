@@ -180,10 +180,10 @@
 	</Colour>
   <Colour id="ASDBackground">
 		<Use>ASD Backgrounds</Use>
-		<Name>DarkGrey</Name>
-		<R>30</R>
-		<G>30</G>
-		<B>30</B>
+		<Name>MidGrey</Name>
+		<R>127</R>
+		<G>127</G>
+		<B>127</B>
 	</Colour>
   <Colour id="CPDLCSendButton">
 		<Use>CPDLC Hot-Send Button</Use>
@@ -195,30 +195,30 @@
   <Colour id="GroundBackground">
     <Use>A-SMGCS Background</Use>
     <Name>Grey</Name>
-    <R>30</R>
-    <G>30</G>
-    <B>30</B>
+    <R>105</R>
+    <G>105</G>
+    <B>105</B>
   </Colour>
 	<Colour id="Jurisdiction">
 		<Use>Jurisdiction</Use>
 		<Name>LightGreen</Name>
-		<R>0</R>
-		<G>210</G>
-		<B>0</B>
+		<R>200</R>
+		<G>255</G>
+		<B>200</B>
 	</Colour>
   <Colour id="GhostJurisdiction">
     <Use>GhostJurisdiction</Use>
-    <Name>Salmon</Name>
-    <R>236</R>
-    <G>155</G>
-    <B>90</B>
+    <Name>LightYellow</Name>
+    <R>250</R>
+    <G>255</G>
+    <B>200</B>
   </Colour>
   <Colour id="PostJurisdiction">
 		<Use>PostJurisdiction</Use>
-		<Name>Grey</Name>
-		<R>150</R>
-		<G>150</G>
-		<B>150</B>
+		<Name>Black</Name>
+		<R>0</R>
+		<G>0</G>
+		<B>0</B>
 	</Colour>
   <Colour id="JurisdictionIQL">
 		<Use>JurisdictionIQL</Use>
@@ -229,17 +229,17 @@
 	</Colour>
   <Colour id="Handover">
 		<Use>HandOver</Use>
-		<Name>Orange</Name>
+		<Name>Salmon</Name>
 		<R>255</R>
-		<G>128</G>
-		<B>0</B>
+		<G>205</G>
+		<B>105</B>
 	</Colour>
   <Colour id="Announced">
 		<Use>Announced</Use>
-		<Name>White</Name>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
+		<Name>Blue</Name>
+		<R>0</R>
+		<G>0</G>
+		<B>188</B>
 	</Colour>
   <Colour id="NonJurisdictionIQL">
 		<Use>NonJurisdictionIQL</Use>
@@ -348,10 +348,10 @@
 	</Colour>
   <Colour id="Infill">
 		<Use>Filled Area Map</Use>
-		<Name>Black</Name>
-		<R>2</R>
-		<G>2</G>
-		<B>2</B>
+		<Name>MidGrey</Name>
+		<R>133</R>
+		<G>133</G>
+		<B>133</B>
 	</Colour>
   <Colour id="SecondaryMap">
 		<Use>Alternative System Map</Use>
