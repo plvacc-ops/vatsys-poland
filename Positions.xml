@@ -39,12 +39,14 @@
 	  <Map Name="TMA Warszawa/WA_TCU" />
 	  <Map Name="TMA Warszawa/LL_TCU" />
     </Maps>
-    <Strips Mode="State" Sort="Time">
-      <Window Type="State" State="Jurisdiction" Visible="true" />
-      <Window Type="State" State="Announced" Visible="true" />
-      <Window Type="State" State="Preactive" Visible="true" />
+    <Strips Mode="Beacon" Sort="Level">
+      <Window Type="ADEP" Beacon="EPWA" Visible="true" />
+	  <Window Type="ADEP" Beacon="EPMO" Visible="true" />
+	  <Window Type="ADEP" Beacon="EPLL" Visible="true" />
     </Strips>
-    <CFL QuickLevel="6000" />
+    <CFL QuickLevel="6000">
+		<AdditionalLevels>4000</AdditionalLevels>
+	</CFL>
     <ArrivalLists>
       <Airport Name="EPWA" />
 	  <Airport Name="EPMO" />
