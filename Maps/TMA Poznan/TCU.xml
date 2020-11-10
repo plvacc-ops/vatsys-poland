@@ -1,6 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="TCU" Priority="1" Centre="+520957.0+0205802.0">
+<Map Type="System" Name="TCU_L" Priority="0" Centre="+514100.9688+0164753.3906">
+	<Label HasLeader="True">
+		<Point>VAGNI</Point>
+		<Point>ULGIL</Point>
+		<Point>DINOV</Point>
+		<Point>PEKOT</Point>
+		<Point>EPOPA</Point>
+		<Point>MAPIK</Point>
+		<Point>SUDOL</Point>
+		<Point>LUNUK</Point>
+		<Point>UVIVI</Point>
+		<Point>XIDNA</Point>
+		<Point>MASIV</Point>
+		<Point>OBOKU</Point>
+		<Point>DEKUT</Point>
+		<Point>XERBI</Point>
+		<Point>ELSUP</Point>
+		<Point>BAREP</Point>
+		<Point>KELOD</Point>
+		<Point>OBOLA</Point>
+		<Point>ERNOX</Point>
+		<Point>AKAPI</Point>
+		<Point>NILPU</Point>
+	</Label>
+  </Map>
+  <Map Type="System" Name="TCU" Priority="0" Centre="+514100.9688+0164753.3906">
     <!--EPPO-->
     <Runway Name="10/28">
       <Threshold Name="10" Position="+522529.85+0164821.62" ExtendedCentrelineTrack="287.56" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1"/>
@@ -21,8 +46,31 @@
       <Threshold Name="06" Position="+520801.34+0154655.37" ExtendedCentrelineTrack="244.67" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
       <Threshold Name="24" Position="+520835.97+0154854.20" ExtendedCentrelineTrack="64.65" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
     </Runway>
+	<Symbol Type="SolidTriangle">
+		<Point>VAGNI</Point>
+		<Point>ULGIL</Point>
+		<Point>DINOV</Point>
+		<Point>PEKOT</Point>
+		<Point>EPOPA</Point>
+		<Point>MAPIK</Point>
+		<Point>SUDOL</Point>
+		<Point>LUNUK</Point>
+		<Point>UVIVI</Point>
+		<Point>XIDNA</Point>
+		<Point>MASIV</Point>
+		<Point>OBOKU</Point>
+		<Point>DEKUT</Point>
+		<Point>XERBI</Point>
+		<Point>ELSUP</Point>
+		<Point>BAREP</Point>
+		<Point>KELOD</Point>
+		<Point>OBOLA</Point>
+		<Point>ERNOX</Point>
+		<Point>AKAPI</Point>
+		<Point>NILPU</Point>
+	</Symbol>
   </Map>
-  <Map Type="System2" Name="PO_VFR" Priority="1" Centre="+520957.0+0205802.0">
+  <Map Type="System2" Name="PO_VFR" Priority="1" Centre="+514100.9688+0164753.3906">
     <Symbol Type="HollowSquare">
       <Point>EPWAA</Point>
       <Point>EPWAB</Point>
