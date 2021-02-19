@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="GD_TMA_L" Priority="0" Centre="+542239.0+0182758.0">
+	<Label HasLeader="True">
+		<Point>BAMSO</Point>
+		<Point>OLILA</Point>
+		<Point>LOLSI</Point>
+		<Point>SOXER</Point>
+		<Point>EVINA</Point>
+		<Point>XIMBA</Point>
+		<Point>BIMPA</Point>
+		<Point>SORIX</Point>
+		<Point>NEPOX</Point>
+		<Point>LIMVI</Point>
+		<Point>LOGDA</Point>
+		<Point>AGAVA</Point>
+	</Label>
+  </Map>
+  <Map Type="System" Name="GD_TMA" Priority="0" Centre="+542239.0+0182758.0">
+    <!--EPGD-->
+    <Runway Name="11/29">
+      <Threshold Name="11" Position="+521017.31+0205648.17" ExtendedCentrelineTrack="294.55" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1"/>
+      <Threshold Name="29" Position="+520946.40+0205838.29" />
+    </Runway>
+    <!--EPBY-->
+    <Runway Name="08/26">
+      <Threshold Name="08" Position="+522658.24+0203801.30" ExtendedCentrelineTrack="261.0" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="26" Position="+522710.54+0204012.14" ExtendedCentrelineTrack="81.0" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
+    </Runway>
+	<Symbol Type="SolidTriangle">
+		<Point>BAMSO</Point>
+		<Point>OLILA</Point>
+		<Point>LOLSI</Point>
+		<Point>SOXER</Point>
+		<Point>EVINA</Point>
+		<Point>XIMBA</Point>
+		<Point>BIMPA</Point>
+		<Point>SORIX</Point>
+		<Point>NEPOX</Point>
+		<Point>LIMVI</Point>
+		<Point>LOGDA</Point>
+		<Point>AGAVA</Point>
+	</Symbol>
+  </Map>
+  <Map Type="System2" Name="GD_VFR" Priority="1" Centre="+542239.0+0182758.0">
+    <Symbol Type="HollowSquare">
+      <Point>EPGDG</Point>
+      <Point>EPGDI</Point>
+      <Point>EPGDM</Point>
+      <Point>EPGDN</Point>
+      <Point>EPGDS</Point>
+      <Point>EPGDX</Point>
+	  <Point>EPGDZ</Point>
+    </Symbol>
+    <Label HasLeader="True">
+      <Point Name="G">EPGDG</Point>
+      <Point Name="I">EPGDI</Point>
+      <Point Name="M">EPGDM</Point>
+      <Point Name="N">EPGDN</Point>
+      <Point Name="S">EPGDS</Point>
+      <Point Name="X">EPGDX</Point>
+	  <Point Name="Z">EPGDZ</Point>
+    </Label>
+  </Map>
+</Maps>
