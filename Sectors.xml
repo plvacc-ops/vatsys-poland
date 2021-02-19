@@ -59,6 +59,13 @@
     <Volumes></Volumes>
     <ResponsibleSectors></ResponsibleSectors>
   </Sector>
+  <!-- TMA Gdansk -->
+  <Sector FullName="Gdansk Approach" Frequency="127.270" Callsign="EPGD_APP" Name="GDA">
+    <Volumes>GDA,GDB,GDC,GDD,GDE</Volumes>
+  </Sector>
+  <Sector FullName="Gdansk Director" Frequency="133.670" Callsign="EPGD_F_APP" Name="GDF">
+    <Volumes></Volumes>
+  </Sector>
   <!-- TMA Poznan -->
   <Sector FullName="Poznan Approach North" Frequency="129.020" Callsign="EPPO_N_APP" Name="PON">
     <Volumes>POA,POB,POC,POD</Volumes>

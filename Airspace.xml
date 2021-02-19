@@ -1,310 +1,309 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Airspace xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SystemRunways>
-	<Airport Name="EPWA">
-		<Runway Name="11" DataRunway="11">
-			<SID Name="BAMSO\dA"/>
-			<SID Name="OLILA\dA"/>
-			<SID Name="LOLSI\dA"/>
-			<SID Name="SOXER\dA"/>
-			<SID Name="EVINA\dA"/>
-			<SID Name="XIMBA\dA"/>
-			<STAR Name="BIMPA\dN"/>
-			<STAR Name="SORIX\dN"/>
-			<STAR Name="NEPOX\dN"/>
-			<STAR Name="LIMVI\dN"/>
-			<STAR Name="LOGDA\dN"/>
-			<STAR Name="AGAVA\dN"/>
-		</Runway>
-		<Runway Name="15" DataRunway="15">
-			<SID Name="BAMSO\dD"/>
-			<SID Name="OLILA\dD"/>
-			<SID Name="LOLSI\dD"/>
-			<SID Name="SOXER\dD"/>
-			<SID Name="EVINA\dD"/>
-			<SID Name="XIMBA\dD"/>
-			<STAR Name="BIMPA\dP"/>
-			<STAR Name="SORIX\dP"/>
-			<STAR Name="NEPOX\dP"/>
-			<STAR Name="LIMVI\dP"/>
-			<STAR Name="LOGDA\dP"/>
-			<STAR Name="AGAVA\dP"/>
-		</Runway>
-		<Runway Name="29" DataRunway="29">
-			<SID Name="BAMSO\dG"/>
-			<SID Name="OLILA\dG"/>
-			<SID Name="LOLSI\dG"/>
-			<SID Name="SOXER\dG"/>
-			<SID Name="EVINA\dG"/>
-			<SID Name="XIMBA\dG"/>
-			<STAR Name="BIMPA\dV"/>
-			<STAR Name="SORIX\dV"/>
-			<STAR Name="NEPOX\dV"/>
-			<STAR Name="LIMVI\dV"/>
-			<STAR Name="LOGDA\dV"/>
-			<STAR Name="AGAVA\dV"/>
-		</Runway>
-		<Runway Name="33" DataRunway="33">
-			<SID Name="BAMSO\dK"/>
-			<SID Name="OLILA\dK"/>
-			<SID Name="LOLSI\dK"/>
-			<SID Name="SOXER\dK"/>
-			<SID Name="EVINA\dK"/>
-			<SID Name="XIMBA\dK"/>
-			<STAR Name="BIMPA\dU"/>
-			<STAR Name="SORIX\dU"/>
-			<STAR Name="NEPOX\dU"/>
-			<STAR Name="LIMVI\dU"/>
-			<STAR Name="LOGDA\dU"/>
-			<STAR Name="AGAVA\dU"/>
-		</Runway>
-	</Airport>
-  </SystemRunways>
-  <Airways>
-  </Airways>
-  <Intersections>
-	<!-- FIXES -->
-    <!-- VOR -->
-	<Point Name="BYZ" Type="Navaid" NavaidType="VOR" Frequency="112.700">+530554.0+0175818.0</Point>
-	<Point Name="CMP" Type="Navaid" NavaidType="VOR" Frequency="114.500">+520800.0+0164309.0</Point>
-	<Point Name="DAR" Type="Navaid" NavaidType="VOR" Frequency="114.200">+542437.0+0162317.0</Point>
-	<Point Name="GZD" Type="Navaid" NavaidType="VOR" Frequency="116.100">+542316.0+0182531.0</Point>
-	<Point Name="GRU" Type="Navaid" NavaidType="VOR" Frequency="114.600">+533116.0+0184653.0</Point>
-	<Point Name="KAX" Type="Navaid" NavaidType="VOR" Frequency="114.800">+502840.0+0190506.0</Point>
-	<Point Name="KAK" Type="Navaid" NavaidType="VOR" Frequency="112.800">+500436.0+0194717.0</Point>
-	<Point Name="LOZ" Type="Navaid" NavaidType="VOR" Frequency="112.400">+514634.0+0193729.0</Point>
-	<Point Name="RSW" Type="Navaid" NavaidType="VOR" Frequency="110.600">+514633.0+0220803.0</Point>
-	<Point Name="MRA" Type="Navaid" NavaidType="VOR" Frequency="117.300">+534706.0+0210758.0</Point>
-	<Point Name="LAW" Type="Navaid" NavaidType="VOR" Frequency="115.800">+522521.0+0164949.0</Point>
-	<Point Name="RAD" Type="Navaid" NavaidType="VOR" Frequency="113.850">+512322.0+0211213.0</Point>
-	<Point Name="RZE" Type="Navaid" NavaidType="VOR" Frequency="116.200">+500629.0+0220108.0</Point>
-	<Point Name="SIE" Type="Navaid" NavaidType="VOR" Frequency="114.700">+520919.0+0221203.0</Point>
-	<Point Name="RUD" Type="Navaid" NavaidType="VOR" Frequency="115.100">+524950.0+0234226.0</Point>
-	<Point Name="SUW" Type="Navaid" NavaidType="VOR" Frequency="117.700">+540411.0+0225401.0</Point>
-	<Point Name="SCZ" Type="Navaid" NavaidType="VOR" Frequency="114.750">+533543.0+0145253.0</Point>
-	<Point Name="SYN" Type="Navaid" NavaidType="VOR" Frequency="111.050">+533626.0+0210033.0</Point>
-	<Point Name="SWI" Type="Navaid" NavaidType="VOR" Frequency="112.200">+511410.0+0224108.0</Point>
-	<Point Name="MOL" Type="Navaid" NavaidType="VOR" Frequency="116.600">+522709.0+0204040.0</Point>
-	<Point Name="WCL" Type="Navaid" NavaidType="VOR" Frequency="111.650">+510534.0+0165508.0</Point>
-	<Point Name="WAR" Type="Navaid" NavaidType="VOR" Frequency="114.900">+521533.0+0203926.0</Point>
-	<Point Name="ZLG" Type="Navaid" NavaidType="VOR" Frequency="110.650">+520827.0+0154802.0</Point>
-	<!-- NDB -->
-	<!-- TMA WARSZAWA VFR -->
-	<Point Name="EPWAA" Type="Fix">+520348.0+0204436.0</Point>
-	<Point Name="EPWAB" Type="Fix">+521103.0+0203650.0</Point>
-	<Point Name="EPWAD" Type="Fix">+522036.0+0211340.0</Point>
-	<Point Name="EPWAE" Type="Fix">+521054.0+0205910.0</Point>
-	<Point Name="EPWAF" Type="Fix">+521539.0+0204408.0</Point>
-	<Point Name="EPWAG" Type="Fix">+515927.0+0211405.0</Point>
-	<Point Name="EPMOH" Type="Fix">+523257.0+0203004.0</Point>
-	<Point Name="EPMOI" Type="Fix">+522828.0+0203855.0</Point>
-	<Point Name="EPWAJ" Type="Fix">+522240.0+0205500.0</Point>
-	<Point Name="EPMOJ" Type="Fix">+522240.0+0205500.0</Point>
-	<Point Name="EPWAK" Type="Fix">+520529.0+0211415.0</Point>
-	<Point Name="EPWAL" Type="Fix">+522000.0+0205300.0</Point>
-	<Point Name="EPWAM" Type="Fix">+521322.0+0211500.0</Point>
-	<Point Name="EPWAN" Type="Fix">+521303.0+0210550.0</Point>
-	<Point Name="EPWAO" Type="Fix">+521151.0+0210306.0</Point>
-	<Point Name="EPWAP" Type="Fix">+521817.0+0210502.0</Point>
-	<Point Name="EPMOQ" Type="Fix">+522240.0+0201113.0</Point>
-	<Point Name="EPWAR" Type="Fix">+520806.0+0205322.0</Point>
-	<Point Name="EPMOS" Type="Fix">+523621.0+0202358.0</Point>
-	<Point Name="EPWAT" Type="Fix">+515814.0+0205001.0</Point>
-	<Point Name="EPMOU" Type="Fix">+522545.0+0203915.0</Point>
-	<Point Name="EPMOV" Type="Fix">+522341.0+0203226.0</Point>
-	<Point Name="EPWAW" Type="Fix">+520925.0+0205659.0</Point>
-	<Point Name="EPWAX" Type="Fix">+520631.0+0204951.0</Point>
-	<Point Name="EPMOY" Type="Fix">+523448.0+0204625.0</Point>
-	<Point Name="EPWAZ" Type="Fix">+521725.0+0210039.0</Point>
-	<!-- EPLL VFR -->
-	<Point Name="EPLLC" Type="Fix">+514355.0+0185713.0</Point>
-	<Point Name="EPLLE" Type="Fix">+514800.0+0193810.0</Point>
-	<Point Name="EPLLG" Type="Fix">+514126.0+0190802.0</Point>
-	<Point Name="EPLLH" Type="Fix">+513816.0+0191617.0</Point>
-	<Point Name="EPLLK" Type="Fix">+514343.0+0194838.0</Point>
-	<Point Name="EPLLL" Type="Fix">+514834.0+0191710.0</Point>
-	<Point Name="EPLLR" Type="Fix">+513820.0+0192955.0</Point>
-	<Point Name="EPLLS" Type="Fix">+514125.0+0192636.0</Point>
-	<Point Name="EPLLW" Type="Fix">+514440.0+0190712.0</Point>
-	<Point Name="EPLLX" Type="Fix">+515330.0+0193806.0</Point>
-	<Point Name="EPLLY" Type="Fix">+514455.0+0192100.0</Point>
-	<!-- EPLB VFR -->
-	<Point Name="EPLBB" Type="Fix">+510525.0+0221716.0</Point>
-    <Point Name="EPLBD" Type="Fix">+512044.0+0223826.0</Point>
-    <Point Name="EPLBE" Type="Fix">+510938.0+0225643.0</Point>
-    <Point Name="EPLBJ" Type="Fix">+510603.0+0223458.0</Point>
-    <Point Name="EPLBK" Type="Fix">+510657.0+0224543.0</Point>
-    <Point Name="EPLBL" Type="Fix">+511814.0+0225213.0</Point>
-	<Point Name="EPLBP" Type="Fix">+510748.0+0225013.0</Point>
-	<Point Name="EPLBR" Type="Fix">+511942.0+0225949.0</Point>
-    <Point Name="EPLBS" Type="Fix">+511318.0+0224431.0</Point>
-    <Point Name="EPLBT" Type="Fix">+511649.0+0224214.0</Point>
-    <Point Name="EPLBW" Type="Fix">+512059.0+0222042.0</Point>
-	<Point Name="EPLBZ" Type="Fix">+511040.0+0223142.0</Point>
-	<!-- EPGD VFR -->
-	<Point Name="EPGDG" Type="Fix">+542228.0+0184644.0</Point>
-	<Point Name="EPGDI" Type="Fix">+542816.0+0181835.0</Point>
-	<Point Name="EPGDM" Type="Fix">+542641.0+0183240.0</Point>
-	<Point Name="EPGDN" Type="Fix">+542442.0+0182906.0</Point>
-	<Point Name="EPGDS" Type="Fix">+542042.0+0182606.0</Point>
-	<Point Name="EPGDX" Type="Fix">+541634.0+0182922.0</Point>
-	<Point Name="EPGDZ" Type="Fix">+541930.0+0181101.0</Point>
-  </Intersections>
-  <SIDSTARs>
-	<SID Name="BAMSO5A" Airport="EPWA" Runways="11">
-		<Route>WA602 WA607 WA698 BAMSO</Route>
-	</SID>
-	<SID Name="OLILA6A" Airport="EPWA" Runways="11">
-		<Route>WA602 WA607 DOPOX TISEX INSON OLILA</Route>
-	</SID>
-	<SID Name="LOLSI6A" Airport="EPWA" Runways="11">
-		<Route>WA602 WA609 GILAL LOLSI</Route>
-	</SID>
-	<SID Name="SOXER6A" Airport="EPWA" Runways="11">
-		<Route>WA602 WA609 GILAL SOXER</Route>
-	</SID>
-	<SID Name="EVINA5A" Airport="EPWA" Runways="11">
-		<Route>WA602 WA609 NITKI NIPUS EVINA</Route>
-	</SID>
-	<SID Name="XIMBA5A" Airport="EPWA" Runways="11">
-		<Route>WA602 WA608 XIMBA</Route>
-	</SID>
-	<SID Name="BAMSO5D" Airport="EPWA" Runways="15">
-		<Route>WA401 WA404 WA657 WA698 BAMSO</Route>
-	</SID>
-	<SID Name="OLILA5D" Airport="EPWA" Runways="15">
-		<Route>WA401 WA404 DOPOX TISEX INSON OLILA</Route>
-	</SID>
-	<SID Name="LOLSI6D" Airport="EPWA" Runways="15">
-		<Route>WA401 WA402 GILAL LOLSI</Route>
-	</SID>
-	<SID Name="SOXER6D" Airport="EPWA" Runways="15">
-		<Route>WA602 WA609 GILAL SOXER</Route>
-	</SID>
-	<SID Name="EVINA5D" Airport="EPWA" Runways="15">
-		<Route>WA401 WA402 NITKI NIPUS EVINA</Route>
-	</SID>
-	<SID Name="XIMBA6D" Airport="EPWA" Runways="15">
-		<Route>WA401 WA403 XIMBA</Route>
-	</SID>
-	<SID Name="BAMSO6G" Airport="EPWA" Runways="29">
-		<Route>WA901 WA931 WA932 WA791 BITVA WA571 BAMSO</Route>
-	</SID>
-	<SID Name="OLILA6G" Airport="EPWA" Runways="29">
-		<Route>WA901 WA931 WA932 WA791 INRAS RODEV OLILA</Route>
-	</SID>
-	<SID Name="LOLSI7G" Airport="EPWA" Runways="29">
-		<Route>WA901 WA902 WA903 MAKUS LOLSI</Route>
-	</SID>
-	<SID Name="SOXER7G" Airport="EPWA" Runways="29">
-		<Route>WA901 WA902 WA903 MAKUS SOXER</Route>
-	</SID>
-	<SID Name="EVINA7G" Airport="EPWA" Runways="29">
-		<Route>WA901 WA921 EVDEX NIPUS EVINA</Route>
-	</SID>
-	<SID Name="XIMBA7G" Airport="EPWA" Runways="29">
-		<Route>WA901 WA921 EVDEX XENOM TISTA XIMBA</Route>
-	</SID>
-	<SID Name="BAMSO5K" Airport="EPWA" Runways="33">
-		<Route>WA801 WA803 WA791 BITVA WA571 BAMSO</Route>
-	</SID>
-	<SID Name="OLILA5K" Airport="EPWA" Runways="33">
-		<Route>WA801 WA803 WA791 INRAS RODEV OLILA</Route>
-	</SID>
-	<SID Name="LOLSI5K" Airport="EPWA" Runways="33">
-		<Route>WA801 WA802 MAKUS LOLSI</Route>
-	</SID>
-	<SID Name="SOXER5K" Airport="EPWA" Runways="33">
-		<Route>WA801 WA802 MAKUS SOXER</Route>
-	</SID>
-	<SID Name="EVINA4K" Airport="EPWA" Runways="33">
-		<Route>WA801 WA802 EVDEX NIPUS EVINA</Route>
-	</SID>
-	<SID Name="XIMBA4K" Airport="EPWA" Runways="33">
-		<Route>WA801 WA802 EVDEX XENOM TISTA XIMBA</Route>
-	</SID>
-	<STAR Name="BIMPA5N" Airport="EPWA" Runways="11">
-		<Route>BIMPA WA444 OLDIM ELGAD SOPAM RUNIN MIGVI REMDI AGESI TABET INLUT WA413 WA412 WA411 GOSIT</Route>
-	</STAR>
-	<STAR Name="SORIX5N" Airport="EPWA" Runways="11">
-		<Route>SORIX IRDOM OLDIM ELGAD SOPAM RUNIN MIGVI REMDI AGESI TABET INLUT WA413 WA412 WA411 GOSIT</Route>
-	</STAR>
-	<STAR Name="NEPOX4N" Airport="EPWA" Runways="11">
-		<Route>NEPOX INPAL DETOR EMKEN TOSLU XIMPU NIMIS REMDI AGESI TABET INLUT WA413 WA412 WA411 GOSIT</Route>
-	</STAR>
-	<STAR Name="LIMVI4N" Airport="EPWA" Runways="11">
-		<Route>LIMVI WA442 EMKEN TOSLU XIMPU NIMIS REMDI AGESI TABET INLUT WA413 WA412 WA411 GOSIT</Route>
-	</STAR>
-	<STAR Name="LOGDA4N" Airport="EPWA" Runways="11">
-		<Route>LOGDA GIPUL BEMRA OLOKU SOSIN BASEK LUGEL PIBAR REDSA WA414 WA413 WA412 WA411 GOSIT</Route>
-	</STAR>
-	<STAR Name="AGAVA4N" Airport="EPWA" Runways="11">
-		<Route>AGAVA ELKIR AMSOS ESINI BEMRA OLOKU SOSIN BASEK LUGEL PIBAR REDSA WA414 WA413 WA412 WA411 GOSIT</Route>
-	</STAR>
-	<STAR Name="BIMPA3P" Airport="EPWA" Runways="15">
-		<Route>BIMPA INREN WA448 LUGEL AMLAS RILSU MARUP LUXIB NANOM RONIR WA618 WA617 WA616 WA614 OSNUT</Route>
-	</STAR>
-	<STAR Name="SORIX3P" Airport="EPWA" Runways="15">
-		<Route>SORIX INREN WA448 LUGEL AMLAS RILSU MARUP LUXIB NANOM RONIR WA618 WA617 WA616 WA614 OSNUT</Route>
-	</STAR>
-	<STAR Name="NEPOX3P" Airport="EPWA" Runways="15">
-		<Route>NEPOX INPAL DETOR EMKEN WA468 NEDNA SUBEG ELGEL GIMKU WA617 WA616 WA614 OSNUT</Route>
-	</STAR>
-	<STAR Name="LIMVI3P" Airport="EPWA" Runways="15">
-		<Route>LIMVI WA442 EMKEN WA468 NEDNA SUBEG ELGEL GIMKU WA617 WA616 WA614 OSNUT</Route>
-	</STAR>
-	<STAR Name="LOGDA3P" Airport="EPWA" Runways="15">
-		<Route>LOGDA GIPUL BEMRA WA452 NEDNA SUBEG ELGEL GIMKU WA617 WA616 WA614 OSNUT</Route>
-	</STAR>
-	<STAR Name="AGAVA3P" Airport="EPWA" Runways="15">
-		<Route>AGAVA ELKIR AMSOS ESINI BEMRA WA452 NEDNA SUBEG ELGEL GIMKU WA617 WA616 WA614 OSNUT</Route>
-	</STAR>
-	<STAR Name="BIMPA4V" Airport="EPWA" Runways="29">
-		<Route>BIMPA GOMSA WA507 WA709 WA532 WA531 ABAPA MAPIX KUMUT ENIMO WA733 WA732 WA731 WA729 TEBRU</Route>
-	</STAR>
-	<STAR Name="SORIX4V" Airport="EPWA" Runways="29">
-		<Route>SORIX DINRI WA508 TINBU REBSO DINVA ODRIM ODMEK TIGTU RIKNO WA732 WA731 WA729 TEBRU</Route>
-	</STAR>
-	<STAR Name="NEPOX4V" Airport="EPWA" Runways="29">
-		<Route>NEPOX WA704 SUPID ROPUX UNDES ODMEK TIGTU RIKNO WA732 WA731 WA729 TEBRU</Route>
-	</STAR>
-	<STAR Name="LIMVI4V" Airport="EPWA" Runways="29">
-		<Route>LIMVI WA511 WA512 SUPID ROPUX UNDES ODMEK TIGTU RIKNO WA732 WA731 WA729 TEBRU</Route>
-	</STAR>
-	<STAR Name="LOGDA4V" Airport="EPWA" Runways="29">
-		<Route>LOGDA WA593 INSEX KUVAM OSTET SOROT WA531 ABAPA MAPIX KUMUT ENIMO WA733 WA732 WA731 WA729 TEBRU</Route>
-	</STAR>
-	<STAR Name="AGAVA4V" Airport="EPWA" Runways="29">
-		<Route>AGAVA ELKIR AMSOS WA593 INSEX WA564 XEMRO PIVIP UMTIX OTMUL NEGEN BARNA WA536 WA534 WA533 ERLEG</Route>
-	</STAR>
-	<STAR Name="BIMPA4U" Airport="EPWA" Runways="33">
-		<Route>BIMPA GOMSA WA507 LAVMO UMTIX OTMUL NEGEN BARNA WA536 WA534 WA533 ERLEG</Route>
-	</STAR>
-	<STAR Name="SORIX4U" Airport="EPWA" Runways="33">
-		<Route>SORIX DINRI WA508 TINBU REBSO BEXON ADINI SISLU LEMBU NUTSO WA537 WA536 WA534 WA533 ERLEG</Route>
-	</STAR>
-	<STAR Name="NEPOX4U" Airport="EPWA" Runways="33">
-		<Route>NEPOX WA573 WA594 IPSIM PISEN BEXON ADINI SISLU LEMBU NUTSO WA537 WA536 WA534 WA533 ERLEG</Route>
-	</STAR>
-	<STAR Name="LIMVI4U" Airport="EPWA" Runways="33">
-		<Route>LIMVI RILET DETOR WA594 IPSIM PISEN BEXON ADINI SISLU LEMBU NUTSO WA537 WA536 WA534 WA533 ERLEG</Route>
-	</STAR>
-	<STAR Name="LOGDA4U" Airport="EPWA" Runways="33">
-		<Route>LOGDA WA593 INSEX WA564 XEMRO PIVIP UMTIX OTMUL NEGEN BARNA WA536 WA534 WA533 ERLEG</Route>
-	</STAR>
-	<STAR Name="AGAVA4U" Airport="EPWA" Runways="33">
-		<Route>AGAVA ELKIR AMSOS WA593 INSEX KUVAM OSTET SOROT WA531 ABAPA MAPIX KUMUT ENIMO WA733 WA732 WA731 WA729 TEBRU</Route>
-	</STAR>
-  </SIDSTARs>
-  <Airports>
-	<Airport ICAO="EPWA" Position="+520957.0+0205802.0" Elevation="362">
-		<Runway Name="11" Position="+521017.0+0205648.0" />
-		<Runway Name="15" Position="+521043.0+0205121.0" />
-		<Runway Name="29" Position="+520940.0+0205902.0" />
-		<Runway Name="33" Position="+520858.0+0205853.0" />
-	</Airport>
-    <Airport ICAO="EPZB" Position="+522143.4+0163819.5" Elevation="268" />
-	<Airport ICAO="EPPG" Position="+521404.7+0161437.0" Elevation="313" />
-	<Airport ICAO="EPUL" Position="+513708.8+0220605.1" Elevation="560" Name="Ulez"/>
-  </Airports>
+	<SystemRunways>
+		<Airport Name="EPWA">
+			<Runway Name="11" DataRunway="11">
+				<SID Name="BAMSO\dA" />
+				<SID Name="OLILA\dA" />
+				<SID Name="LOLSI\dA" />
+				<SID Name="SOXER\dA" />
+				<SID Name="EVINA\dA" />
+				<SID Name="XIMBA\dA" />
+				<STAR Name="BIMPA\dN" />
+				<STAR Name="SORIX\dN" />
+				<STAR Name="NEPOX\dN" />
+				<STAR Name="LIMVI\dN" />
+				<STAR Name="LOGDA\dN" />
+				<STAR Name="AGAVA\dN" />
+			</Runway>
+			<Runway Name="15" DataRunway="15">
+				<SID Name="BAMSO\dD" />
+				<SID Name="OLILA\dD" />
+				<SID Name="LOLSI\dD" />
+				<SID Name="SOXER\dD" />
+				<SID Name="EVINA\dD" />
+				<SID Name="XIMBA\dD" />
+				<STAR Name="BIMPA\dP" />
+				<STAR Name="SORIX\dP" />
+				<STAR Name="NEPOX\dP" />
+				<STAR Name="LIMVI\dP" />
+				<STAR Name="LOGDA\dP" />
+				<STAR Name="AGAVA\dP" />
+			</Runway>
+			<Runway Name="29" DataRunway="29">
+				<SID Name="BAMSO\dG" />
+				<SID Name="OLILA\dG" />
+				<SID Name="LOLSI\dG" />
+				<SID Name="SOXER\dG" />
+				<SID Name="EVINA\dG" />
+				<SID Name="XIMBA\dG" />
+				<STAR Name="BIMPA\dV" />
+				<STAR Name="SORIX\dV" />
+				<STAR Name="NEPOX\dV" />
+				<STAR Name="LIMVI\dV" />
+				<STAR Name="LOGDA\dV" />
+				<STAR Name="AGAVA\dV" />
+			</Runway>
+			<Runway Name="33" DataRunway="33">
+				<SID Name="BAMSO\dK" />
+				<SID Name="OLILA\dK" />
+				<SID Name="LOLSI\dK" />
+				<SID Name="SOXER\dK" />
+				<SID Name="EVINA\dK" />
+				<SID Name="XIMBA\dK" />
+				<STAR Name="BIMPA\dU" />
+				<STAR Name="SORIX\dU" />
+				<STAR Name="NEPOX\dU" />
+				<STAR Name="LIMVI\dU" />
+				<STAR Name="LOGDA\dU" />
+				<STAR Name="AGAVA\dU" />
+			</Runway>
+		</Airport>
+	</SystemRunways>
+	<Airways></Airways>
+	<Intersections>
+		<!-- FIXES -->
+		<!-- VOR -->
+		<Point Name="BYZ" Type="Navaid" NavaidType="VOR" Frequency="112.700">+530554.0+0175818.0</Point>
+		<Point Name="CMP" Type="Navaid" NavaidType="VOR" Frequency="114.500">+520800.0+0164309.0</Point>
+		<Point Name="DAR" Type="Navaid" NavaidType="VOR" Frequency="114.200">+542437.0+0162317.0</Point>
+		<Point Name="GZD" Type="Navaid" NavaidType="VOR" Frequency="116.100">+542316.0+0182531.0</Point>
+		<Point Name="GRU" Type="Navaid" NavaidType="VOR" Frequency="114.600">+533116.0+0184653.0</Point>
+		<Point Name="KAX" Type="Navaid" NavaidType="VOR" Frequency="114.800">+502840.0+0190506.0</Point>
+		<Point Name="KAK" Type="Navaid" NavaidType="VOR" Frequency="112.800">+500436.0+0194717.0</Point>
+		<Point Name="LOZ" Type="Navaid" NavaidType="VOR" Frequency="112.400">+514634.0+0193729.0</Point>
+		<Point Name="RSW" Type="Navaid" NavaidType="VOR" Frequency="110.600">+514633.0+0220803.0</Point>
+		<Point Name="MRA" Type="Navaid" NavaidType="VOR" Frequency="117.300">+534706.0+0210758.0</Point>
+		<Point Name="LAW" Type="Navaid" NavaidType="VOR" Frequency="115.800">+522521.0+0164949.0</Point>
+		<Point Name="RAD" Type="Navaid" NavaidType="VOR" Frequency="113.850">+512322.0+0211213.0</Point>
+		<Point Name="RZE" Type="Navaid" NavaidType="VOR" Frequency="116.200">+500629.0+0220108.0</Point>
+		<Point Name="SIE" Type="Navaid" NavaidType="VOR" Frequency="114.700">+520919.0+0221203.0</Point>
+		<Point Name="RUD" Type="Navaid" NavaidType="VOR" Frequency="115.100">+524950.0+0234226.0</Point>
+		<Point Name="SUW" Type="Navaid" NavaidType="VOR" Frequency="117.700">+540411.0+0225401.0</Point>
+		<Point Name="SCZ" Type="Navaid" NavaidType="VOR" Frequency="114.750">+533543.0+0145253.0</Point>
+		<Point Name="SYN" Type="Navaid" NavaidType="VOR" Frequency="111.050">+533626.0+0210033.0</Point>
+		<Point Name="SWI" Type="Navaid" NavaidType="VOR" Frequency="112.200">+511410.0+0224108.0</Point>
+		<Point Name="MOL" Type="Navaid" NavaidType="VOR" Frequency="116.600">+522709.0+0204040.0</Point>
+		<Point Name="WCL" Type="Navaid" NavaidType="VOR" Frequency="111.650">+510534.0+0165508.0</Point>
+		<Point Name="WAR" Type="Navaid" NavaidType="VOR" Frequency="114.900">+521533.0+0203926.0</Point>
+		<Point Name="ZLG" Type="Navaid" NavaidType="VOR" Frequency="110.650">+520827.0+0154802.0</Point>
+		<!-- NDB -->
+		<!-- TMA WARSZAWA VFR -->
+		<Point Name="EPWAA" Type="Fix">+520348.0+0204436.0</Point>
+		<Point Name="EPWAB" Type="Fix">+521103.0+0203650.0</Point>
+		<Point Name="EPWAD" Type="Fix">+522036.0+0211340.0</Point>
+		<Point Name="EPWAE" Type="Fix">+521054.0+0205910.0</Point>
+		<Point Name="EPWAF" Type="Fix">+521539.0+0204408.0</Point>
+		<Point Name="EPWAG" Type="Fix">+515927.0+0211405.0</Point>
+		<Point Name="EPMOH" Type="Fix">+523257.0+0203004.0</Point>
+		<Point Name="EPMOI" Type="Fix">+522828.0+0203855.0</Point>
+		<Point Name="EPWAJ" Type="Fix">+522240.0+0205500.0</Point>
+		<Point Name="EPMOJ" Type="Fix">+522240.0+0205500.0</Point>
+		<Point Name="EPWAK" Type="Fix">+520529.0+0211415.0</Point>
+		<Point Name="EPWAL" Type="Fix">+522000.0+0205300.0</Point>
+		<Point Name="EPWAM" Type="Fix">+521322.0+0211500.0</Point>
+		<Point Name="EPWAN" Type="Fix">+521303.0+0210550.0</Point>
+		<Point Name="EPWAO" Type="Fix">+521151.0+0210306.0</Point>
+		<Point Name="EPWAP" Type="Fix">+521817.0+0210502.0</Point>
+		<Point Name="EPMOQ" Type="Fix">+522240.0+0201113.0</Point>
+		<Point Name="EPWAR" Type="Fix">+520806.0+0205322.0</Point>
+		<Point Name="EPMOS" Type="Fix">+523621.0+0202358.0</Point>
+		<Point Name="EPWAT" Type="Fix">+515814.0+0205001.0</Point>
+		<Point Name="EPMOU" Type="Fix">+522545.0+0203915.0</Point>
+		<Point Name="EPMOV" Type="Fix">+522341.0+0203226.0</Point>
+		<Point Name="EPWAW" Type="Fix">+520925.0+0205659.0</Point>
+		<Point Name="EPWAX" Type="Fix">+520631.0+0204951.0</Point>
+		<Point Name="EPMOY" Type="Fix">+523448.0+0204625.0</Point>
+		<Point Name="EPWAZ" Type="Fix">+521725.0+0210039.0</Point>
+		<!-- EPLL VFR -->
+		<Point Name="EPLLC" Type="Fix">+514355.0+0185713.0</Point>
+		<Point Name="EPLLE" Type="Fix">+514800.0+0193810.0</Point>
+		<Point Name="EPLLG" Type="Fix">+514126.0+0190802.0</Point>
+		<Point Name="EPLLH" Type="Fix">+513816.0+0191617.0</Point>
+		<Point Name="EPLLK" Type="Fix">+514343.0+0194838.0</Point>
+		<Point Name="EPLLL" Type="Fix">+514834.0+0191710.0</Point>
+		<Point Name="EPLLR" Type="Fix">+513820.0+0192955.0</Point>
+		<Point Name="EPLLS" Type="Fix">+514125.0+0192636.0</Point>
+		<Point Name="EPLLW" Type="Fix">+514440.0+0190712.0</Point>
+		<Point Name="EPLLX" Type="Fix">+515330.0+0193806.0</Point>
+		<Point Name="EPLLY" Type="Fix">+514455.0+0192100.0</Point>
+		<!-- EPLB VFR -->
+		<Point Name="EPLBB" Type="Fix">+510525.0+0221716.0</Point>
+		<Point Name="EPLBD" Type="Fix">+512044.0+0223826.0</Point>
+		<Point Name="EPLBE" Type="Fix">+510938.0+0225643.0</Point>
+		<Point Name="EPLBJ" Type="Fix">+510603.0+0223458.0</Point>
+		<Point Name="EPLBK" Type="Fix">+510657.0+0224543.0</Point>
+		<Point Name="EPLBL" Type="Fix">+511814.0+0225213.0</Point>
+		<Point Name="EPLBP" Type="Fix">+510748.0+0225013.0</Point>
+		<Point Name="EPLBR" Type="Fix">+511942.0+0225949.0</Point>
+		<Point Name="EPLBS" Type="Fix">+511318.0+0224431.0</Point>
+		<Point Name="EPLBT" Type="Fix">+511649.0+0224214.0</Point>
+		<Point Name="EPLBW" Type="Fix">+512059.0+0222042.0</Point>
+		<Point Name="EPLBZ" Type="Fix">+511040.0+0223142.0</Point>
+		<!-- EPGD VFR -->
+		<Point Name="EPGDG" Type="Fix">+542228.0+0184644.0</Point>
+		<Point Name="EPGDI" Type="Fix">+542816.0+0181835.0</Point>
+		<Point Name="EPGDM" Type="Fix">+542641.0+0183240.0</Point>
+		<Point Name="EPGDN" Type="Fix">+542442.0+0182906.0</Point>
+		<Point Name="EPGDS" Type="Fix">+542042.0+0182606.0</Point>
+		<Point Name="EPGDX" Type="Fix">+541634.0+0182922.0</Point>
+		<Point Name="EPGDZ" Type="Fix">+541930.0+0181101.0</Point>
+	</Intersections>
+	<SIDSTARs>
+		<SID Name="BAMSO5A" Airport="EPWA" Runways="11">
+			<Route>WA602 WA607 WA698 BAMSO</Route>
+		</SID>
+		<SID Name="OLILA6A" Airport="EPWA" Runways="11">
+			<Route>WA602 WA607 DOPOX TISEX INSON OLILA</Route>
+		</SID>
+		<SID Name="LOLSI6A" Airport="EPWA" Runways="11">
+			<Route>WA602 WA609 GILAL LOLSI</Route>
+		</SID>
+		<SID Name="SOXER6A" Airport="EPWA" Runways="11">
+			<Route>WA602 WA609 GILAL SOXER</Route>
+		</SID>
+		<SID Name="EVINA5A" Airport="EPWA" Runways="11">
+			<Route>WA602 WA609 NITKI NIPUS EVINA</Route>
+		</SID>
+		<SID Name="XIMBA5A" Airport="EPWA" Runways="11">
+			<Route>WA602 WA608 XIMBA</Route>
+		</SID>
+		<SID Name="BAMSO5D" Airport="EPWA" Runways="15">
+			<Route>WA401 WA404 WA657 WA698 BAMSO</Route>
+		</SID>
+		<SID Name="OLILA5D" Airport="EPWA" Runways="15">
+			<Route>WA401 WA404 DOPOX TISEX INSON OLILA</Route>
+		</SID>
+		<SID Name="LOLSI6D" Airport="EPWA" Runways="15">
+			<Route>WA401 WA402 GILAL LOLSI</Route>
+		</SID>
+		<SID Name="SOXER6D" Airport="EPWA" Runways="15">
+			<Route>WA602 WA609 GILAL SOXER</Route>
+		</SID>
+		<SID Name="EVINA5D" Airport="EPWA" Runways="15">
+			<Route>WA401 WA402 NITKI NIPUS EVINA</Route>
+		</SID>
+		<SID Name="XIMBA6D" Airport="EPWA" Runways="15">
+			<Route>WA401 WA403 XIMBA</Route>
+		</SID>
+		<SID Name="BAMSO6G" Airport="EPWA" Runways="29">
+			<Route>WA901 WA931 WA932 WA791 BITVA WA571 BAMSO</Route>
+		</SID>
+		<SID Name="OLILA6G" Airport="EPWA" Runways="29">
+			<Route>WA901 WA931 WA932 WA791 INRAS RODEV OLILA</Route>
+		</SID>
+		<SID Name="LOLSI7G" Airport="EPWA" Runways="29">
+			<Route>WA901 WA902 WA903 MAKUS LOLSI</Route>
+		</SID>
+		<SID Name="SOXER7G" Airport="EPWA" Runways="29">
+			<Route>WA901 WA902 WA903 MAKUS SOXER</Route>
+		</SID>
+		<SID Name="EVINA7G" Airport="EPWA" Runways="29">
+			<Route>WA901 WA921 EVDEX NIPUS EVINA</Route>
+		</SID>
+		<SID Name="XIMBA7G" Airport="EPWA" Runways="29">
+			<Route>WA901 WA921 EVDEX XENOM TISTA XIMBA</Route>
+		</SID>
+		<SID Name="BAMSO5K" Airport="EPWA" Runways="33">
+			<Route>WA801 WA803 WA791 BITVA WA571 BAMSO</Route>
+		</SID>
+		<SID Name="OLILA5K" Airport="EPWA" Runways="33">
+			<Route>WA801 WA803 WA791 INRAS RODEV OLILA</Route>
+		</SID>
+		<SID Name="LOLSI5K" Airport="EPWA" Runways="33">
+			<Route>WA801 WA802 MAKUS LOLSI</Route>
+		</SID>
+		<SID Name="SOXER5K" Airport="EPWA" Runways="33">
+			<Route>WA801 WA802 MAKUS SOXER</Route>
+		</SID>
+		<SID Name="EVINA4K" Airport="EPWA" Runways="33">
+			<Route>WA801 WA802 EVDEX NIPUS EVINA</Route>
+		</SID>
+		<SID Name="XIMBA4K" Airport="EPWA" Runways="33">
+			<Route>WA801 WA802 EVDEX XENOM TISTA XIMBA</Route>
+		</SID>
+		<STAR Name="BIMPA5N" Airport="EPWA" Runways="11">
+			<Route>BIMPA WA444 OLDIM ELGAD SOPAM RUNIN MIGVI REMDI AGESI TABET INLUT WA413 WA412 WA411 GOSIT</Route>
+		</STAR>
+		<STAR Name="SORIX5N" Airport="EPWA" Runways="11">
+			<Route>SORIX IRDOM OLDIM ELGAD SOPAM RUNIN MIGVI REMDI AGESI TABET INLUT WA413 WA412 WA411 GOSIT</Route>
+		</STAR>
+		<STAR Name="NEPOX4N" Airport="EPWA" Runways="11">
+			<Route>NEPOX INPAL DETOR EMKEN TOSLU XIMPU NIMIS REMDI AGESI TABET INLUT WA413 WA412 WA411 GOSIT</Route>
+		</STAR>
+		<STAR Name="LIMVI4N" Airport="EPWA" Runways="11">
+			<Route>LIMVI WA442 EMKEN TOSLU XIMPU NIMIS REMDI AGESI TABET INLUT WA413 WA412 WA411 GOSIT</Route>
+		</STAR>
+		<STAR Name="LOGDA4N" Airport="EPWA" Runways="11">
+			<Route>LOGDA GIPUL BEMRA OLOKU SOSIN BASEK LUGEL PIBAR REDSA WA414 WA413 WA412 WA411 GOSIT</Route>
+		</STAR>
+		<STAR Name="AGAVA4N" Airport="EPWA" Runways="11">
+			<Route>AGAVA ELKIR AMSOS ESINI BEMRA OLOKU SOSIN BASEK LUGEL PIBAR REDSA WA414 WA413 WA412 WA411 GOSIT</Route>
+		</STAR>
+		<STAR Name="BIMPA3P" Airport="EPWA" Runways="15">
+			<Route>BIMPA INREN WA448 LUGEL AMLAS RILSU MARUP LUXIB NANOM RONIR WA618 WA617 WA616 WA614 OSNUT</Route>
+		</STAR>
+		<STAR Name="SORIX3P" Airport="EPWA" Runways="15">
+			<Route>SORIX INREN WA448 LUGEL AMLAS RILSU MARUP LUXIB NANOM RONIR WA618 WA617 WA616 WA614 OSNUT</Route>
+		</STAR>
+		<STAR Name="NEPOX3P" Airport="EPWA" Runways="15">
+			<Route>NEPOX INPAL DETOR EMKEN WA468 NEDNA SUBEG ELGEL GIMKU WA617 WA616 WA614 OSNUT</Route>
+		</STAR>
+		<STAR Name="LIMVI3P" Airport="EPWA" Runways="15">
+			<Route>LIMVI WA442 EMKEN WA468 NEDNA SUBEG ELGEL GIMKU WA617 WA616 WA614 OSNUT</Route>
+		</STAR>
+		<STAR Name="LOGDA3P" Airport="EPWA" Runways="15">
+			<Route>LOGDA GIPUL BEMRA WA452 NEDNA SUBEG ELGEL GIMKU WA617 WA616 WA614 OSNUT</Route>
+		</STAR>
+		<STAR Name="AGAVA3P" Airport="EPWA" Runways="15">
+			<Route>AGAVA ELKIR AMSOS ESINI BEMRA WA452 NEDNA SUBEG ELGEL GIMKU WA617 WA616 WA614 OSNUT</Route>
+		</STAR>
+		<STAR Name="BIMPA4V" Airport="EPWA" Runways="29">
+			<Route>BIMPA GOMSA WA507 WA709 WA532 WA531 ABAPA MAPIX KUMUT ENIMO WA733 WA732 WA731 WA729 TEBRU</Route>
+		</STAR>
+		<STAR Name="SORIX4V" Airport="EPWA" Runways="29">
+			<Route>SORIX DINRI WA508 TINBU REBSO DINVA ODRIM ODMEK TIGTU RIKNO WA732 WA731 WA729 TEBRU</Route>
+		</STAR>
+		<STAR Name="NEPOX4V" Airport="EPWA" Runways="29">
+			<Route>NEPOX WA704 SUPID ROPUX UNDES ODMEK TIGTU RIKNO WA732 WA731 WA729 TEBRU</Route>
+		</STAR>
+		<STAR Name="LIMVI4V" Airport="EPWA" Runways="29">
+			<Route>LIMVI WA511 WA512 SUPID ROPUX UNDES ODMEK TIGTU RIKNO WA732 WA731 WA729 TEBRU</Route>
+		</STAR>
+		<STAR Name="LOGDA4V" Airport="EPWA" Runways="29">
+			<Route>LOGDA WA593 INSEX KUVAM OSTET SOROT WA531 ABAPA MAPIX KUMUT ENIMO WA733 WA732 WA731 WA729 TEBRU</Route>
+		</STAR>
+		<STAR Name="AGAVA4V" Airport="EPWA" Runways="29">
+			<Route>AGAVA ELKIR AMSOS WA593 INSEX WA564 XEMRO PIVIP UMTIX OTMUL NEGEN BARNA WA536 WA534 WA533 ERLEG</Route>
+		</STAR>
+		<STAR Name="BIMPA4U" Airport="EPWA" Runways="33">
+			<Route>BIMPA GOMSA WA507 LAVMO UMTIX OTMUL NEGEN BARNA WA536 WA534 WA533 ERLEG</Route>
+		</STAR>
+		<STAR Name="SORIX4U" Airport="EPWA" Runways="33">
+			<Route>SORIX DINRI WA508 TINBU REBSO BEXON ADINI SISLU LEMBU NUTSO WA537 WA536 WA534 WA533 ERLEG</Route>
+		</STAR>
+		<STAR Name="NEPOX4U" Airport="EPWA" Runways="33">
+			<Route>NEPOX WA573 WA594 IPSIM PISEN BEXON ADINI SISLU LEMBU NUTSO WA537 WA536 WA534 WA533 ERLEG</Route>
+		</STAR>
+		<STAR Name="LIMVI4U" Airport="EPWA" Runways="33">
+			<Route>LIMVI RILET DETOR WA594 IPSIM PISEN BEXON ADINI SISLU LEMBU NUTSO WA537 WA536 WA534 WA533 ERLEG</Route>
+		</STAR>
+		<STAR Name="LOGDA4U" Airport="EPWA" Runways="33">
+			<Route>LOGDA WA593 INSEX WA564 XEMRO PIVIP UMTIX OTMUL NEGEN BARNA WA536 WA534 WA533 ERLEG</Route>
+		</STAR>
+		<STAR Name="AGAVA4U" Airport="EPWA" Runways="33">
+			<Route>AGAVA ELKIR AMSOS WA593 INSEX KUVAM OSTET SOROT WA531 ABAPA MAPIX KUMUT ENIMO WA733 WA732 WA731 WA729 TEBRU</Route>
+		</STAR>
+	</SIDSTARs>
+	<Airports>
+		<Airport ICAO="EPWA" Position="+520957.0+0205802.0" Elevation="362">
+			<Runway Name="11" Position="+521017.0+0205648.0" />
+			<Runway Name="15" Position="+521043.0+0205121.0" />
+			<Runway Name="29" Position="+520940.0+0205902.0" />
+			<Runway Name="33" Position="+520858.0+0205853.0" />
+		</Airport>
+		<Airport ICAO="EPZB" Position="+522143.4+0163819.5" Elevation="268" />
+		<Airport ICAO="EPPG" Position="+521404.7+0161437.0" Elevation="313" />
+		<Airport ICAO="EPUL" Position="+513708.8+0220605.1" Elevation="560" Name="Ulez" />
+	</Airports>
 </Airspace>

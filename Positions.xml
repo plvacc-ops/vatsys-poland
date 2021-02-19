@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Positions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Position Name="EPBC INFO" Type="ASD" DefaultCenter="+521609.0+0205426.0" DefaultRange="50">
-	<Sectors>
-		<Sector Name="IBC"/>
-	</Sectors>
-	<Maps>
-		<Map Name="ALL_SECTORS"/>
-		<Map Name="TMA Warszawa/WA_VFR"/>
-		<Map Name="EPBC/BC_TCU"/>
-	</Maps>
-	<ArrivalLists>
-		<Airport Name="EPBC" />
-	</ArrivalLists>
-	<ControllerInfo>
+    <Sectors>
+      <Sector Name="IBC" />
+    </Sectors>
+    <Maps>
+      <Map Name="ALL_SECTORS" />
+      <Map Name="TMA Warszawa/WA_VFR" />
+      <Map Name="EPBC/BC_TCU" />
+    </Maps>
+    <ArrivalLists>
+      <Airport Name="EPBC" />
+    </ArrivalLists>
+    <ControllerInfo>
       <Line>Babice Information</Line>
-	  <Line>AFIS service</Line>
+      <Line>AFIS service</Line>
       <Line>Charts, feedback and airport coverage on pl-vacc.org.pl</Line>
     </ControllerInfo>
   </Position>
   <Position Name="Warszawa Approach South" Type="ASD" DefaultCenter="+520306.0+0202411.0" DefaultRange="150">
     <Sectors>
       <Sector Name="WAS" />
-	  <Sector Name="WAN" />
-	  <Sector Name="TWA" />
-	  <Sector Name="TLL" />
-	  <Sector Name="TMO" />
+      <Sector Name="WAN" />
+      <Sector Name="TWA" />
+      <Sector Name="TLL" />
+      <Sector Name="TMO" />
     </Sectors>
     <Maps>
       <Map Name="ALL_CTA" />
-	  <Map Name="ALL_MVA" />
+      <Map Name="ALL_MVA" />
       <Map Name="ALL_SECTORS" />
       <Map Name="ALL_NAVAIDS" />
       <Map Name="COAST_ALL" />
@@ -36,39 +36,39 @@
       <Map Name="ALL_POINTS_HIGH" />
       <Map Name="FIR_BDRY" />
       <Map Name="UPPER_SECTOR_FREQS" />
-	  <Map Name="TMA Warszawa/WA_TCU" />
-	  <Map Name="TMA Warszawa/LL_TCU" />
+      <Map Name="TMA Warszawa/WA_TCU" />
+      <Map Name="TMA Warszawa/LL_TCU" />
     </Maps>
     <Strips Mode="Beacon" Sort="Level">
       <Window Type="ADEP" Beacon="EPWA" Visible="true" />
-	  <Window Type="ADEP" Beacon="EPMO" Visible="true" />
-	  <Window Type="ADEP" Beacon="EPLL" Visible="true" />
+      <Window Type="ADEP" Beacon="EPMO" Visible="true" />
+      <Window Type="ADEP" Beacon="EPLL" Visible="true" />
     </Strips>
     <CFL QuickLevel="6000">
-		<AdditionalLevels>4000</AdditionalLevels>
-	</CFL>
+      <AdditionalLevels>4000</AdditionalLevels>
+    </CFL>
     <ArrivalLists>
       <Airport Name="EPWA" />
-	  <Airport Name="EPMO" />
-	  <Airport Name="EPLL" />
+      <Airport Name="EPMO" />
+      <Airport Name="EPLL" />
     </ArrivalLists>
     <ControllerInfo>
       <Line>Warszawa Approach</Line>
-	  <Line>Covering EPWA, EPMO, EPLL | For EPWA ATIS check frequency 120.450</Line>
+      <Line>Covering EPWA, EPMO, EPLL | For EPWA ATIS check frequency 120.450</Line>
       <Line>Charts, feedback and airport coverage on pl-vacc.org.pl</Line>
     </ControllerInfo>
   </Position>
   <Position Name="Poznan Approach North" Type="ASD" DefaultCenter="+522230.0+0164850.0" DefaultRange="150" MagneticVariation="-5">
     <Sectors>
       <Sector Name="PON" />
-	  <Sector Name="POS" />
-	  <Sector Name="TPO" />
-	  <Sector Name="TKS" />
-	  <Sector Name="TWR" />
+      <Sector Name="POS" />
+      <Sector Name="TPO" />
+      <Sector Name="TKS" />
+      <Sector Name="TWR" />
     </Sectors>
     <Maps>
       <Map Name="ALL_CTA" />
-	  <Map Name="ALL_MVA" />
+      <Map Name="ALL_MVA" />
       <Map Name="ALL_SECTORS" />
       <Map Name="ALL_NAVAIDS" />
       <Map Name="COAST_ALL" />
@@ -76,7 +76,7 @@
       <Map Name="ALL_POINTS_HIGH" />
       <Map Name="FIR_BDRY" />
       <Map Name="UPPER_SECTOR_FREQS" />
-	  <Map Name="TMA Poznan/TCU" />
+      <Map Name="TMA Poznan/TCU" />
     </Maps>
     <Strips Mode="State" Sort="Time">
       <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -89,18 +89,18 @@
     </ArrivalLists>
     <ControllerInfo>
       <Line>Poznan Approach North</Line>
-	  <Line>Covering EPPO, EPWR, EPKS | For EPPO ATIS check frequency 124.700</Line>
+      <Line>Covering EPPO, EPWR, EPKS | For EPPO ATIS check frequency 124.700</Line>
       <Line>Charts, feedback and airport coverage on pl-vacc.org.pl</Line>
     </ControllerInfo>
   </Position>
   <Position Name="Poznan Approach South" Type="ASD" DefaultCenter="+510517.0+0165336.0" DefaultRange="150" MagneticVariation="-5">
     <Sectors>
-	  <Sector Name="POS" />
-	  <Sector Name="TWR" />
+      <Sector Name="POS" />
+      <Sector Name="TWR" />
     </Sectors>
     <Maps>
       <Map Name="ALL_CTA" />
-	  <Map Name="ALL_MVA" />
+      <Map Name="ALL_MVA" />
       <Map Name="ALL_SECTORS" />
       <Map Name="ALL_NAVAIDS" />
       <Map Name="COAST_ALL" />
@@ -108,7 +108,7 @@
       <Map Name="ALL_POINTS_HIGH" />
       <Map Name="FIR_BDRY" />
       <Map Name="UPPER_SECTOR_FREQS" />
-	  <Map Name="TMA Poznan/TCU" />
+      <Map Name="TMA Poznan/TCU" />
     </Maps>
     <Strips Mode="Beacon" Sort="Level">
       <Window Type="ADEP" Beacon="EPWR" Visible="true" />
@@ -119,7 +119,7 @@
     </ArrivalLists>
     <ControllerInfo>
       <Line>Poznan Approach South</Line>
-	  <Line>Covering EPWR | For EPWR ATIS check frequency 124.320</Line>
+      <Line>Covering EPWR | For EPWR ATIS check frequency 124.320</Line>
       <Line>Charts, feedback and airport coverage on pl-vacc.org.pl</Line>
     </ControllerInfo>
   </Position>
@@ -129,7 +129,7 @@
     </Sectors>
     <Maps>
       <Map Name="ALL_CTA" />
-	  <Map Name="ALL_MVA" />
+      <Map Name="ALL_MVA" />
       <Map Name="ALL_SECTORS" />
       <Map Name="ALL_NAVAIDS" />
       <Map Name="COAST_ALL" />
@@ -137,8 +137,8 @@
       <Map Name="ALL_POINTS_HIGH" />
       <Map Name="FIR_BDRY" />
       <Map Name="UPPER_SECTOR_FREQS" />
-	  <Map Name="TMA Warszawa/LL_TCU" />
-	  <Map Name="TMA Warszawa/LL_VFR" />
+      <Map Name="TMA Warszawa/LL_TCU" />
+      <Map Name="TMA Warszawa/LL_VFR" />
     </Maps>
     <Strips Mode="State" Sort="Time">
       <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -147,11 +147,11 @@
     </Strips>
     <CFL QuickLevel="6000" />
     <ArrivalLists>
-	  <Airport Name="EPLL" />
+      <Airport Name="EPLL" />
     </ArrivalLists>
     <ControllerInfo>
       <Line>Lodz Tower</Line>
-	  <Line>Procedural control | Check ATIS on 135.675</Line>
+      <Line>Procedural control | Check ATIS on 135.675</Line>
       <Line>Charts, feedback and airport coverage on pl-vacc.org.pl</Line>
     </ControllerInfo>
   </Position>
@@ -162,8 +162,8 @@
     <Maps>
       <Map Name="ALL_SECTORS" />
       <Map Name="ALL_NAVAIDS" />
-	  <Map Name="TMA Warszawa/WA_TCU" />
-	  <Map Name="TMA Warszawa/WA_VFR" />
+      <Map Name="TMA Warszawa/WA_TCU" />
+      <Map Name="TMA Warszawa/WA_VFR" />
     </Maps>
     <Strips Mode="State" Sort="Time">
       <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -172,11 +172,11 @@
     </Strips>
     <CFL QuickLevel="6000" />
     <ArrivalLists>
-	  <Airport Name="EPWA" />
+      <Airport Name="EPWA" />
     </ArrivalLists>
     <ControllerInfo>
       <Line>Okecie Tower</Line>
-	  <Line>Check ATIS on 120.450</Line>
+      <Line>Check ATIS on 120.450</Line>
       <Line>Charts, feedback and airport coverage on pl-vacc.org.pl</Line>
     </ControllerInfo>
   </Position>
@@ -187,8 +187,8 @@
     <Maps>
       <Map Name="ALL_SECTORS" />
       <Map Name="ALL_NAVAIDS" />
-	  <Map Name="EPLB/LB_TCU" />
-	  <Map Name="EPLB/LB_VFR" />
+      <Map Name="EPLB/LB_TCU" />
+      <Map Name="EPLB/LB_VFR" />
     </Maps>
     <Strips Mode="State" Sort="Time">
       <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -197,11 +197,11 @@
     </Strips>
     <CFL QuickLevel="6000" />
     <ArrivalLists>
-	  <Airport Name="EPLB" />
+      <Airport Name="EPLB" />
     </ArrivalLists>
     <ControllerInfo>
       <Line>Lublin Tower</Line>
-	  <Line>Procedural control</Line>
+      <Line>Procedural control</Line>
       <Line>Charts, feedback and airport coverage on pl-vacc.org.pl</Line>
     </ControllerInfo>
   </Position>
@@ -212,8 +212,8 @@
     <Maps>
       <Map Name="ALL_SECTORS" />
       <Map Name="ALL_NAVAIDS" />
-	  <Map Name="EPBY/BY_TCU" />
-	  <Map Name="EPBY/BY_VFR" />
+      <Map Name="EPBY/BY_TCU" />
+      <Map Name="EPBY/BY_VFR" />
     </Maps>
     <Strips Mode="State" Sort="Time">
       <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -222,11 +222,11 @@
     </Strips>
     <CFL QuickLevel="6000" />
     <ArrivalLists>
-	  <Airport Name="EPBY" />
+      <Airport Name="EPBY" />
     </ArrivalLists>
     <ControllerInfo>
       <Line>Bydgoszcz Tower</Line>
-	  <Line>Procedural control</Line>
+      <Line>Procedural control</Line>
       <Line>Charts, feedback and airport coverage on pl-vacc.org.pl</Line>
     </ControllerInfo>
   </Position>
@@ -237,8 +237,8 @@
     <Maps>
       <Map Name="ALL_SECTORS" />
       <Map Name="ALL_NAVAIDS" />
-	  <Map Name="EPGD/GD_TCU" />
-	  <Map Name="EPGD/GD_VFR" />
+      <Map Name="TMA Gdansk/GD_TCU" />
+      <Map Name="TMA Gdansk/GD_VFR" />
     </Maps>
     <Strips Mode="State" Sort="Time">
       <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -247,20 +247,53 @@
     </Strips>
     <CFL QuickLevel="6000" />
     <ArrivalLists>
-	  <Airport Name="EPGD" />
+      <Airport Name="EPGD" />
     </ArrivalLists>
     <ControllerInfo>
       <Line>Gdansk Tower</Line>
-	    <Line>Check ATIS on 129.620</Line>
+      <Line>Check ATIS on 129.620</Line>
       <Line>Charts, feedback and airport coverage on pl-vacc.org.pl</Line>
     </ControllerInfo>
   </Position>
   <Position Name="EPWA" Type="ASMGCS" ASMGCSAirport="EPWA" DefaultCenter="+520957.0+0205802.0" DefaultRange="3">
-	<Maps>
-	  <Map Name="TMA Warszawa/ASMGCS_EPWA_RWY" />
+    <Maps>
+      <Map Name="TMA Warszawa/ASMGCS_EPWA_RWY" />
       <Map Name="TMA Warszawa/ASMGCS_EPWA_APR" />
       <Map Name="TMA Warszawa/ASMGCS_EPWA_TWY" />
       <Map Name="TMA Warszawa/ASMGCS_EPWA_BLD" />
-	</Maps>
+    </Maps>
+  </Position>
+  <Position Name="Gdansk Approach" Type="ASD" DefaultCenter="+535340.3594+0182512.9375" DefaultRange="150">
+    <Sectors>
+      <Sector Name="GDA" />
+    </Sectors>
+    <Maps>
+      <Map Name="ALL_CTA" />
+      <Map Name="ALL_MVA" />
+      <Map Name="ALL_SECTORS" />
+      <Map Name="ALL_NAVAIDS" />
+      <Map Name="COAST_ALL" />
+      <Map Name="ALL_ROUTES_HIGH" />
+      <Map Name="ALL_POINTS_HIGH" />
+      <Map Name="FIR_BDRY" />
+      <Map Name="UPPER_SECTOR_FREQS" />
+      <Map Name="TMA Gdansk/GD_TCU" />
+    </Maps>
+    <Strips Mode="Beacon" Sort="Level">
+      <Window Type="ADEP" Beacon="EPGD" Visible="true" />
+      <Window Type="ADEP" Beacon="EPBY" Visible="true" />
+    </Strips>
+    <CFL QuickLevel="6000">
+      <AdditionalLevels>4000</AdditionalLevels>
+    </CFL>
+    <ArrivalLists>
+      <Airport Name="EPGD" />
+      <Airport Name="EPBY" />
+    </ArrivalLists>
+    <ControllerInfo>
+      <Line>Gdansk Approach</Line>
+      <Line>Covering EPGD, EPBY | For EPGD ATIS check frequency 129.620</Line>
+      <Line>Charts, feedback and airport coverage on pl-vacc.org.pl</Line>
+    </ControllerInfo>
   </Position>
 </Positions>
