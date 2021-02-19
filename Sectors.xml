@@ -2,23 +2,26 @@
 <Sectors xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <!-- AFISO -->
   <Sector FullName="Babice Information" Frequency="119.170" Callsign="EPBC_TWR" Name="IBC">
-	<Volumes>BCA,BCA1,BCB</Volumes>
+    <Volumes>BCA,BCA1,BCB</Volumes>
   </Sector>
   <!-- Tower -->
   <Sector FullName="Okecie Tower" Frequency="118.3" Callsign="EPWA_TWR" Name="TWA">
-	<Volumes>TWA</Volumes>
+    <Volumes>TWA</Volumes>
+  </Sector>
+  <Sector FullName="Gdansk Tower" Frequency="118.1" Callsign="EPGD_TWR" Name="TGD">
+    <Volumes>TGD</Volumes>
   </Sector>
   <Sector FullName="Modlin Tower" Frequency="123.920" Callsign="EPMO_TWR" Name="TMO">
-	<Volumes>TMO</Volumes>
+    <Volumes>TMO</Volumes>
   </Sector>
   <Sector FullName="Poznan Tower" Frequency="119.970" Callsign="EPPO_TWR" Name="TPO">
-	<Volumes>TMO</Volumes>
+    <Volumes>TMO</Volumes>
   </Sector>
   <Sector FullName="Krzesiny Tower" Frequency="120.750" Callsign="EPKS_TWR" Name="TKS">
-	<Volumes>TMO</Volumes>
+    <Volumes>TMO</Volumes>
   </Sector>
   <Sector FullName="Wroclaw Tower" Frequency="120.250" Callsign="EPWR_TWR" Name="TWR">
-	<Volumes>TWR</Volumes>
+    <Volumes>TWR</Volumes>
   </Sector>
   <!-- Ground -->
   <Sector FullName="Krakow Ground" Frequency="118.100" Callsign="EPKK_GND" Name="GKK" />
@@ -35,34 +38,34 @@
   <Sector FullName="Wroclaw Delivery" Frequency="121.800" Callsign="EPWR_DEL" Name="DWR" />
   <!-- Procedural -->
   <Sector FullName="Lodz Tower" Frequency="124.220" Callsign="EPLL_TWR" Name="TLL">
-	<Volumes>TLL,LLA,LLB,LLC,LLD,LLE</Volumes>
+    <Volumes>TLL,LLA,LLB,LLC,LLD,LLE</Volumes>
   </Sector>
   <Sector FullName="Lublin Tower" Frequency="136.420" Callsign="EPLB_TWR" Name="TLB">
-	<Volumes>TLB</Volumes>
+    <Volumes>TLB</Volumes>
   </Sector>
   <Sector FullName="Bydgoszcz Tower" Frequency="131.000" Callsign="EPBY_TWR" Name="TBY">
-	<Volumes>TBY,BYA,BYB,BYC</Volumes>
+    <Volumes>TBY,BYA,BYB,BYC</Volumes>
   </Sector>
   <!-- TMA Warszawa -->
   <Sector FullName="Warszawa Approach S" Frequency="128.8" Callsign="EPWA_S_APP" Name="WAS">
     <Volumes>WAA,WAB,WAC,WAD,WAE,WAF,WAG,CTA01,CTA02,CTA03</Volumes>
-	<ResponsibleSectors>WAN,WAF,TWA,TMO,TLL,IBC</ResponsibleSectors>
+    <ResponsibleSectors>WAN,WAF,TWA,TMO,TLL,IBC</ResponsibleSectors>
   </Sector>
   <Sector FullName="Warszawa Approach N" Frequency="125.050" Callsign="EPWA_N_APP" Name="WAN">
-	<Volumes></Volumes>
-	<ResponsibleSectors>TMO,WAF</ResponsibleSectors>
+    <Volumes></Volumes>
+    <ResponsibleSectors>TMO,WAF</ResponsibleSectors>
   </Sector>
   <Sector FullName="Warszawa Director" Frequency="129.370" Callsign="EPWA_F_APP" Name="WAF">
-	<Volumes></Volumes>
-	<ResponsibleSectors></ResponsibleSectors>
+    <Volumes></Volumes>
+    <ResponsibleSectors></ResponsibleSectors>
   </Sector>
   <!-- TMA Poznan -->
   <Sector FullName="Poznan Approach North" Frequency="129.020" Callsign="EPPO_N_APP" Name="PON">
-	<Volumes>POA,POB,POC,POD</Volumes>
-	<ResponsibleSectors>POS,TPO,TWR,TKS</ResponsibleSectors>
+    <Volumes>POA,POB,POC,POD</Volumes>
+    <ResponsibleSectors>POS,TPO,TWR,TKS</ResponsibleSectors>
   </Sector>
   <Sector FullName="Poznan Approach South" Frequency="127.220" Callsign="EPPO_S_APP" Name="POS">
-	<Volumes>WRA,WRB,WRC,WRD,WRE,WRF,WRG</Volumes>
-	<ResponsibleSectors>TWR</ResponsibleSectors>
+    <Volumes>WRA,WRB,WRC,WRD,WRE,WRF,WRG</Volumes>
+    <ResponsibleSectors>TWR</ResponsibleSectors>
   </Sector>
 </Sectors>

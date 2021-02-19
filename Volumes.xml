@@ -28,6 +28,19 @@
   +521547.0+0205344.0/
   +521631.0+0205619.0
   </Boundary>
+  <Boundary Name="EPGD_CTR">
+  +542900.0+0181307.0/
+  +542747.0+0182002.0/
+  +542313.0+0183826.0/
+  +542013.0+0184529.0/
+  +541849.0+0184430.0/
+  +541706.0+0184318.0/
+  +541725.0+0183712.0/
+  +541644.0+0183030.0/
+  +541956.0+0181115.0/
+  +542424.0+0180947.0/
+  +542900.0+0181307.0
+  </Boundary>
   <!-- CTR -->
   <Boundary Name="EPBY_CTR">
   +530846.0+0174046.0/
@@ -646,6 +659,9 @@
   <Volume Name="TBY" LowerLimit="0" UpperLimit="1800">
     <Boundaries>EPBY_CTR</Boundaries>
   </Volume>
+  <Volume Name="TGD" LowerLimit="0" UpperLimit="1800">
+    <Boundaries>EPGD_CTR</Boundaries>
+  </Volume>
   <Volume Name="TWA" LowerLimit="0" UpperLimit="2000">
     <Boundaries>EPWA_CTR</Boundaries>
   </Volume>
@@ -656,16 +672,16 @@
     <Boundaries>EPMO_CTR</Boundaries>
   </Volume>
   <Volume Name="TPO" LowerLimit="0" UpperLimit="2300">
-	<Boundaries>EPPO_CTR</Boundaries>
+    <Boundaries>EPPO_CTR</Boundaries>
   </Volume>
   <Volume Name="TKS" LowerLimit="0" UpperLimit="2300">
-	<Boundaries>EPKS_MCTR</Boundaries>
+    <Boundaries>EPKS_MCTR</Boundaries>
   </Volume>
   <Volume Name="TWR" LowerLimit="0" UpperLimit="2100">
-	<Boundaries>EPWR_CTR</Boundaries>
+    <Boundaries>EPWR_CTR</Boundaries>
   </Volume>
   <Volume Name="TLB" LowerLimit="0" UpperLimit="2100">
-	<Boundaries>EPLB_CTR</Boundaries>
+    <Boundaries>EPLB_CTR</Boundaries>
   </Volume>
   <!-- TMA Bydgoszcz -->
   <Volume Name="BYA" LowerLimit="1800" UpperLimit="2500">
@@ -716,37 +732,37 @@
   </Volume>
   <!-- TMA Poznan -->
   <Volume Name="POA" LowerLimit="1600" UpperLimit="6500">
-	<Boundaries>EPPO_A</Boundaries>
+    <Boundaries>EPPO_A</Boundaries>
   </Volume>
   <Volume Name="POB" LowerLimit="3500" UpperLimit="6500">
-	<Boundaries>EPPO_B</Boundaries>
+    <Boundaries>EPPO_B</Boundaries>
   </Volume>
   <Volume Name="POC" LowerLimit="6500" UpperLimit="9500">
-	<Boundaries>EPPO_C</Boundaries>
+    <Boundaries>EPPO_C</Boundaries>
   </Volume>
   <Volume Name="POD" LowerLimit="9500" UpperLimit="19500">
-	<Boundaries>EPPO_D</Boundaries>
+    <Boundaries>EPPO_D</Boundaries>
   </Volume>
   <Volume Name="WRA" LowerLimit="2100" UpperLimit="5500">
-	<Boundaries>EPWR_A</Boundaries>
+    <Boundaries>EPWR_A</Boundaries>
   </Volume>
   <Volume Name="WRB" LowerLimit="5500" UpperLimit="9500">
-	<Boundaries>EPWR_B</Boundaries>
+    <Boundaries>EPWR_B</Boundaries>
   </Volume>
   <Volume Name="WRC" LowerLimit="6500" UpperLimit="9500">
-	<Boundaries>EPWR_C</Boundaries>
+    <Boundaries>EPWR_C</Boundaries>
   </Volume>
   <Volume Name="WRD" LowerLimit="6500" UpperLimit="9500">
-	<Boundaries>EPWR_D</Boundaries>
+    <Boundaries>EPWR_D</Boundaries>
   </Volume>
   <Volume Name="WRE" LowerLimit="1600" UpperLimit="2100">
-	<Boundaries>EPWR_E</Boundaries>
+    <Boundaries>EPWR_E</Boundaries>
   </Volume>
   <Volume Name="WRF" LowerLimit="1600" UpperLimit="2100">
-	<Boundaries>EPWR_F</Boundaries>
+    <Boundaries>EPWR_F</Boundaries>
   </Volume>
   <Volume Name="WRG" LowerLimit="9500" UpperLimit="19500">
-	<Boundaries>EPWR_G</Boundaries>
+    <Boundaries>EPWR_G</Boundaries>
   </Volume>
   <!-- CTA -->
   <Volume Name="CTA01" LowerLimit="9500" UpperLimit="24500">
@@ -758,4 +774,4 @@
   <Volume Name="CTA03" LowerLimit="5500" UpperLimit="11500">
     <Boundaries>CTA03</Boundaries>
   </Volume>
- </Volumes>
+</Volumes>
