@@ -1,148 +1,148 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-<Map Type="System" Name="TCU_L" Priority="0" Centre="+514100.9688+0164753.3906">
-	<Label HasLeader="True">
-		<Point>VAGNI</Point>
-		<Point>ULGIL</Point>
-		<Point>DINOV</Point>
-		<Point>PEKOT</Point>
-		<Point>EPOPA</Point>
-		<Point>MAPIK</Point>
-		<Point>SUDOL</Point>
-		<Point>LUNUK</Point>
-		<Point>UVIVI</Point>
-		<Point>XIDNA</Point>
-		<Point>MASIV</Point>
-		<Point>OBOKU</Point>
-		<Point>DEKUT</Point>
-		<Point>XERBI</Point>
-		<Point>ELSUP</Point>
-		<Point>BAREP</Point>
-		<Point>KELOD</Point>
-		<Point>OBOLA</Point>
-		<Point>ERNOX</Point>
-		<Point>AKAPI</Point>
-		<Point>NILPU</Point>
-	</Label>
-  </Map>
-  <Map Type="System" Name="TCU" Priority="0" Centre="+514100.9688+0164753.3906">
-    <!--EPPO-->
-    <Runway Name="10/28">
-      <Threshold Name="10" Position="+522529.85+0164821.62" ExtendedCentrelineTrack="287.56" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1"/>
-      <Threshold Name="28" Position="+522505.43+0165027.94" ExtendedCentrelineTrack="107.53" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1"/>
-    </Runway>
-	<!--EPKS-->
-    <Runway Name="11/29">
-      <Threshold Name="11" Position="+522013.77+0165701.67" ExtendedCentrelineTrack="298.0" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="2" />
-      <Threshold Name="29" Position="+521936.15+0165857.79" ExtendedCentrelineTrack="118.0" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="2" />
-    </Runway>
-    <!--EPWR-->
-    <Runway Name="11/29">
-      <Threshold Name="11" Position="+510631.69+0165156.98" ExtendedCentrelineTrack="296.0" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
-      <Threshold Name="29" Position="+510556.26+0165352.65" ExtendedCentrelineTrack="116.0" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
-    </Runway>
-	<!--EPZG-->
-	<Runway Name="06/24">
-      <Threshold Name="06" Position="+520801.34+0154655.37" ExtendedCentrelineTrack="244.67" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
-      <Threshold Name="24" Position="+520835.97+0154854.20" ExtendedCentrelineTrack="64.65" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
-    </Runway>
-	<Symbol Type="SolidTriangle">
-		<Point>VAGNI</Point>
-		<Point>ULGIL</Point>
-		<Point>DINOV</Point>
-		<Point>PEKOT</Point>
-		<Point>EPOPA</Point>
-		<Point>MAPIK</Point>
-		<Point>SUDOL</Point>
-		<Point>LUNUK</Point>
-		<Point>UVIVI</Point>
-		<Point>XIDNA</Point>
-		<Point>MASIV</Point>
-		<Point>OBOKU</Point>
-		<Point>DEKUT</Point>
-		<Point>XERBI</Point>
-		<Point>ELSUP</Point>
-		<Point>BAREP</Point>
-		<Point>KELOD</Point>
-		<Point>OBOLA</Point>
-		<Point>ERNOX</Point>
-		<Point>AKAPI</Point>
-		<Point>NILPU</Point>
-	</Symbol>
-  </Map>
-  <Map Type="System2" Name="PO_VFR" Priority="1" Centre="+514100.9688+0164753.3906">
-    <Symbol Type="HollowSquare">
-      <Point>EPWAA</Point>
-      <Point>EPWAB</Point>
-      <Point>EPWAD</Point>
-      <Point>EPWAE</Point>
-      <Point>EPWAF</Point>
-      <Point>EPWAG</Point>
-	  <Point>EPMOH</Point>
-	  <Point>EPMOI</Point>
-      <Point>EPWAJ</Point>
-      <Point>EPWAK</Point>
-      <Point>EPWAL</Point>
-      <Point>EPWAM</Point>
-      <Point>EPWAN</Point>
-      <Point>EPWAO</Point>
-      <Point>EPWAP</Point>
-	  <Point>EPMOQ</Point>
-      <Point>EPWAR</Point>
-	  <Point>EPMOS</Point>
-      <Point>EPWAT</Point>
-	  <Point>EPMOU</Point>
-	  <Point>EPMOV</Point>
-      <Point>EPWAW</Point>
-      <Point>EPWAX</Point>
-	  <Point>EPMOY</Point>
-      <Point>EPWAZ</Point>
-	  <Point>WAR</Point>
-    </Symbol>
-    <Label HasLeader="True">
-      <Point Name="A">EPWAA</Point>
-      <Point Name="B">EPWAB</Point>
-      <Point Name="D">EPWAD</Point>
-      <Point Name="E">EPWAE</Point>
-      <Point Name="F">EPWAF</Point>
-      <Point Name="G">EPWAG</Point>
-	  <Point Name="H">EPMOH</Point>
-	  <Point Name="I">EPMOI</Point>
-      <Point Name="J">EPWAJ</Point>
-      <Point Name="K">EPWAK</Point>
-      <Point Name="L">EPWAL</Point>
-      <Point Name="M">EPWAM</Point>
-      <Point Name="N">EPWAN</Point>
-      <Point Name="O">EPWAO</Point>
-      <Point Name="P">EPWAP</Point>
-	  <Point Name="Q">EPMOQ</Point>
-      <Point Name="R">EPWAR</Point>
-	  <Point Name="S">EPMOS</Point>
-      <Point Name="T">EPWAT</Point>
-	  <Point Name="U">EPMOU</Point>
-	  <Point Name="V">EPMOV</Point>
-      <Point Name="W">EPWAW</Point>
-      <Point Name="X">EPWAX</Point>
-	  <Point Name="Y">EPMOY</Point>
-      <Point Name="Z">EPWAZ</Point>
-	  <Point>WAR</Point>
-    </Label>
-    <!--SOUTH-->
-    <Line Pattern="Dotted">
+	<Map Type="System" Name="TCU_L" Priority="0" Centre="+514100.9688+0164753.3906">
+		<Label HasLeader="True">
+			<Point>VAGNI</Point>
+			<Point>ULGIL</Point>
+			<Point>DINOV</Point>
+			<Point>PEKOT</Point>
+			<Point>EPOPA</Point>
+			<Point>MAPIK</Point>
+			<Point>SUDOL</Point>
+			<Point>LUNUK</Point>
+			<Point>UVIVI</Point>
+			<Point>XIDNA</Point>
+			<Point>MASIV</Point>
+			<Point>OBOKU</Point>
+			<Point>DEKUT</Point>
+			<Point>XERBI</Point>
+			<Point>ELSUP</Point>
+			<Point>BAREP</Point>
+			<Point>KELOD</Point>
+			<Point>OBOLA</Point>
+			<Point>ERNOX</Point>
+			<Point>AKAPI</Point>
+			<Point>NILPU</Point>
+		</Label>
+	</Map>
+	<Map Type="System" Name="TCU" Priority="0" Centre="+514100.9688+0164753.3906">
+		<!--EPPO-->
+		<Runway Name="10/28">
+			<Threshold Name="10" Position="+522529.85+0164821.62" ExtendedCentrelineTrack="287.56" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
+			<Threshold Name="28" Position="+522505.43+0165027.94" ExtendedCentrelineTrack="107.53" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
+		</Runway>
+		<!--EPKS-->
+		<Runway Name="11/29">
+			<Threshold Name="11" Position="+522013.77+0165701.67" ExtendedCentrelineTrack="298.0" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="2" />
+			<Threshold Name="29" Position="+521936.15+0165857.79" ExtendedCentrelineTrack="118.0" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="2" />
+		</Runway>
+		<!--EPWR-->
+		<Runway Name="11/29">
+			<Threshold Name="11" Position="+510631.69+0165156.98" ExtendedCentrelineTrack="296.0" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
+			<Threshold Name="29" Position="+510556.26+0165352.65" ExtendedCentrelineTrack="116.0" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
+		</Runway>
+		<!--EPZG-->
+		<Runway Name="06/24">
+			<Threshold Name="06" Position="+520801.34+0154655.37" ExtendedCentrelineTrack="244.67" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
+			<Threshold Name="24" Position="+520835.97+0154854.20" ExtendedCentrelineTrack="64.65" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
+		</Runway>
+		<Symbol Type="SolidTriangle">
+			<Point>VAGNI</Point>
+			<Point>ULGIL</Point>
+			<Point>DINOV</Point>
+			<Point>PEKOT</Point>
+			<Point>EPOPA</Point>
+			<Point>MAPIK</Point>
+			<Point>SUDOL</Point>
+			<Point>LUNUK</Point>
+			<Point>UVIVI</Point>
+			<Point>XIDNA</Point>
+			<Point>MASIV</Point>
+			<Point>OBOKU</Point>
+			<Point>DEKUT</Point>
+			<Point>XERBI</Point>
+			<Point>ELSUP</Point>
+			<Point>BAREP</Point>
+			<Point>KELOD</Point>
+			<Point>OBOLA</Point>
+			<Point>ERNOX</Point>
+			<Point>AKAPI</Point>
+			<Point>NILPU</Point>
+		</Symbol>
+	</Map>
+	<Map Type="System2" Name="PO_VFR" Priority="1" Centre="+514100.9688+0164753.3906">
+		<Symbol Type="HollowSquare">
+			<Point>EPWAA</Point>
+			<Point>EPWAB</Point>
+			<Point>EPWAD</Point>
+			<Point>EPWAE</Point>
+			<Point>EPWAF</Point>
+			<Point>EPWAG</Point>
+			<Point>EPMOH</Point>
+			<Point>EPMOI</Point>
+			<Point>EPWAJ</Point>
+			<Point>EPWAK</Point>
+			<Point>EPWAL</Point>
+			<Point>EPWAM</Point>
+			<Point>EPWAN</Point>
+			<Point>EPWAO</Point>
+			<Point>EPWAP</Point>
+			<Point>EPMOQ</Point>
+			<Point>EPWAR</Point>
+			<Point>EPMOS</Point>
+			<Point>EPWAT</Point>
+			<Point>EPMOU</Point>
+			<Point>EPMOV</Point>
+			<Point>EPWAW</Point>
+			<Point>EPWAX</Point>
+			<Point>EPMOY</Point>
+			<Point>EPWAZ</Point>
+			<Point>WAR</Point>
+		</Symbol>
+		<Label HasLeader="True">
+			<Point Name="A">EPWAA</Point>
+			<Point Name="B">EPWAB</Point>
+			<Point Name="D">EPWAD</Point>
+			<Point Name="E">EPWAE</Point>
+			<Point Name="F">EPWAF</Point>
+			<Point Name="G">EPWAG</Point>
+			<Point Name="H">EPMOH</Point>
+			<Point Name="I">EPMOI</Point>
+			<Point Name="J">EPWAJ</Point>
+			<Point Name="K">EPWAK</Point>
+			<Point Name="L">EPWAL</Point>
+			<Point Name="M">EPWAM</Point>
+			<Point Name="N">EPWAN</Point>
+			<Point Name="O">EPWAO</Point>
+			<Point Name="P">EPWAP</Point>
+			<Point Name="Q">EPMOQ</Point>
+			<Point Name="R">EPWAR</Point>
+			<Point Name="S">EPMOS</Point>
+			<Point Name="T">EPWAT</Point>
+			<Point Name="U">EPMOU</Point>
+			<Point Name="V">EPMOV</Point>
+			<Point Name="W">EPWAW</Point>
+			<Point Name="X">EPWAX</Point>
+			<Point Name="Y">EPMOY</Point>
+			<Point Name="Z">EPWAZ</Point>
+			<Point>WAR</Point>
+		</Label>
+		<!--SOUTH-->
+		<Line Pattern="Dotted">
       EPWAT/
 	  EPWAX/
 	  EPWAR/
 	  EPWAW
     </Line>
-	<Line Pattern="Dotted">
+		<Line Pattern="Dotted">
       EPWAA/
 	  EPWAX/
 	  EPWAB/
 	  EPWAF/
 	  WAR VOR
     </Line>
-    <!--NORTH-->
-	<Line Pattern="Dotted">
+		<!--NORTH-->
+		<Line Pattern="Dotted">
 		EPWAE/
 		EPWAO/
 		EPWAN/
@@ -150,21 +150,21 @@
 		EPWAK/
 		EPWAG
 	</Line>
-	<Line Pattern="Dotted">
+		<Line Pattern="Dotted">
 		EPWAM/
 		EPWAD/
 		EPWAJ/
 		EPWAL
 	</Line>
-	<Line Pattern="Dotted">
+		<Line Pattern="Dotted">
 		EPWAZ/
 		EPWAP/
 		EPWAD
 	</Line>
-	<Line Pattern="Dotted">
+		<Line Pattern="Dotted">
 		EPWAZ/
 		EPWAN/
 		EPWAK
 	</Line>
-  </Map>
+	</Map>
 </Maps>

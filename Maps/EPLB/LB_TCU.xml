@@ -1,91 +1,90 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="LB_TCU_L" Priority="0" Centre="+511425.0+0224249.0">
-	<Label HasLeader="True">
-		<Point>VADOL</Point>
-		<Point>ARGIX</Point>
-		<Point>LIBGA</Point>
-		<Point>USEGI</Point>
-		<Point>VENES</Point>
-		<Point>GAVDU</Point>
-		<Point>OGVET</Point>
-	</Label>
-  </Map>
-  <Map Type="System" Name="LB_TCU" Priority="0" Centre="+511425.0+0224249.0">
-    <!--EPLL-->
-    <Runway Name="07/25">
-      <Threshold Name="07" Position="+511415.52+0224145.37" ExtendedCentrelineTrack="257.07" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="3" />
-      <Threshold Name="25" Position="+511433.68+0224352.02" ExtendedCentrelineTrack="77.07" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
-    </Runway>
-	<Symbol Type="SolidTriangle">
-		<Point>VADOL</Point>
-		<Point>ARGIX</Point>
-		<Point>LIBGA</Point>
-		<Point>USEGI</Point>
-		<Point>VENES</Point>
-		<Point>GAVDU</Point>
-		<Point>OGVET</Point>
-	</Symbol>
-	<Symbol Type="HollowTriangle">
-	</Symbol>
-  </Map>
-  <Map Type="System2" Name="LB_VFR" Priority="2" Centre="+511425.0+0224249.0">
-    <Symbol Type="HollowSquare">
-      <Point>EPLBB</Point>
-      <Point>EPLBD</Point>
-      <Point>EPLBE</Point>
-      <Point>EPLBJ</Point>
-      <Point>EPLBK</Point>
-      <Point>EPLBL</Point>
-	  <Point>EPLBP</Point>
-	  <Point>EPLBR</Point>
-      <Point>EPLBS</Point>
-      <Point>EPLBT</Point>
-      <Point>EPLBW</Point>
-	  <Point>EPLBZ</Point>
-    </Symbol>
-    <Label HasLeader="True">
-      <Point Name="B">EPLBB</Point>
-      <Point Name="D">EPLBD</Point>
-      <Point Name="E">EPLBE</Point>
-      <Point Name="J">EPLBJ</Point>
-      <Point Name="K">EPLBK</Point>
-      <Point Name="L">EPLBL</Point>
-	  <Point Name="P">EPLBP</Point>
-	  <Point Name="R">EPLBR</Point>
-      <Point Name="S">EPLBS</Point>
-      <Point Name="T">EPLBT</Point>
-      <Point Name="W">EPLBW</Point>
-	  <Point Name="Z">EPLBZ</Point>
-    </Label>
-    <!--NORTH -->
-    <Line Pattern="Dotted">
+	<Map Type="System" Name="LB_TCU_L" Priority="0" Centre="+511425.0+0224249.0">
+		<Label HasLeader="True">
+			<Point>VADOL</Point>
+			<Point>ARGIX</Point>
+			<Point>LIBGA</Point>
+			<Point>USEGI</Point>
+			<Point>VENES</Point>
+			<Point>GAVDU</Point>
+			<Point>OGVET</Point>
+		</Label>
+	</Map>
+	<Map Type="System" Name="LB_TCU" Priority="0" Centre="+511425.0+0224249.0">
+		<!--EPLL-->
+		<Runway Name="07/25">
+			<Threshold Name="07" Position="+511415.52+0224145.37" ExtendedCentrelineTrack="257.07" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="3" />
+			<Threshold Name="25" Position="+511433.68+0224352.02" ExtendedCentrelineTrack="77.07" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
+		</Runway>
+		<Symbol Type="SolidTriangle">
+			<Point>VADOL</Point>
+			<Point>ARGIX</Point>
+			<Point>LIBGA</Point>
+			<Point>USEGI</Point>
+			<Point>VENES</Point>
+			<Point>GAVDU</Point>
+			<Point>OGVET</Point>
+		</Symbol>
+		<Symbol Type="HollowTriangle"></Symbol>
+	</Map>
+	<Map Type="System2" Name="LB_VFR" Priority="2" Centre="+511425.0+0224249.0">
+		<Symbol Type="HollowSquare">
+			<Point>EPLBB</Point>
+			<Point>EPLBD</Point>
+			<Point>EPLBE</Point>
+			<Point>EPLBJ</Point>
+			<Point>EPLBK</Point>
+			<Point>EPLBL</Point>
+			<Point>EPLBP</Point>
+			<Point>EPLBR</Point>
+			<Point>EPLBS</Point>
+			<Point>EPLBT</Point>
+			<Point>EPLBW</Point>
+			<Point>EPLBZ</Point>
+		</Symbol>
+		<Label HasLeader="True">
+			<Point Name="B">EPLBB</Point>
+			<Point Name="D">EPLBD</Point>
+			<Point Name="E">EPLBE</Point>
+			<Point Name="J">EPLBJ</Point>
+			<Point Name="K">EPLBK</Point>
+			<Point Name="L">EPLBL</Point>
+			<Point Name="P">EPLBP</Point>
+			<Point Name="R">EPLBR</Point>
+			<Point Name="S">EPLBS</Point>
+			<Point Name="T">EPLBT</Point>
+			<Point Name="W">EPLBW</Point>
+			<Point Name="Z">EPLBZ</Point>
+		</Label>
+		<!--NORTH -->
+		<Line Pattern="Dotted">
       EPLBW/
 	  EPLBT/
 	  EPLBL/
 	  EPLBR
     </Line>
-	<Line Pattern="Dotted">
+		<Line Pattern="Dotted">
       EPLBD/
 	  EPLBT/
 	  EPLB
     </Line>
-    <!--SOUTH-->
-	<Line Pattern="Dotted">
+		<!--SOUTH-->
+		<Line Pattern="Dotted">
 		EPLBB/
 		EPLBJ/
 		EPLBS/
 		EPLB
 	</Line>
-	<Line Pattern="Dotted">
+		<Line Pattern="Dotted">
 		EPLBE/
 		EPLBS/
 		EPLBP
 	</Line>
-	<Line Pattern="Dotted">
+		<Line Pattern="Dotted">
 		EPLBZ/
 		EPLBS/
 		EPLBK
 	</Line>
-  </Map>
+	</Map>
 </Maps>

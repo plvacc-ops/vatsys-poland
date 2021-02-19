@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Profile Name="Poland" FullName="vTOPSKY Poland (EPWW)">
-	<Version AIRAC="2011" Revision="a" PublishDate="20201008" />
+	<Version AIRAC="2013" Revision="a" PublishDate="20210219" />
 	<Servers>
 		<VATSIMStatus url="http://status.vatsim.net/" />
 		<GRIB url="http://sawbe.com/GRIB/" />
 		<G2G url="antifaff.vatsys.sawbe.com" port="64738" />
-	</Servers>	
+	</Servers>
 </Profile>

@@ -1,86 +1,86 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <RestrictedAreas>
-  <Areas>
-	<RestrictedArea Type="Restricted" Name="R10 BPN" AltitudeFloor="0" AltitudeCeiling="7500" DAIWEnabled="true" LinePattern="Solid">
-		<Area>
+	<Areas>
+		<RestrictedArea Type="Restricted" Name="R10 BPN" AltitudeFloor="0" AltitudeCeiling="7500" DAIWEnabled="true" LinePattern="Solid">
+			<Area>
 		+490618.0+0222636.0/
-+490546.0+0222634.0/
-+490548.0+0222720.01/
-+490540.0+0222800.0/
-+490526.0+0222830.0/
-+490503.98+0222933.0/
-+490511.0+0223011.99/
-+490518.0+0223050.0/
-+490522.0+0223133.0/
-+490521.0+0223158.0/
-+490510.0+0223233.0/
-+490448.0+0223313.0/
-+490448.0+0223313.0/
-+490512.0+0223358.0/
-+490526.0+0223426.0/
-+490527.0+0223552.0/
-+490457.0+0223650.0/
-+490439.0+0223712.0/
-+490409.0+0223741.99/
-+490349.0+0223800.0/
-+490316.0+0223851.0/
-+490249.0+0223951.0/
-+490235.0+0224112.99/
-+490238.0+0224156.0/
-+490243.0+0224214.0/
-+490255.0+0224333.0/
-+490251.0+0224438.0/
-+490302.0+0224532.0/
-+490311.0+0224608.0/
-+490248.0+0224649.0/
-+490248.0+0224649.0/
-+490153.0+0224755.0/
-+490153.0+0224755.0/
-+490136.0+0224921.0/
-+490107.0+0225019.0/
-+490041.0+0225027.0/
-+490011.0+0225122.0/
-+490007.0+0225230.0/
-+490007.0+0225230.0/
-+490021.0+0225257.0/
-+490045.0+0225306.0/
-+490123.0+0225251.0/
-+490123.0+0225251.0/
-+490218.0+0225150.0/
-+490230.0+0225145.0/
-+490308.0+0225145.0/
-+490308.0+0225145.0/
-+490357.0+0225138.0/
-+490443.0+0225207.0/
-+490458.0+0225233.0/
-+490524.0+0225233.0/
-+490540.0+0225116.0/
-+490620.0+0225109.0/
-+490630.0+0225012.0/
-+490657.0+0224917.0/
-+490727.0+0224821.0/
-+490727.0+0224821.0/
-+490743.0+0224742.0/
-+490758.0+0224701.0/
-+490829.0+0224706.0/
-+490909.0+0224601.0/
-+490913.0+0224457.99/
-+490913.0+0224457.99/
-+490943.0+0224402.0/
-+491018.0+0224425.0/
-+491037.0+0224404.0/
-+491013.0+0224241.0/
-+490848.0+0224122.0/
-+491409.0+0222904.0/
-+491206.0+0222644.0/
-+490618.0+0222636.0
+		+490546.0+0222634.0/
+		+490548.0+0222720.01/
+		+490540.0+0222800.0/
+		+490526.0+0222830.0/
+		+490503.98+0222933.0/
+		+490511.0+0223011.99/
+		+490518.0+0223050.0/
+		+490522.0+0223133.0/
+		+490521.0+0223158.0/
+		+490510.0+0223233.0/
+		+490448.0+0223313.0/
+		+490448.0+0223313.0/
+		+490512.0+0223358.0/
+		+490526.0+0223426.0/
+		+490527.0+0223552.0/
+		+490457.0+0223650.0/
+		+490439.0+0223712.0/
+		+490409.0+0223741.99/
+		+490349.0+0223800.0/
+		+490316.0+0223851.0/
+		+490249.0+0223951.0/
+		+490235.0+0224112.99/
+		+490238.0+0224156.0/
+		+490243.0+0224214.0/
+		+490255.0+0224333.0/
+		+490251.0+0224438.0/
+		+490302.0+0224532.0/
+		+490311.0+0224608.0/
+		+490248.0+0224649.0/
+		+490248.0+0224649.0/
+		+490153.0+0224755.0/
+		+490153.0+0224755.0/
+		+490136.0+0224921.0/
+		+490107.0+0225019.0/
+		+490041.0+0225027.0/
+		+490011.0+0225122.0/
+		+490007.0+0225230.0/
+		+490007.0+0225230.0/
+		+490021.0+0225257.0/
+		+490045.0+0225306.0/
+		+490123.0+0225251.0/
+		+490123.0+0225251.0/
+		+490218.0+0225150.0/
+		+490230.0+0225145.0/
+		+490308.0+0225145.0/
+		+490308.0+0225145.0/
+		+490357.0+0225138.0/
+		+490443.0+0225207.0/
+		+490458.0+0225233.0/
+		+490524.0+0225233.0/
+		+490540.0+0225116.0/
+		+490620.0+0225109.0/
+		+490630.0+0225012.0/
+		+490657.0+0224917.0/
+		+490727.0+0224821.0/
+		+490727.0+0224821.0/
+		+490743.0+0224742.0/
+		+490758.0+0224701.0/
+		+490829.0+0224706.0/
+		+490909.0+0224601.0/
+		+490913.0+0224457.99/
+		+490913.0+0224457.99/
+		+490943.0+0224402.0/
+		+491018.0+0224425.0/
+		+491037.0+0224404.0/
+		+491013.0+0224241.0/
+		+490848.0+0224122.0/
+		+491409.0+0222904.0/
+		+491206.0+0222644.0/
+		+490618.0+0222636.0
 		</Area>
-		<Activations>
-			<Activation H24="true" Start="0000" End="0000" />
-		</Activations>
-	</RestrictedArea>
-	<RestrictedArea Type="Restricted" Name="R11 GPN" AltitudeFloor="0" AltitudeCeiling="7500" DAIWEnabled="true" LinePattern="Solid">
-		<Area>
+			<Activations>
+				<Activation H24="true" Start="0000" End="0000" />
+			</Activations>
+		</RestrictedArea>
+		<RestrictedArea Type="Restricted" Name="R11 GPN" AltitudeFloor="0" AltitudeCeiling="7500" DAIWEnabled="true" LinePattern="Solid">
+			<Area>
 		+493717.0+0200324.0/
 		+493559.0+0201314.0/
 		+493359.0+0201514.0/
@@ -90,12 +90,12 @@
 		+493444.0+0200114.0/
 		+493717.0+0200324.0
 		</Area>
-		<Activations>
-			<Activation H24="true" Start="0000" End="0000" />
-		</Activations>
-	</RestrictedArea>
-	<RestrictedArea Type="Restricted" Name="R12 KPN" AltitudeFloor="0" AltitudeCeiling="3800" DAIWEnabled="true" LinePattern="Solid">
-		<Area>
+			<Activations>
+				<Activation H24="true" Start="0000" End="0000" />
+			</Activations>
+		</RestrictedArea>
+		<RestrictedArea Type="Restricted" Name="R12 KPN" AltitudeFloor="0" AltitudeCeiling="3800" DAIWEnabled="true" LinePattern="Solid">
+			<Area>
 		+522500.0+0204000.0/
 		+522220.0+0202830.0/
 		+522240.0+0201640.0/
@@ -109,12 +109,12 @@
 		+522112.0+0203830.0/
 		+522500.0+0204000.0
 		</Area>
-		<Activations>
-			<Activation H24="true" Start="0000" End="0000" />
-		</Activations>
-	</RestrictedArea>
-	<RestrictedArea Type="Restricted" Name="TS01A" AltitudeFloor="0" AltitudeCeiling="66000" DAIWEnabled="true" LinePattern="Dashed">
-		<Area>
+			<Activations>
+				<Activation H24="true" Start="0000" End="0000" />
+			</Activations>
+		</RestrictedArea>
+		<RestrictedArea Type="Restricted" Name="TS01A" AltitudeFloor="0" AltitudeCeiling="66000" DAIWEnabled="true" LinePattern="Dashed">
+			<Area>
 			+540638.0+0192932.0/
 			+541139.0+0193702.0/
 			+535019.0+0194432.0/
@@ -122,9 +122,9 @@
 			+535417.0+0193031.0/
 			+540638.0+0192932.0
 		</Area>
-	</RestrictedArea>
-	<RestrictedArea Type="Restricted" Name="TS01B" AltitudeFloor="0" AltitudeCeiling="66000" DAIWEnabled="true" LinePattern="Dashed">
-		<Area>
+		</RestrictedArea>
+		<RestrictedArea Type="Restricted" Name="TS01B" AltitudeFloor="0" AltitudeCeiling="66000" DAIWEnabled="true" LinePattern="Dashed">
+			<Area>
 			+541139.0+0193702.0/
 			+542100.0+0195100.0/
 			+541948.0+0203000.0/
@@ -132,18 +132,18 @@
 			+535019.0+0194432.0/
 			+541139.0+0193702.0
 		</Area>
-	</RestrictedArea>
-	<RestrictedArea Type="Restricted" Name="TS01C" AltitudeFloor="3500" AltitudeCeiling="66000" DAIWEnabled="true" LinePattern="Dashed">
-		<Area>
+		</RestrictedArea>
+		<RestrictedArea Type="Restricted" Name="TS01C" AltitudeFloor="3500" AltitudeCeiling="66000" DAIWEnabled="true" LinePattern="Dashed">
+			<Area>
 			+541948.0+0203000.0/
 			+541759.0+0211904.0/
 			+540619.0+0211956.0/
 			+535925.0+0203524.0/
 			+541948.0+0203000.0
 		</Area>
-	</RestrictedArea>
-	<RestrictedArea Type="Restricted" Name="TS02A" AltitudeFloor="11500" AltitudeCeiling="28500" DAIWEnabled="true" LinePattern="Dashed">
-		<Area>
+		</RestrictedArea>
+		<RestrictedArea Type="Restricted" Name="TS02A" AltitudeFloor="11500" AltitudeCeiling="28500" DAIWEnabled="true" LinePattern="Dashed">
+			<Area>
 			+531637.0+0194204.0/
 			+532808.0+0193706.0/
 			+534546.0+0215103.0/
@@ -151,9 +151,9 @@
 			+532402.0+0201342.0/
 			+531637.0+0194204.0
 		</Area>
-	</RestrictedArea>
-	<RestrictedArea Type="Restricted" Name="TS02B" AltitudeFloor="0" AltitudeCeiling="66000" DAIWEnabled="true" LinePattern="Dashed">
-		<Area>
+		</RestrictedArea>
+		<RestrictedArea Type="Restricted" Name="TS02B" AltitudeFloor="0" AltitudeCeiling="66000" DAIWEnabled="true" LinePattern="Dashed">
+			<Area>
 			+531637.0+0194204.0/
 			+532402.0+0201342.0/
 			+532333.0+0201525.0/
@@ -172,9 +172,9 @@
 			+530659.0+0194611.0/
 			+531637.0+0194204.0
 		</Area>
-	</RestrictedArea>
-	<RestrictedArea Type="Restricted" Name="TS02C" AltitudeFloor="0" AltitudeCeiling="66000" DAIWEnabled="true" LinePattern="Dashed">
-		<Area>
+		</RestrictedArea>
+		<RestrictedArea Type="Restricted" Name="TS02C" AltitudeFloor="0" AltitudeCeiling="66000" DAIWEnabled="true" LinePattern="Dashed">
+			<Area>
 			+532333.0+0201525.0/
 			+532402.0+0201342.0/
 			+533843.0+0211837.0/
@@ -185,9 +185,9 @@
 			+531855.0+0202815.0/
 			+532333.0+0201525.0
 		</Area>
-	</RestrictedArea>
-	<RestrictedArea Type="Restricted" Name="TS02D" AltitudeFloor="0" AltitudeCeiling="66000" DAIWEnabled="true" LinePattern="Dashed">
-		<Area>
+		</RestrictedArea>
+		<RestrictedArea Type="Restricted" Name="TS02D" AltitudeFloor="0" AltitudeCeiling="66000" DAIWEnabled="true" LinePattern="Dashed">
+			<Area>
 			+524155.0+0205926.0/
 			+524111.0+0211244.0/
 			+524530.0+0214407.0/
@@ -197,9 +197,9 @@
 			+534621.0+0222029.0/
 			+524155.0+0205926.0
 		</Area>
-	</RestrictedArea>
-	<RestrictedArea Type="Restricted" Name="TS02E" AltitudeFloor="2500" AltitudeCeiling="19500" DAIWEnabled="true" LinePattern="Dashed">
-		<Area>
+		</RestrictedArea>
+		<RestrictedArea Type="Restricted" Name="TS02E" AltitudeFloor="2500" AltitudeCeiling="19500" DAIWEnabled="true" LinePattern="Dashed">
+			<Area>
 			+524530.0+0214407.0/
 			+524111.0+0211244.0/
 			+523202.0+0212406.0/
@@ -207,9 +207,9 @@
 			+522614.0+0213643.0/
 			+524530.0+0214407.0
 		</Area>
-	</RestrictedArea>
-	<RestrictedArea Type="Restricted" Name="TS02F" AltitudeFloor="2500" AltitudeCeiling="19500" DAIWEnabled="true" LinePattern="Dashed">
-		<Area>
+		</RestrictedArea>
+		<RestrictedArea Type="Restricted" Name="TS02F" AltitudeFloor="2500" AltitudeCeiling="19500" DAIWEnabled="true" LinePattern="Dashed">
+			<Area>
 			+524958.0+0221756.0/
 			+522949.0+0221049.0/
 			+522545.0+0220445.0/
@@ -218,18 +218,18 @@
 			+524530.0+0214407.0/
 			+524958.0+0221756.0
 		</Area>
-	</RestrictedArea>
-	<RestrictedArea Type="Danger" Name="D11" AltitudeFloor="0" AltitudeCeiling="50000" DAIWEnabled="true" LinePattern="Broken">
-		<Area>
+		</RestrictedArea>
+		<RestrictedArea Type="Danger" Name="D11" AltitudeFloor="0" AltitudeCeiling="50000" DAIWEnabled="true" LinePattern="Broken">
+			<Area>
 		+543501.0+0151503.0/
 		+543507.0+0152407.0/
 		+542550.0+0154837.0/
 		+542050.0+0151906.0/
 		+543501.0+0151503.0
 		</Area>
-	</RestrictedArea>
-	<RestrictedArea Type="Danger" Name="D12" AltitudeFloor="9500" AltitudeCeiling="50000" DAIWEnabled="true" LinePattern="Broken">
-		<Area>
+		</RestrictedArea>
+		<RestrictedArea Type="Danger" Name="D12" AltitudeFloor="9500" AltitudeCeiling="50000" DAIWEnabled="true" LinePattern="Broken">
+			<Area>
 		+544534.0+0142013.0/
 		+544600.0+0143530.0/
 		+541421.0+0144758.0/
@@ -237,9 +237,9 @@
 		+540738.0+0141517.0/
 		+544534.0+0142013.0
 		</Area>
-	</RestrictedArea>
-	<RestrictedArea Type="Danger" Name="D13" AltitudeFloor="0" AltitudeCeiling="19500" DAIWEnabled="true" LinePattern="Broken">
-		<Area>
+		</RestrictedArea>
+		<RestrictedArea Type="Danger" Name="D13" AltitudeFloor="0" AltitudeCeiling="19500" DAIWEnabled="true" LinePattern="Broken">
+			<Area>
 		+550614.0+0164153.0/
 		+545953.0+0160033.0/
 		+544630.0+0160900.0/
@@ -249,18 +249,18 @@
 		+544908.0+0165025.0/
 		+550614.0+0164153.0
 		</Area>
-	</RestrictedArea>
-	<RestrictedArea Type="Danger" Name="D14" AltitudeFloor="0" AltitudeCeiling="19500" DAIWEnabled="true" LinePattern="Broken">
-		<Area>
+		</RestrictedArea>
+		<RestrictedArea Type="Danger" Name="D14" AltitudeFloor="0" AltitudeCeiling="19500" DAIWEnabled="true" LinePattern="Broken">
+			<Area>
 		+550614.0+0164153.0/
 		+551030.0+0171140.0/
 		+545712.0+0172224.0/
 		+544908.0+0165025.0/
 		+550614.0+0164153.0
 		</Area>
-	</RestrictedArea>
-	<RestrictedArea Type="Danger" Name="D15" AltitudeFloor="0" AltitudeCeiling="24500" DAIWEnabled="true" LinePattern="Broken">
-		<Area>
+		</RestrictedArea>
+		<RestrictedArea Type="Danger" Name="D15" AltitudeFloor="0" AltitudeCeiling="24500" DAIWEnabled="true" LinePattern="Broken">
+			<Area>
 		+551420.0+0174815.0/
 		+551747.0+0182330.0/
 		+544500.0+0191154.0/
@@ -269,18 +269,18 @@
 		+550156.0+0175807.0/
 		+551420.0+0174815.0
 		</Area>
-	</RestrictedArea>
-	<RestrictedArea Type="Danger" Name="D21 BIEDRUSKO" AltitudeFloor="0" AltitudeCeiling="50000" DAIWEnabled="true" LinePattern="Broken">
-		<Area>
+		</RestrictedArea>
+		<RestrictedArea Type="Danger" Name="D21 BIEDRUSKO" AltitudeFloor="0" AltitudeCeiling="50000" DAIWEnabled="true" LinePattern="Broken">
+			<Area>
 		+523759.0+0164853.0/
 		+523759.0+0165653.0/
 		+523059.0+0165853.0/
 		+522859.0+0164953.0/
 		+523759.0+0164853.0
 		</Area>
-	</RestrictedArea>
-	<RestrictedArea Type="Danger" Name="D24 DRAWSKO POM" AltitudeFloor="0" AltitudeCeiling="66000" DAIWEnabled="true" LinePattern="Broken">
-		<Area>
+		</RestrictedArea>
+		<RestrictedArea Type="Danger" Name="D24 DRAWSKO POM" AltitudeFloor="0" AltitudeCeiling="66000" DAIWEnabled="true" LinePattern="Broken">
+			<Area>
 		+532959.0+0154453.0/
 		+532911.0+0154830.0/
 		+532310.0+0155522.0/
@@ -290,6 +290,6 @@
 		+532459.0+0153553.0/
 		+532959.0+0154453.0
 		</Area>
-	</RestrictedArea>
-  </Areas>
+		</RestrictedArea>
+	</Areas>
 </RestrictedAreas>

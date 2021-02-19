@@ -1,48 +1,48 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <SSRAssignment>
-<!-- Code "Bins" define available codes and their assigned Regex rules. 
+  <!-- Code "Bins" define available codes and their assigned Regex rules. 
 		Priority is applied by the order they appear in this file. -->
-		
+
   <!-- Excluded Codes are never assigned -->
   <Bin>
-    <Rule Excluded="true"/>
+    <Rule Excluded="true" />
     <Codes>
       7615
     </Codes>
   </Bin>
   <!-- VFR Flights -->
   <Bin>
-    <Rule FlightRule="V"/>
-    <Codes Start="7501" End="7577"/>
+    <Rule FlightRule="V" />
+    <Codes Start="7501" End="7577" />
   </Bin>
 
   <!-- TMA Poznan -->
   <Bin>
-    <Rule Departure="EP(PO|WR|ZG|KS)"/>
-    <Codes Start="4520" End="4527"/>
+    <Rule Departure="EP(PO|WR|ZG|KS)" />
+    <Codes Start="4520" End="4527" />
   </Bin>
-  
-    <!-- TMA Gdansk -->
+
+  <!-- TMA Gdansk -->
   <Bin>
-    <Rule Departure="EP(GD|BY)"/>
-    <Codes Start="4530" End="4537"/>
+    <Rule Departure="EP(GD|BY)" />
+    <Codes Start="4530" End="4537" />
   </Bin>
-  
-    <!-- TMA Krakow -->
+
+  <!-- TMA Krakow -->
   <Bin>
-    <Rule Departure="EP(KT|KK)"/>
-    <Codes Start="4540" End="4547"/>
+    <Rule Departure="EP(KT|KK)" />
+    <Codes Start="4540" End="4547" />
   </Bin>
-  
-    <!-- TMA Warszawa -->
+
+  <!-- TMA Warszawa -->
   <Bin>
-    <Rule Departure="EP(WA|MO|LL)"/>
-    <Codes Start="4550" End="4577"/>
+    <Rule Departure="EP(WA|MO|LL)" />
+    <Codes Start="4550" End="4577" />
   </Bin>
-  
+
   <!-- ACC Warszawa + Generic EU pool -->
   <Bin>
-	<Codes Start="4501" End="4577"/>
-	<Codes Start="4001" End="4077"/>
+    <Codes Start="4501" End="4577" />
+    <Codes Start="4001" End="4077" />
   </Bin>
 </SSRAssignment>

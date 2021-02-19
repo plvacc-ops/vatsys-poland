@@ -8,25 +8,25 @@
             <Runway Values="27,34">
               <Rules>
                 <Route Values="DOSEL, MNG VOR, OWENS, KEPPA, NEVIS">
-                  <AssignSector Order="MDN,MDS,MAE"/>
+                  <AssignSector Order="MDN,MDS,MAE" />
                 </Route>
                 <Route Values="AV VOR, ESDEN, MB NDB, ESDIG, SUNTI, CORRS, CRENA">
-                  <AssignSector Order="MDS,MDN,MAE"/>
+                  <AssignSector Order="MDS,MDN,MAE" />
                 </Route>
               </Rules>
             </Runway>
             <Runway Values="16">
               <Rules>
                 <Route Values="AV VOR, DOSEL, MNG VOR, OWENS, KEPPA, ESDIG, CRENA, NEVIS">
-                  <AssignSector Order="MDN,MDS,MAE"/>
+                  <AssignSector Order="MDN,MDS,MAE" />
                 </Route>
                 <Route Values="ESDEN, MB NDB, SUNTI, CORRS">
-                  <AssignSector Order="MDS,MDN,MAE"/>
+                  <AssignSector Order="MDS,MDN,MAE" />
                 </Route>
               </Rules>
             </Runway>
             <Default>
-              <AssignSector Order="MDN,MDS,MAE"/>
+              <AssignSector Order="MDN,MDS,MAE" />
             </Default>
           </Rules>
         </Departure>
@@ -46,10 +46,10 @@
               <AssignSector Order="AAE,AAW" />
             </Route>
             <Route Values="EEMUE, YORKE, HAWKY, WAKEN, ORBUN, VILAD">
-              <AssignSector Order="AAW"/>
+              <AssignSector Order="AAW" />
             </Route>
             <Default>
-              <AssignSector Order="AAW"/>
+              <AssignSector Order="AAW" />
             </Default>
           </Rules>
         </Departure>
@@ -83,7 +83,7 @@
               <AssignSector Order="SDS,SDN,SAS,SAN" />
             </Route>
             <Default>
-              <AssignSector Order="SDN,SDS,SAN,SAS"/>
+              <AssignSector Order="SDN,SDS,SAN,SAS" />
             </Default>
           </Rules>
         </Departure>
@@ -128,7 +128,7 @@
               <AssignSector Order="BDN,BDS,BAN,BAS" />
             </Route>
             <Default>
-              <AssignSector Order="BDS,BDN,BAS,BAN"/>
+              <AssignSector Order="BDS,BDN,BAS,BAN" />
             </Default>
           </Rules>
         </Departure>

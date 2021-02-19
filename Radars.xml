@@ -1,91 +1,91 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Radars>
   <Radar Name="Okecie SMR" Type="SMR_ADSB" Elevation="502" MaxRange="5">
-	<Lat>52.162389</Lat>
-	<Long>20.959611</Long>
+    <Lat>52.162389</Lat>
+    <Long>20.959611</Long>
   </Radar>
   <Radar Name="Okecie PSR" Type="PRI" Elevation="362" MaxRange="80">
-	<Lat>52.165833</Lat>
-	<Long>20.967222</Long>
+    <Lat>52.165833</Lat>
+    <Long>20.967222</Long>
   </Radar>
   <Radar Name="Okecie SSR" Type="SSR_ModeS" Elevation="362" MaxRange="250">
-	<Lat>52.165833</Lat>
-	<Long>20.967222</Long>
+    <Lat>52.165833</Lat>
+    <Long>20.967222</Long>
   </Radar>
   <Radar Name="Gdansk PSR" Type="PRI" Elevation="489" MaxRange="60">
-	<Lat>54.377500</Lat>
-	<Long>18.466111</Long>
+    <Lat>54.377500</Lat>
+    <Long>18.466111</Long>
   </Radar>
   <Radar Name="Gdansk SSR" Type="SSR_ModeS" Elevation="489" MaxRange="250">
-	<Lat>54.377500</Lat>
-	<Long>18.466111</Long>
+    <Lat>54.377500</Lat>
+    <Long>18.466111</Long>
   </Radar>
   <Radar Name="Katowice SSR" Type="SSR_ModeS" Elevation="1007" MaxRange="250">
-	<Lat>50.474167</Lat>
-	<Long>19.080000</Long>
+    <Lat>50.474167</Lat>
+    <Long>19.080000</Long>
   </Radar>
   <Radar Name="Krakow SSR" Type="SSR_ModeS" Elevation="791" MaxRange="205">
-	<Lat>50.077778</Lat>
-	<Long>19.784722</Long>
+    <Lat>50.077778</Lat>
+    <Long>19.784722</Long>
   </Radar>
-    <Radar Name="Katowice PSR" Type="PRI" Elevation="1007" MaxRange="60">
-	<Lat>50.474167</Lat>
-	<Long>19.080000</Long>
+  <Radar Name="Katowice PSR" Type="PRI" Elevation="1007" MaxRange="60">
+    <Lat>50.474167</Lat>
+    <Long>19.080000</Long>
   </Radar>
   <Radar Name="Krakow PSR" Type="PRI" Elevation="791" MaxRange="80">
-	<Lat>50.077778</Lat>
-	<Long>19.784722</Long>
+    <Lat>50.077778</Lat>
+    <Long>19.784722</Long>
   </Radar>
   <Radar Name="Lomza SSR" Type="SSR_ModeS" Elevation="312" MaxRange="200">
-	<Lat>53.176389</Lat>
-	<Long>22.073056</Long>
+    <Lat>53.176389</Lat>
+    <Long>22.073056</Long>
   </Radar>
   <Radar Name="Neubrandenburg SSR" Type="SSR_ModeS" Elevation="70" MaxRange="150">
-	<Lat>53.55</Lat>
-	<Long>13.266667</Long>
+    <Lat>53.55</Lat>
+    <Long>13.266667</Long>
   </Radar>
   <Radar Name="Poznan SSR" Type="SSR_ModeS" Elevation="308" MaxRange="250">
-	<Lat>52.421111</Lat>
-	<Long>16.826389</Long>
+    <Lat>52.421111</Lat>
+    <Long>16.826389</Long>
   </Radar>
   <Radar Name="Poznan PSR" Type="PRI" Elevation="308" MaxRange="60">
-	<Lat>52.421111</Lat>
-	<Long>16.826389</Long>
+    <Lat>52.421111</Lat>
+    <Long>16.826389</Long>
   </Radar>
   <Radar Name="Krzesiny PSR" Type="PRI" Elevation="276" MaxRange="60">
-	<Lat>52.331944</Lat>
-	<Long>16.966667</Long>
+    <Lat>52.331944</Lat>
+    <Long>16.966667</Long>
   </Radar>
   <Radar Name="Pultusk SSR" Type="SSR_ModeS" Elevation="262" MaxRange="250">
-	<Lat>52.705</Lat>
-	<Long>21.083889</Long>
+    <Lat>52.705</Lat>
+    <Long>21.083889</Long>
   </Radar>
   <Radar Name="Rzeszow SSR" Type="SSR_ModeS" Elevation="693" MaxRange="250">
-	<Lat>50.11</Lat>
-	<Long>22.018889</Long>
+    <Lat>50.11</Lat>
+    <Long>22.018889</Long>
   </Radar>
   <Radar Name="Szczecinek SSR" Type="SSR_ModeS" Elevation="463" MaxRange="200">
-	<Lat>53.720833</Lat>
-	<Long>16.686111</Long>
+    <Lat>53.720833</Lat>
+    <Long>16.686111</Long>
   </Radar>
   <Radar Name="Szczecin SSR" Type="SSR_ModeS" Elevation="155" MaxRange="250">
-	<Lat>53.584722</Lat>
-	<Long>14.902222</Long>
+    <Lat>53.584722</Lat>
+    <Long>14.902222</Long>
   </Radar>
   <Radar Name="Tarnobrzeg SSR" Type="SSR_ModeS" Elevation="525" MaxRange="200">
-	<Lat>50.572778</Lat>
-	<Long>21.678611</Long>
+    <Lat>50.572778</Lat>
+    <Long>21.678611</Long>
   </Radar>
   <Radar Name="Wilno SSR" Type="SSR_ModeS" Elevation="486" MaxRange="200">
-	<Lat>54.683333</Lat>
-	<Long>25.283333</Long>
+    <Lat>54.683333</Lat>
+    <Long>25.283333</Long>
   </Radar>
   <Radar Name="Wroclaw PSR" Type="PRI" Elevation="406" MaxRange="60">
-	<Lat>51.102778</Lat>
-	<Long>16.885833</Long>
+    <Lat>51.102778</Lat>
+    <Long>16.885833</Long>
   </Radar>
   <Radar Name="Wroclaw SSR" Type="SSR_ModeS" Elevation="406" MaxRange="250">
-	<Lat>51.102778</Lat>
-	<Long>16.885833</Long>
+    <Lat>51.102778</Lat>
+    <Long>16.885833</Long>
   </Radar>
 </Radars>

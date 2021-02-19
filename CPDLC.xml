@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Messages>
   <Category name="QUICK_OPTIONS">
     <Message Response="WU">CLIMB TO AND MAINTAIN [LEVEL]</Message>
@@ -131,7 +131,7 @@
     <Message Response="NE">CLIMB VIA SID TO [LEVEL]</Message>
     <Message Response="NE">DEP FREQ [FREQUENCY]</Message>
     <Message Response="NE">SQUAWK [SSR]</Message>
-	<Message Response="NE">PDC READBACK FREQ [FREQUENCY]</Message>
+    <Message Response="NE">PDC READBACK FREQ [FREQUENCY]</Message>
   </Category>
   <Category name="Speed">
     <Message Response="WU">MAINTAIN [SPEED]</Message>

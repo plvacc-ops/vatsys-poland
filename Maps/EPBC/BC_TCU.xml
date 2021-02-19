@@ -6,7 +6,7 @@
       <Threshold Name="10R" Position="+521614.0+0205352.0" />
       <Threshold Name="28L" Position="+521604.0+0205459.0" />
     </Runway>
-	<Runway Name="10L/28R">
+    <Runway Name="10L/28R">
       <Threshold Name="10L" Position="+521616.0+0205408.0" />
       <Threshold Name="28R" Position="+521609.0+0205500.0" />
     </Runway>
