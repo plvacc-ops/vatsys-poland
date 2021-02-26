@@ -2,7 +2,7 @@
 <Positions xmlns:xsd="http://www.w3.org/2001/XMLSchema"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Group Name="AFIS">
-    <Position Name="EPBC INFO" Type="ASD" DefaultCenter="+521609.0+0205426.0" DefaultRange="30">
+    <Position Name="EPBC" Type="ASD" DefaultCenter="+521609.0+0205426.0" DefaultRange="30">
       <Sectors>
         <Sector Name="IBC" />
       </Sectors>
