@@ -7,11 +7,23 @@
 				<SID Name="LUX\dB" />
 				<SID Name="GOB\dB" />
 				<SID Name="INT\dB" />
+				<STAR Name="LUX\dP" ApproachName="RNP" />
+				<STAR Name="GOB\dP" ApproachName="RNP" />
+				<STAR Name="INT\dP" ApproachName="RNP" />
+				<STAR Name="LUX\dS" ApproachName="VORY" />
+				<STAR Name="GOB\dS" ApproachName="VORY" />
+				<STAR Name="INT\dS" ApproachName="VORY" />
 			</Runway>
 			<Runway Name="26" DataRunway="26">
 				<SID Name="LUX\dH" />
 				<SID Name="GOB\dH" />
 				<SID Name="INT\dH" />
+				<STAR Name="LUX\dT" ApproachName="ILSZ" />
+				<STAR Name="GOB\dT" ApproachName="ILSZ" />
+				<STAR Name="INT\dT" ApproachName="ILSZ" />
+				<STAR Name="LUX\dS" ApproachName="ILSY" />
+				<STAR Name="GOB\dS" ApproachName="ILSY" />
+				<STAR Name="INT\dS" ApproachName="ILSY" />
 			</Runway>
 		</Airport>
 	</SystemRunways>
@@ -133,6 +145,36 @@
 		<SID Name="INT1H" Airport="EPBY" Runways="26">
 			<Route>BY641 BY646 BY647 INTUN</Route>
 		</SID>
+		<STAR Name="LUX1N" Airport="EPBY" Runways="08,26">
+			<Route>LUXUD ABIBO</Route>
+		</STAR>
+		<STAR Name="LUX1P" Airport="EPBY" Runways="08">
+			<Route>LUXUD BY809 ABIBO</Route>
+		</STAR>
+		<STAR Name="LUX1S" Airport="EPBY" Runways="08,26">
+			<Route>LUXUD ABIBO BYZ</Route>
+		</STAR>
+		<STAR Name="LUX1T" Airport="EPBY" Runways="26">
+			<Route>LUXUD ABIBO BY629 BY628</Route>
+		</STAR>
+		<STAR Name="INT1P" Airport="EPBY" Runways="08">
+			<Route>INTUN BY808 BY807 BY804</Route>
+		</STAR>
+		<STAR Name="INT1S" Airport="EPBY" Runways="08,26">
+			<Route>INTUN ABIBO BYZ</Route>
+		</STAR>
+		<STAR Name="INT1T" Airport="EPBY" Runways="26">
+			<Route>INTUN BY627</Route>
+		</STAR>
+		<STAR Name="GOB1P" Airport="EPBY" Runways="08">
+			<Route>GOBNI BY808 BY807 BY804</Route>
+		</STAR>
+		<STAR Name="GOB1S" Airport="EPBY" Runways="08,26">
+			<Route>GOBNI BAVGO BYZ</Route>
+		</STAR>
+		<STAR Name="GOB1T" Airport="EPBY" Runways="26">
+			<Route>GOBNI BY627</Route>
+		</STAR>
 	</SIDSTARs>
 	<Airports>
 		<Airport ICAO="EPWA" Position="+520957.0+0205802.0" Elevation="362">
