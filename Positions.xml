@@ -85,6 +85,28 @@
         <Line>Charts, feedback and airport coverage on pl-vacc.org.pl</Line>
       </ControllerInfo>
     </Position>
+    <Position Name="EPMO" Type="ASD" DefaultCenter="+522704.0+0203907.0" DefaultRange="50">
+      <Sectors>
+        <Sector Name="TMO" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_SECTORS" />
+        <Map Name="ALL_NAVAIDS" />
+        <Map Name="TMA Warszawa/WA_TCU" />
+        <Map Name="TMA Warszawa/WA_VFR" />
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="EPMO" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="6000" />
+      <ArrivalLists>
+        <Airport Name="EPMO" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Modlin Tower</Line>
+        <Line>Charts, feedback and airport coverage on pl-vacc.org.pl</Line>
+      </ControllerInfo>
+    </Position>
   </Group>
   <Group Name="TMA Gdansk">
     <Position Name="EPGD" Type="ASD" DefaultCenter="+542239.0+0182758.0" DefaultRange="50">
