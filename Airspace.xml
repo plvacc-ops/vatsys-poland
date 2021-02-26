@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Airspace xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Airspace xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<SystemRunways>
+		<Airport Name="EPBY">
+			<Runway Name="08" DataRunway="08">
+				<SID Name="LUX\dB" />
+				<SID Name="GOB\dB" />
+				<SID Name="INT\dB" />
+			</Runway>
+			<Runway Name="26" DataRunway="26">
+				<SID Name="LUX\dH" />
+				<SID Name="GOB\dH" />
+				<SID Name="INT\dH" />
+			</Runway>
+		</Airport>
 	</SystemRunways>
 	<Airways></Airways>
 	<Intersections>
@@ -101,6 +114,25 @@
 		<Point Name="EPBYW" Type="Fix">+525834.0+0180558.0</Point>
 	</Intersections>
 	<SIDSTARs>
+		<!-- EPBY -->
+		<SID Name="LUX1B" Airport="EPBY" Runways="08">
+			<Route>BY831 LUXUD</Route>
+		</SID>
+		<SID Name="GOB1B" Airport="EPBY" Runways="08">
+			<Route>BY832 GOBNI</Route>
+		</SID>
+		<SID Name="INT1B" Airport="EPBY" Runways="08">
+			<Route>BY832 INTUN</Route>
+		</SID>
+		<SID Name="LUX1H" Airport="EPBY" Runways="26">
+			<Route>BY641 BY642 BY643 LUXUD</Route>
+		</SID>
+		<SID Name="GOB1H" Airport="EPBY" Runways="26">
+			<Route>BY641 BY646 BY647 GOBNI</Route>
+		</SID>
+		<SID Name="INT1H" Airport="EPBY" Runways="26">
+			<Route>BY641 BY646 BY647 INTUN</Route>
+		</SID>
 	</SIDSTARs>
 	<Airports>
 		<Airport ICAO="EPWA" Position="+520957.0+0205802.0" Elevation="362">
