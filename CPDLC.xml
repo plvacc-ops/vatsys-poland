@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Messages>
   <Category name="QUICK_OPTIONS">
-    <Message Response="WU">CLIMB TO AND MAINTAIN [LEVEL]</Message>
-    <Message Response="WU">DESCEND TO AND MAINTAIN [LEVEL]</Message>
-    <Message Response="WU">PROCEED DIRECT TO [POSITION]</Message>
+    <Message Response="WU">CLIMB AND MAINTAIN [LEVEL]</Message>
+    <Message Response="WU">DESCEND AND MAINTAIN [LEVEL]</Message>
+    <Message Response="WU">PROCEED DIRECT [POSITION]</Message>
     <Message Response="WU">MAINTAIN [SPEED] OR GREATER</Message>
     <Message Response="WU">MAINTAIN [SPEED] OR LESS</Message>
     <Message Response="WU">CONTACT [UNIT] [FREQUENCY]</Message>
@@ -14,12 +14,12 @@
     <Message Response="AN">CAN YOU ACCEPT [LEVEL] AT [POSITION]</Message>
     <Message Response="AN">CAN YOU ACCEPT [LEVEL] AT [TIME]</Message>
     <Message Response="WU">MAINTAIN [LEVEL]</Message>
-    <Message Response="WU">CLIMB TO AND MAINTAIN [LEVEL]</Message>
-    <Message Response="WU">AT [TIME] CLIMB TO AND MAINTAIN [LEVEL]</Message>
-    <Message Response="WU">AT [POSITION] CLIMB TO AND MAINTAIN [LEVEL]</Message>
-    <Message Response="WU">DESCEND TO AND MAINTAIN [LEVEL]</Message>
-    <Message Response="WU">AT [TIME] DESCEND TO AND MAINTAIN [LEVEL]</Message>
-    <Message Response="WU">AT [POSITION] DESCEND TO AND MAINTAIN [LEVEL]</Message>
+    <Message Response="WU">CLIMB AND MAINTAIN [LEVEL]</Message>
+    <Message Response="WU">AT [TIME] CLIMB AND MAINTAIN [LEVEL]</Message>
+    <Message Response="WU">AT [POSITION] CLIMB AND MAINTAIN [LEVEL]</Message>
+    <Message Response="WU">DESCEND AND MAINTAIN [LEVEL]</Message>
+    <Message Response="WU">AT [TIME] DESCEND AND MAINTAIN [LEVEL]</Message>
+    <Message Response="WU">AT [POSITION] DESCEND AND MAINTAIN [LEVEL]</Message>
     <Message Response="WU">CLIMB TO REACH [LEVEL] BY [TIME]</Message>
     <Message Response="WU">CLIMB TO REACH [LEVEL] BY [POSITION]</Message>
     <Message Response="WU">DESCEND TO REACH [LEVEL] BY [TIME]</Message>
