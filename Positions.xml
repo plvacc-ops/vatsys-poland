@@ -118,29 +118,6 @@
       </ControllerInfo>
     </Position>
   </Group>
-  <Position Name="EPLB TWR" Type="ASD" DefaultCenter="+511425.0+0224249.0" DefaultRange="150">
-    <Sectors>
-      <Sector Name="TLB" />
-    </Sectors>
-    <Maps>
-      <Map Name="ALL_SECTORS" />
-      <Map Name="ALL_NAVAIDS" />
-      <Map Name="EPLB/LB_TCU" />
-      <Map Name="EPLB/LB_VFR" />
-    </Maps>
-    <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="EPLB" Visible="true" />
-      </Strips>
-    <CFL QuickLevel="6000" />
-    <ArrivalLists>
-      <Airport Name="EPLB" />
-    </ArrivalLists>
-    <ControllerInfo>
-      <Line>Lublin Tower</Line>
-      <Line>Procedural control</Line>
-      <Line>Charts, feedback and airport coverage on pl-vacc.org.pl</Line>
-    </ControllerInfo>
-  </Position>
   <Group Name="TMA Gdansk">
     <Position Name="EPBY TWR" Type="ASD" DefaultCenter="+530548.0+0175840.0" DefaultRange="100">
       <Sectors>
@@ -288,6 +265,31 @@
       <ControllerInfo>
         <Line>Poznan Approach South</Line>
         <Line>Covering EPWR | For EPWR ATIS check frequency 124.320</Line>
+        <Line>Charts, feedback and airport coverage on pl-vacc.org.pl</Line>
+      </ControllerInfo>
+    </Position>
+  </Group>
+  <Group Name="Procedural">
+    <Position Name="EPLB TWR" Type="ASD" DefaultCenter="+511425.0+0224249.0" DefaultRange="150">
+      <Sectors>
+        <Sector Name="TLB" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_SECTORS" />
+        <Map Name="ALL_NAVAIDS" />
+        <Map Name="EPLB/LB_TCU" />
+        <Map Name="EPLB/LB_VFR" />
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="EPLB" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="6000" />
+      <ArrivalLists>
+        <Airport Name="EPLB" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Lublin Tower</Line>
+        <Line>Procedural control</Line>
         <Line>Charts, feedback and airport coverage on pl-vacc.org.pl</Line>
       </ControllerInfo>
     </Position>
