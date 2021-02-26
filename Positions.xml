@@ -77,10 +77,8 @@
         <Map Name="TMA Warszawa/LL_TCU" />
         <Map Name="TMA Warszawa/LL_VFR" />
       </Maps>
-      <Strips Mode="State" Sort="Time">
-        <Window Type="State" State="Jurisdiction" Visible="true" />
-        <Window Type="State" State="Announced" Visible="true" />
-        <Window Type="State" State="Preactive" Visible="true" />
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="EPLL" Visible="true" />
       </Strips>
       <CFL QuickLevel="6000" />
       <ATIS>
@@ -106,10 +104,8 @@
         <Map Name="TMA Warszawa/WA_TCU" />
         <Map Name="TMA Warszawa/WA_VFR" />
       </Maps>
-      <Strips Mode="State" Sort="Time">
-        <Window Type="State" State="Jurisdiction" Visible="true" />
-        <Window Type="State" State="Announced" Visible="true" />
-        <Window Type="State" State="Preactive" Visible="true" />
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="EPWA" Visible="true" />
       </Strips>
       <CFL QuickLevel="6000" />
       <ArrivalLists>
@@ -132,11 +128,9 @@
       <Map Name="EPLB/LB_TCU" />
       <Map Name="EPLB/LB_VFR" />
     </Maps>
-    <Strips Mode="State" Sort="Time">
-      <Window Type="State" State="Jurisdiction" Visible="true" />
-      <Window Type="State" State="Announced" Visible="true" />
-      <Window Type="State" State="Preactive" Visible="true" />
-    </Strips>
+    <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="EPLB" Visible="true" />
+      </Strips>
     <CFL QuickLevel="6000" />
     <ArrivalLists>
       <Airport Name="EPLB" />
@@ -158,10 +152,8 @@
         <Map Name="TMA Gdansk/BY_TMA" />
         <Map Name="TMA Gdansk/BY_VFR" />
       </Maps>
-      <Strips Mode="State" Sort="Time">
-        <Window Type="State" State="Jurisdiction" Visible="true" />
-        <Window Type="State" State="Announced" Visible="true" />
-        <Window Type="State" State="Preactive" Visible="true" />
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="EPBY" Visible="true" />
       </Strips>
       <CFL QuickLevel="6000" />
       <ArrivalLists>
@@ -183,10 +175,8 @@
         <Map Name="TMA Gdansk/GD_TMA" />
         <Map Name="TMA Gdansk/GD_VFR" />
       </Maps>
-      <Strips Mode="State" Sort="Time">
-        <Window Type="State" State="Jurisdiction" Visible="true" />
-        <Window Type="State" State="Announced" Visible="true" />
-        <Window Type="State" State="Preactive" Visible="true" />
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="EPGD" Visible="true" />
       </Strips>
       <CFL QuickLevel="6000" />
       <ArrivalLists>
@@ -288,7 +278,7 @@
         <Map Name="UPPER_SECTOR_FREQS" />
         <Map Name="TMA Poznan/TCU" />
       </Maps>
-      <Strips Mode="Beacon" Sort="Level">
+      <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="EPWR" Visible="true" />
       </Strips>
       <CFL QuickLevel="6000" />
