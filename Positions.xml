@@ -60,41 +60,7 @@
         <Line>Charts, feedback and airport coverage on pl-vacc.org.pl</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="EPLL TWR" Type="ASD" DefaultCenter="+514319.0+0192353.0" DefaultRange="100">
-      <Sectors>
-        <Sector Name="TLL" />
-      </Sectors>
-      <Maps>
-        <Map Name="ALL_CTA" />
-        <Map Name="ALL_MVA" />
-        <Map Name="ALL_SECTORS" />
-        <Map Name="ALL_NAVAIDS" />
-        <Map Name="COAST_ALL" />
-        <Map Name="ALL_ROUTES_HIGH" />
-        <Map Name="ALL_POINTS_HIGH" />
-        <Map Name="FIR_BDRY" />
-        <Map Name="UPPER_SECTOR_FREQS" />
-        <Map Name="TMA Warszawa/LL_TCU" />
-        <Map Name="TMA Warszawa/LL_VFR" />
-      </Maps>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="EPLL" Visible="true" />
-      </Strips>
-      <CFL QuickLevel="6000" />
-      <ATIS>
-        <Editor Airport="EPLL" Frequency="135.67" />
-        <Window Airport="EPLL" />
-      </ATIS>
-      <ArrivalLists>
-        <Airport Name="EPLL" />
-      </ArrivalLists>
-      <ControllerInfo>
-        <Line>Lodz Tower</Line>
-        <Line>Procedural control | Check ATIS on 135.675</Line>
-        <Line>Charts, feedback and airport coverage on pl-vacc.org.pl</Line>
-      </ControllerInfo>
-    </Position>
-    <Position Name="EPWA TWR" Type="ASD" DefaultCenter="+520957.0+0205802.0" DefaultRange="50">
+    <Position Name="EPWA" Type="ASD" DefaultCenter="+520957.0+0205802.0" DefaultRange="50">
       <Sectors>
         <Sector Name="TWA" />
       </Sectors>
@@ -119,30 +85,7 @@
     </Position>
   </Group>
   <Group Name="TMA Gdansk">
-    <Position Name="EPBY TWR" Type="ASD" DefaultCenter="+530548.0+0175840.0" DefaultRange="100">
-      <Sectors>
-        <Sector Name="TBY" />
-      </Sectors>
-      <Maps>
-        <Map Name="ALL_SECTORS" />
-        <Map Name="ALL_NAVAIDS" />
-        <Map Name="TMA Gdansk/BY_TMA" />
-        <Map Name="TMA Gdansk/BY_VFR" />
-      </Maps>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="EPBY" Visible="true" />
-      </Strips>
-      <CFL QuickLevel="6000" />
-      <ArrivalLists>
-        <Airport Name="EPBY" />
-      </ArrivalLists>
-      <ControllerInfo>
-        <Line>Bydgoszcz Tower</Line>
-        <Line>Procedural control</Line>
-        <Line>Charts, feedback and airport coverage on pl-vacc.org.pl</Line>
-      </ControllerInfo>
-    </Position>
-    <Position Name="EPGD TWR" Type="ASD" DefaultCenter="+542239.0+0182758.0" DefaultRange="50">
+    <Position Name="EPGD" Type="ASD" DefaultCenter="+542239.0+0182758.0" DefaultRange="50">
       <Sectors>
         <Sector Name="TGD" />
       </Sectors>
@@ -270,7 +213,30 @@
     </Position>
   </Group>
   <Group Name="Procedural">
-    <Position Name="EPLB TWR" Type="ASD" DefaultCenter="+511425.0+0224249.0" DefaultRange="150">
+    <Position Name="EPBY" Type="ASD" DefaultCenter="+530548.0+0175840.0" DefaultRange="100">
+      <Sectors>
+        <Sector Name="TBY" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_SECTORS" />
+        <Map Name="ALL_NAVAIDS" />
+        <Map Name="TMA Gdansk/BY_TMA" />
+        <Map Name="TMA Gdansk/BY_VFR" />
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="EPBY" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="6000" />
+      <ArrivalLists>
+        <Airport Name="EPBY" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Bydgoszcz Tower</Line>
+        <Line>Procedural control</Line>
+        <Line>Charts, feedback and airport coverage on pl-vacc.org.pl</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="EPLB" Type="ASD" DefaultCenter="+511425.0+0224249.0" DefaultRange="150">
       <Sectors>
         <Sector Name="TLB" />
       </Sectors>
@@ -290,6 +256,40 @@
       <ControllerInfo>
         <Line>Lublin Tower</Line>
         <Line>Procedural control</Line>
+        <Line>Charts, feedback and airport coverage on pl-vacc.org.pl</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="EPLL" Type="ASD" DefaultCenter="+514319.0+0192353.0" DefaultRange="100">
+      <Sectors>
+        <Sector Name="TLL" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="ALL_MVA" />
+        <Map Name="ALL_SECTORS" />
+        <Map Name="ALL_NAVAIDS" />
+        <Map Name="COAST_ALL" />
+        <Map Name="ALL_ROUTES_HIGH" />
+        <Map Name="ALL_POINTS_HIGH" />
+        <Map Name="FIR_BDRY" />
+        <Map Name="UPPER_SECTOR_FREQS" />
+        <Map Name="TMA Warszawa/LL_TCU" />
+        <Map Name="TMA Warszawa/LL_VFR" />
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="EPLL" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="6000" />
+      <ATIS>
+        <Editor Airport="EPLL" Frequency="135.67" />
+        <Window Airport="EPLL" />
+      </ATIS>
+      <ArrivalLists>
+        <Airport Name="EPLL" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Lodz Tower</Line>
+        <Line>Procedural control | Check ATIS on 135.675</Line>
         <Line>Charts, feedback and airport coverage on pl-vacc.org.pl</Line>
       </ControllerInfo>
     </Position>
