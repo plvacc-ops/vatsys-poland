@@ -61,7 +61,7 @@
   </Sector>
   <!-- TMA Gdansk -->
   <Sector FullName="Gdansk Approach" Frequency="127.270" Callsign="EPGD_APP" Name="GDA">
-    <Volumes>GDA,GDB,GDC,GDD,GDE</Volumes>
+    <Volumes>GDA,GDB,GDC,GDD,GDE,GDU</Volumes>
   </Sector>
   <Sector FullName="Gdansk Director" Frequency="133.670" Callsign="EPGD_F_APP" Name="GDF">
     <Volumes></Volumes>

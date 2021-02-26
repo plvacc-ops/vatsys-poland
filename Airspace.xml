@@ -148,6 +148,15 @@
 		<Point Name="EPGDS" Type="Fix">+542042.0+0182606.0</Point>
 		<Point Name="EPGDX" Type="Fix">+541634.0+0182922.0</Point>
 		<Point Name="EPGDZ" Type="Fix">+541930.0+0181101.0</Point>
+		<!-- EPBY VFR -->
+		<Point Name="EPBYC" Type="Fix">+525816.0+0183223.0</Point>
+		<Point Name="EPBYK" Type="Fix">+525821.0+0174322.0</Point>
+		<Point Name="EPBYM" Type="Fix">+531325.0+0180213.0</Point>
+		<Point Name="EPBYN" Type="Fix">+531034.0+0180323.0</Point>
+		<Point Name="EPBYO" Type="Fix">+530823.0+0173530.0</Point>
+		<Point Name="EPBYS" Type="Fix">+530309.0+0175946.0</Point>
+		<Point Name="EPBYU" Type="Fix">+531228.0+0182243.0</Point>
+		<Point Name="EPBYW" Type="Fix">+525834.0+0180558.0</Point>
 	</Intersections>
 	<SIDSTARs>
 		<SID Name="BAMSO5A" Airport="EPWA" Runways="11">

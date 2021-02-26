@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Positions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Position Name="EPBC INFO" Type="ASD" DefaultCenter="+521609.0+0205426.0" DefaultRange="50">
+  <Position Name="EPBC INFO" Type="ASD" DefaultCenter="+521609.0+0205426.0" DefaultRange="30">
     <Sectors>
       <Sector Name="IBC" />
     </Sectors>
@@ -18,7 +18,7 @@
       <Line>Charts, feedback and airport coverage on pl-vacc.org.pl</Line>
     </ControllerInfo>
   </Position>
-  <Position Name="Warszawa Approach South" Type="ASD" DefaultCenter="+520306.0+0202411.0" DefaultRange="150">
+  <Position Name="Warszawa Approach South" Type="ASD" DefaultCenter="+520306.0+0202411.0" DefaultRange="250">
     <Sectors>
       <Sector Name="WAS" />
       <Sector Name="WAN" />
@@ -58,7 +58,7 @@
       <Line>Charts, feedback and airport coverage on pl-vacc.org.pl</Line>
     </ControllerInfo>
   </Position>
-  <Position Name="Poznan Approach North" Type="ASD" DefaultCenter="+522230.0+0164850.0" DefaultRange="150" MagneticVariation="-5">
+  <Position Name="Poznan Approach North" Type="ASD" DefaultCenter="+522230.0+0164850.0" DefaultRange="500" MagneticVariation="-5">
     <Sectors>
       <Sector Name="PON" />
       <Sector Name="POS" />
@@ -93,7 +93,7 @@
       <Line>Charts, feedback and airport coverage on pl-vacc.org.pl</Line>
     </ControllerInfo>
   </Position>
-  <Position Name="Poznan Approach South" Type="ASD" DefaultCenter="+510517.0+0165336.0" DefaultRange="150" MagneticVariation="-5">
+  <Position Name="Poznan Approach South" Type="ASD" DefaultCenter="+510517.0+0165336.0" DefaultRange="300" MagneticVariation="-5">
     <Sectors>
       <Sector Name="POS" />
       <Sector Name="TWR" />
@@ -123,7 +123,7 @@
       <Line>Charts, feedback and airport coverage on pl-vacc.org.pl</Line>
     </ControllerInfo>
   </Position>
-  <Position Name="EPLL TWR" Type="ASD" DefaultCenter="+514319.0+0192353.0" DefaultRange="50">
+  <Position Name="EPLL TWR" Type="ASD" DefaultCenter="+514319.0+0192353.0" DefaultRange="100">
     <Sectors>
       <Sector Name="TLL" />
     </Sectors>
@@ -180,7 +180,7 @@
       <Line>Charts, feedback and airport coverage on pl-vacc.org.pl</Line>
     </ControllerInfo>
   </Position>
-  <Position Name="EPLB TWR" Type="ASD" DefaultCenter="+511425.0+0224249.0" DefaultRange="50">
+  <Position Name="EPLB TWR" Type="ASD" DefaultCenter="+511425.0+0224249.0" DefaultRange="150">
     <Sectors>
       <Sector Name="TLB" />
     </Sectors>
@@ -205,15 +205,15 @@
       <Line>Charts, feedback and airport coverage on pl-vacc.org.pl</Line>
     </ControllerInfo>
   </Position>
-  <Position Name="EPBY TWR" Type="ASD" DefaultCenter="+530548.0+0175840.0" DefaultRange="50">
+  <Position Name="EPBY TWR" Type="ASD" DefaultCenter="+530548.0+0175840.0" DefaultRange="100">
     <Sectors>
       <Sector Name="TBY" />
     </Sectors>
     <Maps>
       <Map Name="ALL_SECTORS" />
       <Map Name="ALL_NAVAIDS" />
-      <Map Name="EPBY/BY_TCU" />
-      <Map Name="EPBY/BY_VFR" />
+      <Map Name="TMA Gdansk/BY_TMA" />
+      <Map Name="TMA Gdansk/BY_VFR" />
     </Maps>
     <Strips Mode="State" Sort="Time">
       <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -237,7 +237,7 @@
     <Maps>
       <Map Name="ALL_SECTORS" />
       <Map Name="ALL_NAVAIDS" />
-      <Map Name="TMA Gdansk/GD_TCU" />
+      <Map Name="TMA Gdansk/GD_TMA" />
       <Map Name="TMA Gdansk/GD_VFR" />
     </Maps>
     <Strips Mode="State" Sort="Time">
@@ -263,9 +263,11 @@
       <Map Name="TMA Warszawa/ASMGCS_EPWA_BLD" />
     </Maps>
   </Position>
-  <Position Name="Gdansk Approach" Type="ASD" DefaultCenter="+535340.3594+0182512.9375" DefaultRange="150">
+  <Position Name="Gdansk Approach" Type="ASD" DefaultCenter="+535340.3594+0182512.9375" DefaultRange="400">
     <Sectors>
       <Sector Name="GDA" />
+      <Sector Name="TGD" />
+      <Sector Name="TBY" />
     </Sectors>
     <Maps>
       <Map Name="ALL_CTA" />
@@ -277,7 +279,8 @@
       <Map Name="ALL_POINTS_HIGH" />
       <Map Name="FIR_BDRY" />
       <Map Name="UPPER_SECTOR_FREQS" />
-      <Map Name="TMA Gdansk/GD_TCU" />
+      <Map Name="TMA Gdansk/GD_TMA" />
+      <Map Name="TMA Gdansk/BY_TMA" />
     </Maps>
     <Strips Mode="Beacon" Sort="Level">
       <Window Type="ADEP" Beacon="EPGD" Visible="true" />
