@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Sectors xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- Foreign -->
+  <Sector FullName="Baltic Control" Frequency="132.3" Callsign="BALT_CTR" Name="BALT">
+  </Sector>
+  <Sector FullName="Berlin Director" Frequency="136.100" Callsign="EDDB_F_APP" Name="EDB2">
+  </Sector>
+  <Sector FullName="Bremen Radar" Frequency="119.620" Callsign="EDDB_N_APP" Name="EDB3">
+  </Sector>
+  <Sector FullName="Bremen Radar" Frequency="126.420" Callsign="EDDB_S_APP" Name="EDB4">
+  </Sector>
+  <Sector FullName="Bremen Radar" Frequency="120.620" Callsign="EDDB_S_DEP" Name="EDB1">
+  </Sector>
+  <Sector FullName="Berlin Director" Frequency="121.120" Callsign="EDDB_U_APP" Name="EDB5">
+  </Sector>
   <!-- AFISO -->
-  <Sector FullName="Babice Information" Frequency="119.170" Callsign="EPBC_TWR" Name="IBC">
+  <Sector FullName="Babice Information" Frequency="119.170" Callsign="EPBC_TWR" Name="TBC">
     <Volumes>BCA,BCA1,BCB</Volumes>
   </Sector>
   <!-- Tower -->
