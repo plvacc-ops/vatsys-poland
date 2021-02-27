@@ -40,5 +40,25 @@
             <Point Name="U">EPBYU</Point>
             <Point Name="W">EPBYW</Point>
         </Label>
+        <Line Pattern="Dotted">
+            EPBYC/
+            EPBYS
+        </Line>
+        <Line Pattern="Dotted">
+            EPBYN/
+            EPBYU
+        </Line>
+        <Line Pattern="Dashed">
+            EPBYK/
+            EPBYS/
+            EPBYW/
+            EPBYC
+        </Line>
+        <Line Pattern="Dashed">
+            EPBYO/
+            EPBYN/
+            EPBYM/
+            EPBYU
+        </Line>
     </Map>
 </Maps>
