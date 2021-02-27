@@ -28,7 +28,7 @@
 		</Symbol>
 		<Symbol Type="HollowTriangle"></Symbol>
 	</Map>
-	<Map Type="System2" Name="LB_VFR" Priority="2" Centre="+511425.0+0224249.0">
+	<Map Type="System" Name="LB_VFR" Priority="2" Centre="+511425.0+0224249.0">
 		<Symbol Type="HollowSquare">
 			<Point>EPLBB</Point>
 			<Point>EPLBD</Point>
@@ -63,28 +63,28 @@
 	  EPLBT/
 	  EPLBL/
 	  EPLBR
-    </Line>
+		</Line>
 		<Line Pattern="Dotted">
       EPLBD/
 	  EPLBT/
 	  EPLB
-    </Line>
+		</Line>
 		<!--SOUTH-->
 		<Line Pattern="Dotted">
 		EPLBB/
 		EPLBJ/
 		EPLBS/
 		EPLB
-	</Line>
+		</Line>
 		<Line Pattern="Dotted">
 		EPLBE/
 		EPLBS/
 		EPLBP
-	</Line>
+		</Line>
 		<Line Pattern="Dotted">
 		EPLBZ/
 		EPLBS/
 		EPLBK
-	</Line>
+		</Line>
 	</Map>
 </Maps>

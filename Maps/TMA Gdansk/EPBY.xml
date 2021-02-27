@@ -19,7 +19,7 @@
             <Point>GOBNI</Point>
         </Symbol>
     </Map>
-    <Map Type="System2" Name="BY_VFR" Priority="1" Centre="+542239.0+0182758.0">
+    <Map Type="System" Name="BY_VFR" Priority="0" Centre="+542239.0+0182758.0">
         <Symbol Type="HollowSquare">
             <Point>EPBYC</Point>
             <Point>EPBYK</Point>

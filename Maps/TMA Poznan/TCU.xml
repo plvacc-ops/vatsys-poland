@@ -70,7 +70,7 @@
 			<Point>NILPU</Point>
 		</Symbol>
 	</Map>
-	<Map Type="System2" Name="PO_VFR" Priority="1" Centre="+514100.9688+0164753.3906">
+	<Map Type="System" Name="PO_VFR" Priority="1" Centre="+514100.9688+0164753.3906">
 		<Symbol Type="HollowSquare">
 			<Point>EPWAA</Point>
 			<Point>EPWAB</Point>
@@ -133,14 +133,14 @@
 	  EPWAX/
 	  EPWAR/
 	  EPWAW
-    </Line>
+		</Line>
 		<Line Pattern="Dotted">
       EPWAA/
 	  EPWAX/
 	  EPWAB/
 	  EPWAF/
 	  WAR VOR
-    </Line>
+		</Line>
 		<!--NORTH-->
 		<Line Pattern="Dotted">
 		EPWAE/
@@ -149,22 +149,22 @@
 		EPWAM/
 		EPWAK/
 		EPWAG
-	</Line>
+		</Line>
 		<Line Pattern="Dotted">
 		EPWAM/
 		EPWAD/
 		EPWAJ/
 		EPWAL
-	</Line>
+		</Line>
 		<Line Pattern="Dotted">
 		EPWAZ/
 		EPWAP/
 		EPWAD
-	</Line>
+		</Line>
 		<Line Pattern="Dotted">
 		EPWAZ/
 		EPWAN/
 		EPWAK
-	</Line>
+		</Line>
 	</Map>
 </Maps>

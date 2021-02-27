@@ -34,7 +34,7 @@
             <Point>OSLOG</Point>
         </Symbol>
     </Map>
-    <Map Type="System2" Name="GD_VFR" Priority="1" Centre="+542239.0+0182758.0">
+    <Map Type="System" Name="GD_VFR" Priority="1" Centre="+542239.0+0182758.0">
         <Symbol Type="HollowSquare">
             <Point>EPGDG</Point>
             <Point>EPGDI</Point>
