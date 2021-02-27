@@ -28,23 +28,23 @@
 	<Map Type="System" Name="TCU" Priority="0" Centre="+514100.9688+0164753.3906">
 		<!--EPPO-->
 		<Runway Name="10/28">
-			<Threshold Name="10" Position="+522529.85+0164821.62" ExtendedCentrelineTrack="287.56" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
-			<Threshold Name="28" Position="+522505.43+0165027.94" ExtendedCentrelineTrack="107.53" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
+			<Threshold Name="10" Position="+522529.85+0164821.62" ExtendedCentrelineTrack="287.56" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="5" />
+			<Threshold Name="28" Position="+522505.43+0165027.94" ExtendedCentrelineTrack="107.53" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="5" />
 		</Runway>
 		<!--EPKS-->
 		<Runway Name="11/29">
-			<Threshold Name="11" Position="+522013.77+0165701.67" ExtendedCentrelineTrack="298.0" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="2" />
-			<Threshold Name="29" Position="+521936.15+0165857.79" ExtendedCentrelineTrack="118.0" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="2" />
+			<Threshold Name="11" Position="+522013.77+0165701.67" ExtendedCentrelineTrack="298.0" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="5" />
+			<Threshold Name="29" Position="+521936.15+0165857.79" ExtendedCentrelineTrack="118.0" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="5" />
 		</Runway>
 		<!--EPWR-->
 		<Runway Name="11/29">
-			<Threshold Name="11" Position="+510631.69+0165156.98" ExtendedCentrelineTrack="296.0" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
-			<Threshold Name="29" Position="+510556.26+0165352.65" ExtendedCentrelineTrack="116.0" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
+			<Threshold Name="11" Position="+510631.69+0165156.98" ExtendedCentrelineTrack="296.0" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="5" />
+			<Threshold Name="29" Position="+510556.26+0165352.65" ExtendedCentrelineTrack="116.0" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="5" />
 		</Runway>
 		<!--EPZG-->
 		<Runway Name="06/24">
-			<Threshold Name="06" Position="+520801.34+0154655.37" ExtendedCentrelineTrack="244.67" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
-			<Threshold Name="24" Position="+520835.97+0154854.20" ExtendedCentrelineTrack="64.65" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
+			<Threshold Name="06" Position="+520801.34+0154655.37" ExtendedCentrelineTrack="244.67" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="5" />
+			<Threshold Name="24" Position="+520835.97+0154854.20" ExtendedCentrelineTrack="64.65" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="5" />
 		</Runway>
 		<Symbol Type="SolidTriangle">
 			<Point>VAGNI</Point>
