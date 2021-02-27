@@ -26,6 +26,22 @@
 				<STAR Name="INT\dS" ApproachName="ILSY" />
 			</Runway>
 		</Airport>
+		<Airport Name="EPGD">
+			<Runway Name="11" DataRunway="11">
+				<SID Name="VAP\dB" />
+				<SID Name="NIK\dB" />
+				<SID Name="IRL\dB" />
+				<SID Name="DEX\dB" />
+				<SID Name="VIZ\dB" />
+			</Runway>
+			<Runway Name="29" DataRunway="29">
+				<SID Name="VAP\dH" />
+				<SID Name="NIK\dH" />
+				<SID Name="IRL\dH" />
+				<SID Name="DEX\dH" />
+				<SID Name="VIZ\dH" />
+			</Runway>
+		</Airport>
 	</SystemRunways>
 	<Airways></Airways>
 	<Intersections>
