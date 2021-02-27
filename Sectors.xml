@@ -87,11 +87,11 @@
     <Volumes></Volumes>
   </Sector>
   <!-- TMA Poznan -->
-  <Sector FullName="Poznan Approach North" Frequency="129.020" Callsign="EPPO_N_APP" Name="PON">
+  <Sector FullName="Poznan Approach North" Frequency="129.020" Callsign="EPPO_N_APP" Name="ANPO">
     <Volumes>POA,POB,POC,POD</Volumes>
     <ResponsibleSectors>POS,TPO,TWR,TKS</ResponsibleSectors>
   </Sector>
-  <Sector FullName="Poznan Approach South" Frequency="127.220" Callsign="EPPO_S_APP" Name="POS">
+  <Sector FullName="Poznan Approach South" Frequency="127.220" Callsign="EPPO_S_APP" Name="ASPO">
     <Volumes>WRA,WRB,WRC,WRD,WRE,WRF,WRG</Volumes>
     <ResponsibleSectors>TWR</ResponsibleSectors>
   </Sector>

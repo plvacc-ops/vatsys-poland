@@ -4,7 +4,7 @@
   <Group Name="AFIS">
     <Position Name="EPBC" Type="ASD" DefaultCenter="+521609.0+0205426.0" DefaultRange="30">
       <Sectors>
-        <Sector Name="IBC" />
+        <Sector Name="TBC" />
       </Sectors>
       <Maps>
         <Map Name="ALL_SECTORS" />
@@ -134,7 +134,7 @@
     </Position>
     <Position Name="Gdansk Approach" Type="ASD" DefaultCenter="+535340.3594+0182512.9375" DefaultRange="400">
       <Sectors>
-        <Sector Name="GDA" />
+        <Sector Name="AGD" />
         <Sector Name="TGD" />
         <Sector Name="TBY" />
       </Sectors>
@@ -172,8 +172,8 @@
   <Group Name="TMA Poznan">
     <Position Name="Poznan Approach North" Type="ASD" DefaultCenter="+522230.0+0164850.0" DefaultRange="500" MagneticVariation="-5">
       <Sectors>
-        <Sector Name="PON" />
-        <Sector Name="POS" />
+        <Sector Name="ANPO" />
+        <Sector Name="ASPO" />
         <Sector Name="TPO" />
         <Sector Name="TKS" />
         <Sector Name="TWR" />
@@ -207,7 +207,7 @@
     </Position>
     <Position Name="Poznan Approach South" Type="ASD" DefaultCenter="+510517.0+0165336.0" DefaultRange="300" MagneticVariation="-5">
       <Sectors>
-        <Sector Name="POS" />
+        <Sector Name="ASPO" />
         <Sector Name="TWR" />
       </Sectors>
       <Maps>
