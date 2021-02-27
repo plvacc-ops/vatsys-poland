@@ -175,16 +175,40 @@
 		<STAR Name="GOB1T" Airport="EPBY" Runways="26">
 			<Route>GOBNI BY627</Route>
 		</STAR>
+		<!-- EPGD -->
+		<SID Name="VAP2B" Airport="EPGD" Runways="11">
+			<Route>GD421 GD422 UGNUR GD423 VAPOSS</Route>
+		</SID>
+		<SID Name="NIK2B" Airport="EPGD" Runways="11">
+			<Route>GD421 GD432 NIKMI</Route>
+		</SID>
+		<SID Name="IRL2B" Airport="EPGD" Runways="11">
+			<Route>GD421 GD444 GD446 IRLUN</Route>
+		</SID>
+		<SID Name="DEX2B" Airport="EPGD" Runways="11">
+			<Route>GD421 GD444 GD451 EVNOB DEXIR</Route>
+		</SID>
+		<SID Name="VIZ1B" Airport="EPGD" Runways="11">
+			<Route>GD421 GD422 UGNUR VIZAN</Route>
+		</SID>
 	</SIDSTARs>
 	<Airports>
+		<Airport ICAO="EPBY" Position="+530548.0+0175840.0" Elevation="236">
+			<Runway Name="08" Position="+530542.89+0175733.07" />
+			<Runway Name="26" Position="+530554.09+0175946.15" />
+		</Airport>
+		<Airport Name="EPGD" Position="+542239.0+0182758.0" Elevation="489">
+			<Runway Name="11" Position="+542251.84+0182707.38" />
+			<Runway Name="29" Position="+542216.56+0182930.18" />
+		</Airport>
+		<Airport ICAO="EPZB" Position="+522143.4+0163819.5" Elevation="268" />
+		<Airport ICAO="EPPG" Position="+521404.7+0161437.0" Elevation="313" />
+		<Airport ICAO="EPUL" Position="+513708.8+0220605.1" Elevation="560" Name="Ulez" />
 		<Airport ICAO="EPWA" Position="+520957.0+0205802.0" Elevation="362">
 			<Runway Name="11" Position="+521017.0+0205648.0" />
 			<Runway Name="15" Position="+521043.0+0205121.0" />
 			<Runway Name="29" Position="+520940.0+0205902.0" />
 			<Runway Name="33" Position="+520858.0+0205853.0" />
 		</Airport>
-		<Airport ICAO="EPZB" Position="+522143.4+0163819.5" Elevation="268" />
-		<Airport ICAO="EPPG" Position="+521404.7+0161437.0" Elevation="313" />
-		<Airport ICAO="EPUL" Position="+513708.8+0220605.1" Elevation="560" Name="Ulez" />
 	</Airports>
 </Airspace>
