@@ -191,6 +191,21 @@
 		<SID Name="VIZ1B" Airport="EPGD" Runways="11">
 			<Route>GD421 GD422 UGNUR VIZAN</Route>
 		</SID>
+		<SID Name="VAP1H" Airport="EPGD" Runways="29">
+			<Route>GD511 GD521 VAPOSS</Route>
+		</SID>
+		<SID Name="NIK1H" Airport="EPGD" Runways="29">
+			<Route>GD511 GD12 GD513 GD514 NIKMI</Route>
+		</SID>
+		<SID Name="IRL2H" Airport="EPGD" Runways="29">
+			<Route>GD541 GD542 GD551 GD531 GD532 IRLUN</Route>
+		</SID>
+		<SID Name="DEX2H" Airport="EPGD" Runways="29">
+			<Route>GD541 GD542 GD543 DEXIR</Route>
+		</SID>
+		<SID Name="VIZ1H" Airport="EPGD" Runways="29">
+			<Route>GD511 VIZAN</Route>
+		</SID>
 	</SIDSTARs>
 	<Airports>
 		<Airport ICAO="EPBY" Position="+530548.0+0175840.0" Elevation="236">
