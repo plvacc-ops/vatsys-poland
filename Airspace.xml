@@ -83,6 +83,17 @@
 				<STAR Name="[A-Z]{4}\dY" ApproachName="RNP"/>
 			</Runway>
 		</Airport>
+		<Airport Name="EPPO">
+			<Runway Name="10" DataRunway="10">
+				<SID Name="[A-Z]{4}\dH" />
+				<STAR Name="[A-Z]{4}\dT" ApproachName="RNP"/>
+			</Runway>
+			<Runway Name="28" DataRunway="28">
+				<SID Name="[A-Z]{4}\dW" />
+				<STAR Name="[A-Z]{4}\dM" ApproachName="ILS"/>
+				<STAR Name="CMP\dD" ApproachName="ILS" />
+			</Runway>
+		</Airport>
 	</SystemRunways>
 	<Airways></Airways>
 	<Intersections>
