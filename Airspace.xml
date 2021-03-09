@@ -67,6 +67,22 @@
 				<STAR Name="[A-Z]{4}\dT" ApproachName="ILS"/>
 			</Runway>
 		</Airport>
+		<Airport Name="EPMO">
+			<Runway Name="08" DataRunway="08">
+				<SID Name="[A-Z]{4}\dB" />
+				<SID Name="[A-Z]{4}\dC" />
+				<SID Name="[A-Z]{4}\dF" />
+				<STAR Name="[A-Z]{4}\dW" ApproachName="ILS"/>
+				<STAR Name="[A-Z]{4}\dR" ApproachName="ILS"/>
+				<STAR Name="[A-Z]{4}\dT" ApproachName="ILS"/>
+				<STAR Name="[A-Z]{4}\dS" ApproachName="ILS"/>
+			</Runway>
+			<Runway Name="26" DataRunway="26">
+				<SID Name="[A-Z]{4}\dJ" />
+				<STAR Name="[A-Z]{4}\dX" ApproachName="RNP"/>
+				<STAR Name="[A-Z]{4}\dY" ApproachName="RNP"/>
+			</Runway>
+		</Airport>
 	</SystemRunways>
 	<Airways></Airways>
 	<Intersections>
