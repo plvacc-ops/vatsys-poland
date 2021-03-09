@@ -4,42 +4,37 @@
 	<SystemRunways>
 		<Airport Name="EPBY">
 			<Runway Name="08" DataRunway="08">
-				<SID Name="LUX\dB" />
-				<SID Name="GOB\dB" />
-				<SID Name="INT\dB" />
-				<STAR Name="LUX\dP" ApproachName="RNP" />
-				<STAR Name="GOB\dP" ApproachName="RNP" />
-				<STAR Name="INT\dP" ApproachName="RNP" />
-				<STAR Name="LUX\dS" ApproachName="VORY" />
-				<STAR Name="GOB\dS" ApproachName="VORY" />
-				<STAR Name="INT\dS" ApproachName="VORY" />
+				<SID Name="[A-Z]{4}\dB" />
+				<STAR Name="[A-Z]{4}\dP" ApproachName="RNP" />
+				<STAR Name="[A-Z]{4}\dS" ApproachName="VORY" />
 			</Runway>
 			<Runway Name="26" DataRunway="26">
-				<SID Name="LUX\dH" />
-				<SID Name="GOB\dH" />
-				<SID Name="INT\dH" />
-				<STAR Name="LUX\dT" ApproachName="ILSZ" />
-				<STAR Name="GOB\dT" ApproachName="ILSZ" />
-				<STAR Name="INT\dT" ApproachName="ILSZ" />
-				<STAR Name="LUX\dS" ApproachName="ILSY" />
-				<STAR Name="GOB\dS" ApproachName="ILSY" />
-				<STAR Name="INT\dS" ApproachName="ILSY" />
+				<SID Name="[A-Z]{4}\dH" />
+				<STAR Name="[A-Z]{4}\dT" ApproachName="ILSZ" />
+				<STAR Name="[A-Z]{4}\dS" ApproachName="ILSY" />
 			</Runway>
 		</Airport>
 		<Airport Name="EPGD">
 			<Runway Name="11" DataRunway="11">
-				<SID Name="VAP\dB" />
-				<SID Name="NIK\dB" />
-				<SID Name="IRL\dB" />
-				<SID Name="DEX\dB" />
-				<SID Name="VIZ\dB" />
+				<SID Name="[A-Z]{4}\dB" />
+				<STAR Name="[A-Z]{4}\dR" />
 			</Runway>
 			<Runway Name="29" DataRunway="29">
-				<SID Name="VAP\dH" />
-				<SID Name="NIK\dH" />
-				<SID Name="IRL\dH" />
-				<SID Name="DEX\dH" />
-				<SID Name="VIZ\dH" />
+				<SID Name="[A-Z]{4}\dH" />
+				<STAR Name="[A-Z]{4}\dT" />
+			</Runway>
+		</Airport>
+		<Airport Name="EPLB">
+			<Runway Name="07" DataRunway="07">
+				<SID Name="[A-Z]{4}\dF" />
+				<STAR Name="VENE\dL" />
+				<STAR Name="[A-Z]{4}\dH" />
+			</Runway>
+			<Runway Name="25" DataRunway="25">
+				<SID Name="VADO\dR" />
+				<SID Name="[A-Z]{4}\dJ" />
+				<SID Name="VADO\dU" />
+				<STAR Name="[A-Z]{4}\dG" />
 			</Runway>
 		</Airport>
 	</SystemRunways>
@@ -142,86 +137,6 @@
 		<Point Name="EPBYW" Type="Fix">+525834.0+0180558.0</Point>
 	</Intersections>
 	<SIDSTARs>
-		<!-- EPBY -->
-		<SID Name="LUX1B" Airport="EPBY" Runways="08">
-			<Route>BY831 LUXUD</Route>
-		</SID>
-		<SID Name="GOB1B" Airport="EPBY" Runways="08">
-			<Route>BY832 GOBNI</Route>
-		</SID>
-		<SID Name="INT1B" Airport="EPBY" Runways="08">
-			<Route>BY832 INTUN</Route>
-		</SID>
-		<SID Name="LUX1H" Airport="EPBY" Runways="26">
-			<Route>BY641 BY642 BY643 LUXUD</Route>
-		</SID>
-		<SID Name="GOB1H" Airport="EPBY" Runways="26">
-			<Route>BY641 BY646 BY647 GOBNI</Route>
-		</SID>
-		<SID Name="INT1H" Airport="EPBY" Runways="26">
-			<Route>BY641 BY646 BY647 INTUN</Route>
-		</SID>
-		<STAR Name="LUX1N" Airport="EPBY" Runways="08,26">
-			<Route>LUXUD ABIBO</Route>
-		</STAR>
-		<STAR Name="LUX1P" Airport="EPBY" Runways="08">
-			<Route>LUXUD BY809 ABIBO</Route>
-		</STAR>
-		<STAR Name="LUX1S" Airport="EPBY" Runways="08,26">
-			<Route>LUXUD ABIBO BYZ</Route>
-		</STAR>
-		<STAR Name="LUX1T" Airport="EPBY" Runways="26">
-			<Route>LUXUD ABIBO BY629 BY628</Route>
-		</STAR>
-		<STAR Name="INT1P" Airport="EPBY" Runways="08">
-			<Route>INTUN BY808 BY807 BY804</Route>
-		</STAR>
-		<STAR Name="INT1S" Airport="EPBY" Runways="08,26">
-			<Route>INTUN ABIBO BYZ</Route>
-		</STAR>
-		<STAR Name="INT1T" Airport="EPBY" Runways="26">
-			<Route>INTUN BY627</Route>
-		</STAR>
-		<STAR Name="GOB1P" Airport="EPBY" Runways="08">
-			<Route>GOBNI BY808 BY807 BY804</Route>
-		</STAR>
-		<STAR Name="GOB1S" Airport="EPBY" Runways="08,26">
-			<Route>GOBNI BAVGO BYZ</Route>
-		</STAR>
-		<STAR Name="GOB1T" Airport="EPBY" Runways="26">
-			<Route>GOBNI BY627</Route>
-		</STAR>
-		<!-- EPGD -->
-		<SID Name="VAP2B" Airport="EPGD" Runways="11">
-			<Route>GD421 GD422 UGNUR GD423 VAPOSS</Route>
-		</SID>
-		<SID Name="NIK2B" Airport="EPGD" Runways="11">
-			<Route>GD421 GD432 NIKMI</Route>
-		</SID>
-		<SID Name="IRL2B" Airport="EPGD" Runways="11">
-			<Route>GD421 GD444 GD446 IRLUN</Route>
-		</SID>
-		<SID Name="DEX2B" Airport="EPGD" Runways="11">
-			<Route>GD421 GD444 GD451 EVNOB DEXIR</Route>
-		</SID>
-		<SID Name="VIZ1B" Airport="EPGD" Runways="11">
-			<Route>GD421 GD422 UGNUR VIZAN</Route>
-		</SID>
-		<SID Name="VAP1H" Airport="EPGD" Runways="29">
-			<Route>GD511 GD521 VAPOSS</Route>
-		</SID>
-		<SID Name="NIK1H" Airport="EPGD" Runways="29">
-			<Route>GD511 GD12 GD513 GD514 NIKMI</Route>
-		</SID>
-		<SID Name="IRL2H" Airport="EPGD" Runways="29">
-			<Route>GD541 GD542 GD551 GD531 GD532 IRLUN</Route>
-		</SID>
-		<SID Name="DEX2H" Airport="EPGD" Runways="29">
-			<Route>GD541 GD542 GD543 DEXIR</Route>
-		</SID>
-		<SID Name="VIZ1H" Airport="EPGD" Runways="29">
-			<Route>GD511 VIZAN</Route>
-		</SID>
 	</SIDSTARs>
 	<Airports>
 		<Airport ICAO="EPBY" Position="+530548.0+0175840.0" Elevation="236">

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Profile Name="Poland" FullName="vTOPSKY Poland (EPWW)">
-	<Version AIRAC="2013" Revision="a" PublishDate="20210219" />
+	<Version AIRAC="2013" Revision="a" PublishDate="20210308" />
 	<Servers>
 		<VATSIMStatus url="http://status.vatsim.net/" />
 		<GRIB url="http://sawbe.com/GRIB/" />
