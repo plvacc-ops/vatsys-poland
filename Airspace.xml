@@ -57,6 +57,16 @@
 				<STAR Name="[A-Z]{4}\dG" ApproachName="ILSZ"/>
 			</Runway>
 		</Airport>
+		<Airport Name="EPLL">
+			<Runway Name="07" DataRunway="07">
+				<SID Name="[A-Z]{4}\dS" />
+				<STAR Name="[A-Z]{4}\dR" ApproachName="RNP"/>
+			</Runway>
+			<Runway Name="25" DataRunway="25">
+				<SID Name="[A-Z]{4}\dW" />
+				<STAR Name="[A-Z]{4}\dT" ApproachName="ILS"/>
+			</Runway>
+		</Airport>
 	</SystemRunways>
 	<Airways></Airways>
 	<Intersections>
