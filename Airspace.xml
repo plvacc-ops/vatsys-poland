@@ -17,24 +17,24 @@
 		<Airport Name="EPGD">
 			<Runway Name="11" DataRunway="11">
 				<SID Name="[A-Z]{4}\dB" />
-				<STAR Name="[A-Z]{4}\dR" />
+				<STAR Name="[A-Z]{4}\dR" ApproachName="RNP"/>
 			</Runway>
 			<Runway Name="29" DataRunway="29">
 				<SID Name="[A-Z]{4}\dH" />
-				<STAR Name="[A-Z]{4}\dT" />
+				<STAR Name="[A-Z]{4}\dT" ApproachName="ILS"/>
 			</Runway>
 		</Airport>
 		<Airport Name="EPLB">
 			<Runway Name="07" DataRunway="07">
 				<SID Name="[A-Z]{4}\dF" />
-				<STAR Name="VENE\dL" />
-				<STAR Name="[A-Z]{4}\dH" />
+				<STAR Name="VENE\dL" ApproachName="RNP"/>
+				<STAR Name="[A-Z]{4}\dH" ApproachName="RNP"/>
 			</Runway>
 			<Runway Name="25" DataRunway="25">
 				<SID Name="VADO\dR" />
 				<SID Name="[A-Z]{4}\dJ" />
 				<SID Name="VADO\dU" />
-				<STAR Name="[A-Z]{4}\dG" />
+				<STAR Name="[A-Z]{4}\dG" ApproachName="ILSZ"/>
 			</Runway>
 		</Airport>
 	</SystemRunways>
