@@ -7,11 +7,13 @@
 				<SID Name="[A-Z]{4}\dB" />
 				<STAR Name="[A-Z]{4}\dP" ApproachName="RNP" />
 				<STAR Name="[A-Z]{4}\dS" ApproachName="VORY" />
+				<STAR Name="LUXU\dN" ApproachName="VORY" />
 			</Runway>
 			<Runway Name="26" DataRunway="26">
 				<SID Name="[A-Z]{4}\dH" />
 				<STAR Name="[A-Z]{4}\dT" ApproachName="ILSZ" />
 				<STAR Name="[A-Z]{4}\dS" ApproachName="ILSY" />
+				<STAR Name="LUXU\dN" ApproachName="ILSY" />
 			</Runway>
 		</Airport>
 		<Airport Name="EPGD">
@@ -49,12 +51,14 @@
 				<SID Name="[A-Z]{4}\dF" />
 				<STAR Name="VENE\dL" ApproachName="RNP"/>
 				<STAR Name="[A-Z]{4}\dH" ApproachName="RNP"/>
+				<STAR Name="[A-Z]{4}\dP" ApproachName="VOR"/>
 			</Runway>
 			<Runway Name="25" DataRunway="25">
 				<SID Name="VADO\dR" />
 				<SID Name="[A-Z]{4}\dJ" />
 				<SID Name="VADO\dU" />
 				<STAR Name="[A-Z]{4}\dG" ApproachName="ILSZ"/>
+				<STAR Name="[A-Z]{4}\dP" ApproachName="ILSY"/>
 			</Runway>
 		</Airport>
 		<Airport Name="EPLL">
