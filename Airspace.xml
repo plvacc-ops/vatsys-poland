@@ -113,6 +113,16 @@
 				<STAR Name="[A-Z]{4}\dL" ApproachName="ILSZ"/>
 			</Runway>
 		</Airport>
+		<Airport Name="EPSC">
+			<Runway Name="13" DataRunway="13">
+				<SID Name="[A-Z]{4}\dD" />
+				<STAR Name="[A-Z]{4}\dA" ApproachName="RNP"/>
+			</Runway>
+			<Runway Name="31" DataRunway="31">
+				<SID Name="[A-Z]{4}\dF" />
+				<STAR Name="[A-Z]{4}\dB" ApproachName="ILS"/>
+			</Runway>
+		</Airport>
 	</SystemRunways>
 	<Airways></Airways>
 	<Intersections>
