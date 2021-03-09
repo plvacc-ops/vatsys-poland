@@ -7,13 +7,12 @@
 				<SID Name="[A-Z]{4}\dB" />
 				<STAR Name="[A-Z]{4}\dP" ApproachName="RNP" />
 				<STAR Name="[A-Z]{4}\dS" ApproachName="VORY" />
-				<STAR Name="LUXU\dN" ApproachName="VORY" />
+				<STAR Name="LUXU\dN" ApproachName="VORZ" />
 			</Runway>
 			<Runway Name="26" DataRunway="26">
 				<SID Name="[A-Z]{4}\dH" />
 				<STAR Name="[A-Z]{4}\dT" ApproachName="ILSZ" />
 				<STAR Name="[A-Z]{4}\dS" ApproachName="ILSY" />
-				<STAR Name="LUXU\dN" ApproachName="ILSY" />
 			</Runway>
 		</Airport>
 		<Airport Name="EPGD">
