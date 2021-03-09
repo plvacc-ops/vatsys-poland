@@ -97,6 +97,22 @@
 				<STAR Name="CMP\dD" ApproachName="ILS" />
 			</Runway>
 		</Airport>
+		<Airport Name="EPRZ">
+			<Runway Name="09" DataRunway="09">
+				<SID Name="[A-Z]{4}\dP" />
+				<SID Name="GOVR\dE" />
+				<STAR Name="[A-Z]{4}\dN" ApproachName="RNP"/>
+				<STAR Name="[A-Z]{4}\dW" ApproachName="RNP"/>
+				<STAR Name="[A-Z]{4}\dS" ApproachName="RNP"/>
+				<STAR Name="[A-Z]{4}\dT" ApproachName="RNP"/>
+			</Runway>
+			<Runway Name="27" DataRunway="27">
+				<SID Name="[A-Z]{4}\dR" />
+				<STAR Name="[A-Z]{4}\dD" ApproachName="ILSZ"/>
+				<STAR Name="[A-Z]{4}\dB" ApproachName="ILSZ"/>
+				<STAR Name="[A-Z]{4}\dL" ApproachName="ILSZ"/>
+			</Runway>
+		</Airport>
 	</SystemRunways>
 	<Airways></Airways>
 	<Intersections>
