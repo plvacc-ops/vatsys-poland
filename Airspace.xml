@@ -24,6 +24,16 @@
 				<STAR Name="[A-Z]{4}\dT" ApproachName="ILS"/>
 			</Runway>
 		</Airport>
+		<Airport Name="EPKK">
+			<Runway Name="07" DataRunway="07">
+				<SID Name="[A-Z]{4}\dF" />
+				<STAR Name="[A-Z]{4}\dH" ApproachName="RNP"/>
+			</Runway>
+			<Runway Name="25" DataRunway="25">
+				<SID Name="[A-Z]{4}\dJ" />
+				<STAR Name="[A-Z]{4}\dG" ApproachName="ILS"/>
+			</Runway>
+		</Airport>
 		<Airport Name="EPLB">
 			<Runway Name="07" DataRunway="07">
 				<SID Name="[A-Z]{4}\dF" />
