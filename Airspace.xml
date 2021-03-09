@@ -123,6 +123,54 @@
 				<STAR Name="[A-Z]{4}\dB" ApproachName="ILS"/>
 			</Runway>
 		</Airport>
+		<Airport Name="EPSY">
+			<Runway Name="01" DataRunway="01">
+				<SID Name="[A-Z]{4}\dS" />
+				<STAR Name="[A-Z]{4}\dR" ApproachName="ILSZ"/>
+			</Runway>
+			<Runway Name="19" DataRunway="19">
+				<SID Name="[A-Z]{4}\dW" />
+				<STAR Name="[A-Z]{4}\dT" ApproachName="RNP"/>
+			</Runway>
+		</Airport>
+		<Airport Name="EPWA">
+			<Runway Name="11" DataRunway="11">
+				<SID Name="[A-Z]{4}\dA" />
+				<STAR Name="[A-Z]{4}\dN" ApproachName="ILSY"/>
+			</Runway>
+			<Runway Name="15" DataRunway="15">
+				<SID Name="[A-Z]{4}\dD" />
+				<STAR Name="[A-Z]{4}\dP" ApproachName="RNP"/>
+			</Runway>
+			<Runway Name="29" DataRunway="29">
+				<SID Name="[A-Z]{4}\dG" />
+				<STAR Name="[A-Z]{4}\dV" ApproachName="RNP"/>
+			</Runway>
+			<Runway Name="33" DataRunway="33">
+				<SID Name="[A-Z]{4}\dK" />
+				<STAR Name="[A-Z]{4}\dU" ApproachName="ILSY"/>
+			</Runway>
+		</Airport>
+		<Airport Name="EPWR">
+			<Runway Name="11" DataRunway="11">
+				<SID Name="[A-Z]{4}\dA" />
+				<STAR Name="[A-Z]{4}\dP" ApproachName="RNP"/>
+			</Runway>
+			<Runway Name="29" DataRunway="29">
+				<SID Name="[A-Z]{4}\dK" />
+				<STAR Name="[A-Z]{4}\dU" ApproachName="ILS"/>
+			</Runway>
+		</Airport>
+		<Airport Name="EPZG">
+			<Runway Name="06" DataRunway="06">
+				<STAR Name="[A-Z]{4}\dU" ApproachName="RNP"/>
+				<STAR Name="[A-Z]{4}\dV" ApproachName="VOR"/>
+			</Runway>
+			<Runway Name="24" DataRunway="24">
+				<STAR Name="[A-Z]{4}\dU" ApproachName="ILSZ"/>
+				<STAR Name="[A-Z]{4}\dV" ApproachName="ILSY"/>
+			</Runway>
+		</Airport>
 	</SystemRunways>
 	<Airways></Airways>
 	<Intersections>
