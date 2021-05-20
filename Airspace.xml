@@ -72,17 +72,11 @@
 		</Airport>
 		<Airport Name="EPMO">
 			<Runway Name="08" DataRunway="08">
-				<SID Name="[A-Z]{4}\dB" />
 				<SID Name="[A-Z]{4}\dC" />
-				<SID Name="[A-Z]{4}\dF" />
-				<STAR Name="[A-Z]{4}\dW" ApproachName="ILS"/>
 				<STAR Name="[A-Z]{4}\dR" ApproachName="ILS"/>
-				<STAR Name="[A-Z]{4}\dT" ApproachName="ILS"/>
-				<STAR Name="[A-Z]{4}\dS" ApproachName="ILS"/>
 			</Runway>
 			<Runway Name="26" DataRunway="26">
 				<SID Name="[A-Z]{4}\dJ" />
-				<STAR Name="[A-Z]{4}\dX" ApproachName="RNP"/>
 				<STAR Name="[A-Z]{4}\dY" ApproachName="RNP"/>
 			</Runway>
 		</Airport>
@@ -92,7 +86,7 @@
 				<STAR Name="[A-Z]{4}\dT" ApproachName="RNP"/>
 			</Runway>
 			<Runway Name="28" DataRunway="28">
-				<SID Name="[A-Z]{4}\dW" />
+				<SID Name="[A-Z]{4}\dB" />
 				<STAR Name="[A-Z]{4}\dM" ApproachName="ILS"/>
 				<STAR Name="CMP\dD" ApproachName="ILS" />
 			</Runway>
@@ -269,6 +263,20 @@
 		<Point Name="EPBYS" Type="Fix">+530309.0+0175946.0</Point>
 		<Point Name="EPBYU" Type="Fix">+531228.0+0182243.0</Point>
 		<Point Name="EPBYW" Type="Fix">+525834.0+0180558.0</Point>
+		<!-- EPDE VFR -->
+		<Point Name="EPDEB" Type="Fix">+513403.0+0220752.0</Point>
+		<Point Name="EPDED" Type="Fix">+513255.0+0214132.0</Point>
+		<Point Name="EPDEG" Type="Fix">+512853.0+0215441.0</Point>
+		<Point Name="EPDEK" Type="Fix">+512444.0+0220312.0</Point>
+		<Point Name="EPDEL" Type="Fix">+514423.0+0214029.0</Point>
+		<Point Name="EPDEM" Type="Fix">+513125.0+0221857.0</Point>
+		<Point Name="EPDEN" Type="Fix">+513512.0+0215620.0</Point>
+		<Point Name="EPDEO" Type="Fix">+513206.0+0214540.0</Point>
+		<Point Name="EPDEP" Type="Fix">+512440.0+0215542.0</Point>
+		<Point Name="EPDES" Type="Fix">+513125.0+0215158.0</Point>
+		<Point Name="EPDEW" Type="Fix">+513521.0+0213228.0</Point>
+		<Point Name="EPDEY" Type="Fix">+513823.0+0215901.0</Point>
+		<Point Name="EPDEZ" Type="Fix">+512147.0+0221739.0</Point>
 	</Intersections>
 	<SIDSTARs>
 	</SIDSTARs>

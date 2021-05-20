@@ -318,6 +318,64 @@
       </ControllerInfo>
     </Position>
   </Group>
+  <Group Name="MIL">
+    <Position Name="EPDE TWR" Type="ASD" DefaultCenter="+513304.0+0215331.0" DefaultRange="50">
+      <Sectors>
+        <Sector Name="TDE" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="ALL_MVA" />
+        <Map Name="ALL_SECTORS" />
+        <Map Name="ALL_NAVAIDS" />
+        <Map Name="COAST_ALL" />
+        <Map Name="ALL_ROUTES_HIGH" />
+        <Map Name="ALL_POINTS_HIGH" />
+        <Map Name="FIR_BDRY" />
+        <Map Name="MIL/EPDE" />
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="EPDE" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="3000" />
+      <ArrivalLists>
+        <Airport Name="EPDE" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Deblin Tower</Line>
+        <Line>Military ATC</Line>
+        <Line>Charts, feedback and airport coverage on pl-vacc.org.pl</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="EPDE APP" Type="ASD" DefaultCenter="+513304.0+0215331.0" DefaultRange="100">
+      <Sectors>
+        <Sector Name="ADE" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="ALL_MVA" />
+        <Map Name="ALL_SECTORS" />
+        <Map Name="ALL_NAVAIDS" />
+        <Map Name="COAST_ALL" />
+        <Map Name="ALL_ROUTES_HIGH" />
+        <Map Name="ALL_POINTS_HIGH" />
+        <Map Name="FIR_BDRY" />
+        <Map Name="MIL/EPDE" />
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="EPDE" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="3000" />
+      <ArrivalLists>
+        <Airport Name="EPDE" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Deblin Approach</Line>
+        <Line>Military ATC</Line>
+        <Line>Charts, feedback and airport coverage on pl-vacc.org.pl</Line>
+      </ControllerInfo>
+    </Position>
+  </Group>
   <Position Name="EPWA" Type="ASMGCS" ASMGCSAirport="EPWA" DefaultCenter="+520957.0+0205802.0" DefaultRange="3">
     <Maps>
       <Map Name="TMA Warszawa/ASMGCS_EPWA_RWY" />

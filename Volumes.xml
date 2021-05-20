@@ -736,6 +736,27 @@
   +520451.0+0192213.0/
   +515923.0+0192506.0
   </Boundary>
+  <!-- MCTR -->
+  <Boundary Name="EPDE_MCTR">
+  +514439.0+0214546.0/
+  +513613.0+0221124.0/
+  +512641.0+0220423.0/
+  +513509.0+0213716.0/
+  +514439.0+0214546.0
+  </Boundary>
+  <!-- MTMA -->
+  <Boundary Name="EPDE_MTMA">
+  +512821.0+0213944.0/
+  +511918.0+0220935.0/
+  +512005.0+0221809.0/
+  +512200.0+0222720.0/
+  +513933.0+0222747.0/
+  +515018.0+0214854.0/
+  +514817.0+0214712.0/
+  +513640.0+0212703.0/
+  +513253.0+0213215.0/
+  +512821.0+0213944.0
+  </Boundary>
   <!-- ATZ -->
   <Volume Name="BCA" LowerLimit="0" UpperLimit="1500">
     <Boundaries>EPBC_A</Boundaries>
@@ -773,6 +794,13 @@
   </Volume>
   <Volume Name="TLB" LowerLimit="0" UpperLimit="2100">
     <Boundaries>EPLB_CTR</Boundaries>
+  </Volume>
+  <Volume Name="TDE" LowerLimit="0" UpperLimit="2500">
+    <Boundaries>EPDE_MCTR</Boundaries>
+  </Volume>
+  <!-- MTMA -->
+  <Volume Name="ADE" LowerLimit="2000" UpperLimit="9500">
+    <Boundaries>EPDE_MTMA</Boundaries>
   </Volume>
   <!-- TMA Bydgoszcz -->
   <Volume Name="BYA" LowerLimit="1800" UpperLimit="2500">

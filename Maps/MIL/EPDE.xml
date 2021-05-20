@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="EPDE" Priority="0" Centre="+513304.0+0215331.0">
+    <!--EPDE-->
+    <Runway Name="12/30">
+      <Threshold Name="12" Position="+513324.70+0215235.78" ExtendedCentrelineTrack="121.00" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="5"/>
+      <Threshold Name="30" Position="+513243.54+0215426.81" ExtendedCentrelineTrack="301.00" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="5"/>
+    </Runway>
+  </Map>
+  <Map Type="System" Name="DE_VFR" Priority="1" Centre="+513304.0+0215331.0">
+		<Symbol Type="HollowSquare">
+			<Point>EPDEB</Point>
+			<Point>EPDED</Point>
+			<Point>EPDEG</Point>
+			<Point>EPDEK</Point>
+			<Point>EPDEL</Point>
+			<Point>EPDEM</Point>
+			<Point>EPDEN</Point>
+			<Point>EPDEO</Point>
+			<Point>EPDEP</Point>
+			<Point>EPDES</Point>
+			<Point>EPDEW</Point>
+			<Point>EPDEY</Point>
+			<Point>EPDEZ</Point>
+		</Symbol>
+		<Label HasLeader="True">
+			<Point Name="B">EPDEB</Point>
+			<Point Name="D">EPDED</Point>
+			<Point Name="G">EPDEG</Point>
+			<Point Name="K">EPDEK</Point>
+			<Point Name="L">EPDEL</Point>
+			<Point Name="M">EPDEM</Point>
+			<Point Name="N">EPDEN</Point>
+			<Point Name="O">EPDEO</Point>
+			<Point Name="P">EPDEP</Point>
+			<Point Name="S">EPDES</Point>
+			<Point Name="W">EPDEW</Point>
+			<Point Name="Y">EPDEY</Point>
+			<Point Name="Z">EPDEZ</Point>
+		</Label>
+	</Map>
+</Maps>

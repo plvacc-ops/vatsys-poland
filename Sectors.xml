@@ -66,6 +66,14 @@
   <Sector FullName="Mazury Tower" Frequency="118.020" Callsign="EPSY_TWR" Name="TSY">
     <Volumes></Volumes>
   </Sector>
+  <!-- MIL ATS -->
+  <Sector FullName="Deblin Tower" Frequency="122.750" Callsign="EPDE_TWR" Name="TDE">
+    <Volumes>TDE</Volumes>
+  </Sector>
+  <Sector FullName="Deblin Approach" Frequency="128.250" Callsign="EPDE_APP" Name="ADE">
+    <Volumes>ADE</Volumes>
+    <ResponsibleSectors>TDE</ResponsibleSectors>
+  </Sector>
   <!-- TMA Warszawa -->
   <Sector FullName="Warszawa Approach South" Frequency="128.8" Callsign="EPWA_S_APP" Name="ASWA">
     <Volumes>WAA,WAB,WAC,WAD,WAE,WAF,WAG,CTA01,CTA02,CTA03</Volumes>
