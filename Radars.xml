@@ -88,4 +88,8 @@
     <Lat>51.102778</Lat>
     <Long>16.885833</Long>
   </Radar>
+  <Radar Name="Deblin GCA" Type="SSR_ModeC" Elevation="495" MaxRange="60">
+    <Lat>51.550139</Lat>
+    <Long>21.890889</Long>
+  </Radar>
 </Radars>
