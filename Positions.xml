@@ -384,4 +384,12 @@
       <Map Name="TMA Warszawa/ASMGCS_EPWA_BLD" />
     </Maps>
   </Position>
+  <Position Name="EPDE" Type="ASMGCS" ASMGCSAirport="EPDE" DefaultCenter="+513304.0+0215331.0" DefaultRange="3">
+    <Maps>
+      <Map Name="MIL/ASMGCS_EPDE_RWY" />
+      <Map Name="MIL/ASMGCS_EPDE_APR" />
+      <Map Name="MIL/ASMGCS_EPDE_TWY" />
+      <Map Name="MIL/ASMGCS_EPDE_BLD" />
+    </Maps>
+  </Position>
 </Positions>
