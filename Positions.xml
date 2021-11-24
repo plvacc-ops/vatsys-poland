@@ -361,6 +361,7 @@
         <Map Name="ALL_POINTS_HIGH" />
         <Map Name="FIR_BDRY" />
         <Map Name="MIL/EPDE" />
+        <Map Name="MIL/DE_VFR" />
       </Maps>
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="EPDE" Visible="true" />

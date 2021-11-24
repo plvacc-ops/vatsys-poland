@@ -22,7 +22,7 @@
     <Translation String="EPSC" Spoken="Stetin" />
     <Translation String="EPWR" Spoken="Wrotslav" />
 
-    <Translation String="ATIS" Spoken="terminal information" />
+    <Translation String="ATIS" Spoken="A-tiss information" />
 
     <Translation String="A" Spoken="alpha" />
     <Translation String="B" Spoken="bravo" />

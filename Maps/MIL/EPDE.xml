@@ -6,6 +6,25 @@
       <Threshold Name="12" Position="+513324.70+0215235.78" ExtendedCentrelineTrack="121.00" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="5"/>
       <Threshold Name="30" Position="+513243.54+0215426.81" ExtendedCentrelineTrack="301.00" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="5"/>
     </Runway>
+	<Symbol Type="SolidTriangle">
+		<Point>XIMBA</Point>
+		<Point>LIMVI</Point>
+		<Point>IXOGA</Point>
+		<Point>VADOL</Point>
+		<Point>VENES</Point>
+		<Point>EVINA</Point>
+		<Point>LOGDA</Point>
+	</Symbol>
+	<Symbol Type="HollowTriangle">
+		<Point>FOJGO</Point>
+		<Point>DAHOW</Point>
+		<Point>ELSUM</Point>
+		<Point>GINEX</Point>
+		<Point>OLKOL</Point>
+		<Point>SOWEX</Point>
+		<Point>IRBON</Point>
+		<Point>BEVOS</Point>
+	</Symbol>
   </Map>
   <Map Type="System" Name="DE_VFR" Priority="1" Centre="+513304.0+0215331.0">
 		<Symbol Type="HollowSquare">
